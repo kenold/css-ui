@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{211:function(e,t,a){"use strict";a.r(t);var n=a(0),l=a.n(n),c=a(75),o=a(209),r=a(208);t.default=function(){return l.a.createElement(o.a,null,l.a.createElement(r.a,{title:"Cards"}),l.a.createElement("h1",null,"Cards"),l.a.createElement("p",null,"Welcome to page 2"),l.a.createElement(c.Link,{to:"/"},"Go back to the homepage"))}}}]);
+//# sourceMappingURL=component---src-pages-cards-js-c888b5050ebabb42b3bc.js.map
