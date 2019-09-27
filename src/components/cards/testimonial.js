@@ -6,12 +6,12 @@ const Testimonial = () => (
 
     <section className="l-cards container">
     <div className="l-cards__heading">
-        <h4>Cards + Testimonial Testimonials </h4>
+        <h4>Cards + Testimonial</h4>
     </div>
 
-    <div className="cards cards--Testimonial">
+    <div className="cards cards--testimonial">
         {TestimonialData.map((testimonial) => (
-            <article key={testimonial.id} className="card card--Testimonial grid-3">
+            <article key={testimonial.id} className="card card--testimonial grid-3">
 
                     <div className="card__body">
                         <div className="card__text">"{testimonial.text}"</div>
