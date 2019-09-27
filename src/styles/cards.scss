@@ -5,16 +5,16 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.grid-3 {
+    flex-basis: 100%;
+}
+.grid-4 {
+    flex: 0 1 calc(50% - .5rem);
+}
 .card {
     display: flex;
     background-color: #fff;
     margin-bottom: 12px;
-    &.grid-3 {
-        flex-basis: 100%;
-    }
-    &.grid-4 {
-        flex: 0 1 calc(50% - .5rem);
-    }
     a {
         display: flex;
         flex-direction: column;
@@ -28,7 +28,7 @@
         height: auto;
     }
     &__body {
-        margin: 20px;
+        margin: 20px 20px 0;
     }
     &__category {
         letter-spacing: .1rem;
@@ -50,7 +50,7 @@
         margin-bottom: 15px;
     }
     &__title {
-        font-size: 1.25rem;
+        font-size: 1rem;
         font-weight: 700;
         word-spacing: normal;
         letter-spacing: -.01em;
@@ -63,6 +63,9 @@
     }
     &__text {
         color: #000;
+    }
+    &__date {
+        display: none;
     }
 }
 // ********************* CARD OVERLAY MOVIES ************************
@@ -230,12 +233,11 @@
     }
 }
 
-// CARD QUOTE
-.card.card--quote {
+// CARD TESTIMONIAL
+.card.card--testimonial {
     flex-direction: column;
-    padding: 10px;
 }
-.card--quote {
+.card--testimonial {
     .card__text {
         line-height: 1.5;
     }
@@ -270,15 +272,18 @@
     }
 
     // CARDS
-    .card {
-        &.grid-3 {
+    .grid-3 {
             flex: 0 1 calc(33% - .75rem);
-        }
-        &.grid-4 {
-            flex: 0 1 calc(25% - .75rem);
-        }
+    }
+    &.grid-4 {
+        flex: 0 1 calc(25% - .75rem);
     }
 
+    .card {
+        &__date {
+            display: block;
+        }
+    }
     // add hover border for blogs only
     .cards--blog {
         .card:hover {
@@ -307,7 +312,7 @@
             margin-bottom: 5px;
         }
         .card__title {
-            font-size: 1.125rem;
+            font-size: 1rem;
         }
         .card__footer {
             font-size: .5rem;
