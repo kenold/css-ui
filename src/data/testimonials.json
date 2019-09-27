@@ -4,5 +4,16 @@
         "text": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Fusce congue, diam id ornare imperdiet.",
         "authorName": "Jane Doe",
         "authorPosition": "Creative Director"
+    },
+    {
+        "id": 2,
+        "text": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Fusce congue, diam id ornare imperdiet.",
+        "authorName": "John Smith",
+        "authorPosition": "Project Manager"
+    },{
+        "id": 3,
+        "text": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Fusce congue, diam id ornare imperdiet.",
+        "authorName": "Beth Murphy",
+        "authorPosition": "Analyst"
     }
 ]
