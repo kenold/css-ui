@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 // cards component
 import Blog from '../components/cards/blog';
@@ -7,6 +6,7 @@ import BlogWide from '../components/cards/blogWide';
 import Movie from '../components/cards/movie';
 import Product from '../components/cards/product';
 import Video from '../components/cards/video';
+import Quote from '../components/cards/quote';
 
 import '../styles/cards.scss';
 
@@ -22,6 +22,7 @@ const Cards = () => (
 		<Product />
 		<Video />
 		<BlogWide />
+		<Quote />
 	</Layout>
 )
 
