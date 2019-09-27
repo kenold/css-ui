@@ -1,5 +1,5 @@
 import React from "react"
-import PostData from '../../data/posts.json';
+import BlogData from '../../data/posts.json';
 
 const Blog = () => (
 
@@ -9,7 +9,7 @@ const Blog = () => (
     </div>
 
     <div className="cards cards--blog">
-        {PostData.map((post) => (
+        {BlogData.map((post) => (
             <article key={post.id} className="card grid-4">
                 <a href="#">
                     <figure className="card__media">
