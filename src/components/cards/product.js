@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import { FaHeart } from 'react-icons/fa';
 import ProductData from '../../data/products.json';
 
 const Product = () => (
@@ -13,7 +14,7 @@ const Product = () => (
                         <figure className="card__media">
                             <img src={"/products/" + product.id + ".jpg"} alt={product.title} className="card__image" />
                         </figure>
-                        <div className="card__icon">heart</div>
+                        <div className="card__icon"><FaHeart /></div>
                         <div className="card__body">
                             <div className="card__category">
                                 {product.category}

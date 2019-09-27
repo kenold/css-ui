@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import { FaPlay, FaHeart, FaEllipsisV } from 'react-icons/fa';
 import MovieData from '../../data/movies.json';
 
 const Movie = () => (
@@ -22,9 +23,9 @@ const Movie = () => (
                         </div>
                         <div className="card__text">{movie.excerpt}</div>
                         <ul className="card__actions cta">
-                            <li className="cta__play"><a href="#"><i className="fas fa-play"></i> Play</a></li>
-                            <li className="cta__favorite"><a href="#"><i className="far fa-heart"></i> Favorite</a></li>
-                            <li className="cta__download"><a href="#"><i className="fas fa-download"></i> Download</a></li>
+                            <li className="cta__play"><a href="#"><FaPlay /> Play</a></li>
+                            <li className="cta__favorite"><a href="#"><FaHeart /> Favorite</a></li>
+                            <li className="cta__more"><a href="#"><FaEllipsisV /></a></li>
                         </ul>
                     </div>
                 </article>

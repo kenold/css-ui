@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import { FaPlay } from 'react-icons/fa';
 import VideoData from '../../data/videos.json';
 
 const Video = () => (
@@ -13,7 +14,7 @@ const Video = () => (
                         <img src={"/videos/" + video.id + ".jpg"} alt={video.title} className="card__image" />
                         <div className="card__label">{video.duration}</div>
                     </figure>
-                    <div className="card__icon">Play</div>
+                    <div className="card__icon"><FaPlay /></div>
                     <div className="card__body">
                         <div className="card__title" title={video.title}>
                             <span>{video.title}</span>
