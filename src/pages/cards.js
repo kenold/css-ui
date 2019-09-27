@@ -11,7 +11,7 @@ const Cards = () => (
     <SEO title="Cards" />
     <h1>Cards</h1>
     <Blog />
-    <Link to="/">Go back to the homepage</Link>
+
   </Layout>
 )
 
