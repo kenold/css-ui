@@ -6,7 +6,7 @@ import BlogWide from '../components/cards/blogWide';
 import Movie from '../components/cards/movie';
 import Product from '../components/cards/product';
 import Video from '../components/cards/video';
-import Quote from '../components/cards/quote';
+import Testimonial from '../components/cards/testimonial';
 
 import '../styles/cards.scss';
 
@@ -16,13 +16,12 @@ import SEO from "../components/seo"
 const Cards = () => (
 	<Layout>
 		<SEO title="Cards" />
-		<h1>Cards</h1>
 		<Blog />
 		<Movie />
 		<Product />
 		<Video />
 		<BlogWide />
-		<Quote />
+		<Testimonial />
 	</Layout>
 )
 
