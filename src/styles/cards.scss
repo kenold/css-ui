@@ -21,9 +21,6 @@
         text-decoration: none;
         color: inherit;
     }
-    &:hover {
-        cursor: pointer;
-    }
     &__image {
         display: block;
         border: 0;
@@ -233,6 +230,33 @@
     }
 }
 
+// CARD QUOTE
+.card.card--quote {
+    flex-direction: column;
+    padding: 10px;
+}
+.card--quote {
+    .card__text {
+        line-height: 1.5;
+    }
+    .card__footer {
+        color: $black;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 0.875rem;
+        font-weight: 700;
+        padding-top: 15px;
+    }
+    .author__image {
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin-right: 16px;
+        flex: 0 0 auto;
+        border-radius: 50%;
+    }
+}
+
 @media (min-width: 768px) {
     .intro {
         h2 {
@@ -258,7 +282,6 @@
     // add hover border for blogs only
     .cards--blog {
         .card:hover {
-            cursor: pointer;
             box-shadow: 0 0 20px 0 rgba(0,0,0,.05);
             .card__title>span {
                 border-bottom: 1px solid $accent-color;
