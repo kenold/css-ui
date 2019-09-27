@@ -1,4 +1,5 @@
 import React from "react"
+import BlogCode from '../codes/blog';
 import BlogData from '../../data/posts.json';
 
 const Blog = () => (
@@ -31,7 +32,7 @@ const Blog = () => (
     </div>
 
     <div className="code">
-        {/* <BlogCode /> */}
+        <BlogCode />
     </div>
     </section>
 )
