@@ -1,0 +1,15 @@
+@import '../variables';
+@import '../grid.scss';
+@import '../../styles/cards/base';
+@import '../../styles/cards/blog';
+@import '../../styles/cards/movie';
+@import '../../styles/cards/product';
+@import '../../styles/cards/video';
+@import '../../styles/cards/blog-wide';
+@import '../../styles/cards/testimonials';
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
