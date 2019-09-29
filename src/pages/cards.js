@@ -8,7 +8,7 @@ import Product from '../components/cards/product';
 import Video from '../components/cards/video';
 import Testimonial from '../components/cards/testimonial';
 
-import '../styles/cards.scss';
+import '../styles/cards/cards.scss';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
