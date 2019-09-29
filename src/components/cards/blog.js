@@ -8,9 +8,9 @@ const Blog = () => (
             <h4>Cards + Blog Posts </h4>
         </div>
 
-        <div className="cards cards--blog">
+        <div className="cards">
             {BlogData.map((post) => (
-                <article key={post.id} className="card show-2-4">
+                <article key={post.id} className="card card--blog show-2-4">
                     <a href="#">
                         <figure className="card__media">
                             <img src={"/blog/" + post.id + ".jpg"} alt={post.title} className="card__image" />
