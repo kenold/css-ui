@@ -9,7 +9,7 @@ const Product = () => (
         </div>
         <div className="cards">
             {ProductData.map((product) => (
-                <article key={product.id} className="card card--overlay-icon grid-4">
+                <article key={product.id} className="card card--overlay-icon show-2-4">
                     <a href="#">
                         <figure className="card__media">
                             <img src={"/products/" + product.id + ".jpg"} alt={product.title} className="card__image" />

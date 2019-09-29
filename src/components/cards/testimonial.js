@@ -11,7 +11,7 @@ const Testimonial = () => (
 
     <div className="cards cards--testimonial">
         {TestimonialData.map((testimonial) => (
-            <article key={testimonial.id} className="card card--testimonial grid-3">
+            <article key={testimonial.id} className="card card--testimonial show-1-3">
 
                     <div className="card__body">
                         <div className="card__text">"{testimonial.text}"</div>

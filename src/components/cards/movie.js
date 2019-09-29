@@ -9,7 +9,7 @@ const Movie = () => (
         </div>
         <div className="cards">
             {MovieData.map((movie) => (
-                <article key={movie.id} className="card card--overlay grid-3">
+                <article key={movie.id} className="card card--overlay show-1-3">
                     <a href="#">
                         <figure className="card__media">
                             <img src={"/movies/" + movie.id + ".jpg"} alt="movie.title" className="card__image" />
