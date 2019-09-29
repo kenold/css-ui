@@ -2,6 +2,7 @@ import React from "react"
 
 // cards component
 import Blog from '../components/cards/blog';
+import BlogLabel from '../components/cards/blogLabel';
 import BlogWide from '../components/cards/blogWide';
 import Movie from '../components/cards/movie';
 import Product from '../components/cards/product';
@@ -17,6 +18,7 @@ const Cards = () => (
 	<Layout>
 		<SEO title="Cards" />
 		<Blog />
+		<BlogLabel />
 		<Movie />
 		<Product />
 		<Video />
