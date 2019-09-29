@@ -55,6 +55,17 @@
     &__date {
         display: none;
     }
+    &__media {
+        position: relative;
+    }
+    &__label {
+        position: absolute;
+        margin: 4px;
+        font-size: .875rem;
+        padding: 2px 4px;
+        border-radius: 2px;
+        letter-spacing: .5px;
+    }
 }
 
 @media (min-width: 768px) {
