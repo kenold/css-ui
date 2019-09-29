@@ -1,0 +1,25 @@
+
+.card.card--testimonial {
+    flex-direction: column;
+}
+.card--testimonial {
+    .card__text {
+        line-height: 1.5;
+    }
+    .card__footer {
+        color: $black;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 0.875rem;
+        font-weight: 700;
+        padding-top: 15px;
+    }
+    .author__image {
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin-right: 16px;
+        flex: 0 0 auto;
+        border-radius: 50%;
+    }
+}
