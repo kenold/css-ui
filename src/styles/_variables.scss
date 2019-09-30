@@ -4,3 +4,7 @@ $light-color: #fff;
 $black: #000;
 $title-font: 'Playfair Display', Georgia, serif;
 $sans-font: 'Roboto', Arial, Helvetica, sans-serif;
+
+@mixin box-shadow( $top : 0 , $left : 0 , $blur : 20px , $spread : 0px , $color : rgba(0,0,0,.05 )) {
+    box-shadow: $top $left $blur $spread $color;
+}
