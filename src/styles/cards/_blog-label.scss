@@ -1,13 +1,14 @@
 .card--label {
     .card {
         &__label {
-            background-color: $accent-color;
+            background-color: red;
             color: $light-color;
             bottom: 5px;
             left: 0;
             margin-left: 16px;
             padding-left: 10px;
             padding-right: 10px;
+            font-size: 80%;
         }
     }
 }

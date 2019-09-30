@@ -36,7 +36,7 @@
                 margin-right: 15px;
             }
             .cta__play {
-                background-color: red;
+                background-color: $accent;
                 padding: 5px 25px;
             }
             .cta__more {
@@ -45,7 +45,7 @@
         }
     }
     .separator {
-        border-top: 3px solid red;
+        border-top: 3px solid $accent;
         padding-bottom: 10px;
         width: 10%;
     }
