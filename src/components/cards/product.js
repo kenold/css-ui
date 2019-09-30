@@ -24,8 +24,12 @@ const Product = () => (
                             </div>
                         </div>
                         <div className="card__footer price">
-                            <div className="price__original">${product.price}</div>
-                            <div className="price__sale">${product.price - 20.12}</div>
+                            <div className={"price__original" + (product.discount ? " strike": "")}>${product.price}</div>
+                            {product.discount &&
+                                <div className="price__sale">
+                                    ${Number(product.price - (product.price * (product.discount/100))).toFixed(2)}
+                                </div>
+                            }
                         </div>
                     </a>
                 </article>
