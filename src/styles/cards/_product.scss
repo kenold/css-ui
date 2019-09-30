@@ -17,6 +17,16 @@
             right: 8px ;
             top: 8px ;
         }
+        &__footer {
+            justify-content: flex-start;
+            font-size: .875rem;
+            .price__original {
+                text-decoration: line-through;
+            }
+            .price__sale {
+                margin-left: 5px;
+            }
+        }
     }
 }
 
