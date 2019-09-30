@@ -5,28 +5,25 @@
         "category": "Electronic",
         "excerpt": "Praesent id massa id nisl venenatis lacinia.",
         "price": 83.81,
-        "sale_price": 41.29
+        "discount": 15
         }, {
         "id": 2,
         "title": "KB X-Men Shoes",
         "category": "Shoes",
         "excerpt": "Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
-        "price": 96.92,
-        "sale_price": 30.94
-
+        "price": 96.92
         }, {
         "id": 3,
         "title": "Android SmartWatch",
         "category": "Electronic",
         "excerpt": "Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
-        "price": 83.84,
-        "sale_price": 29.4
+        "price": 83.84
         }, {
         "id": 4,
         "title": "Generation G",
         "category": "Women",
         "excerpt": "Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
-        "price": 40.1,
-        "sale_price": 33.02
+        "price": 40.13,
+        "discount": 25
         }
 ]
