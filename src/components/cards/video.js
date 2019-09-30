@@ -23,7 +23,6 @@ class Video extends Component {
                                 <div className="card__title" title={video.title}>
                                     <span>{video.title}</span>
                                 </div>
-                                <div className="card__subtitle">{video.artist}</div>
                             </div>
                         </a>
                     </article>
