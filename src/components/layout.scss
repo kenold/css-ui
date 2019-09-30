@@ -15,10 +15,6 @@ ul {
     padding: 0;
     list-style: none;
 }
-// SLICK CAROUSEL
-.slick-prev:before, .slick-next:before {
-    color: $accent-color!important;
-}
 
 .container {
     margin: 0 auto;
@@ -55,6 +51,6 @@ ul {
     font-weight: 800;
     &--green {
         color: #fff;
-        background-color: $accent-color;
+        background-color: $accent;
     }
 }
