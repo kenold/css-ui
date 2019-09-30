@@ -4,7 +4,6 @@
 }
 
 .card--minimal {
-    padding: 40px 0;
     .card {
         &__title {
             font-size: 1.5rem;
@@ -17,5 +16,11 @@
             border-radius: 5px;
             padding: 10px 15px;
         }
+    }
+}
+
+@media (min-width: 768px) {
+    .card--minimal {
+        padding: 40px 0;
     }
 }
