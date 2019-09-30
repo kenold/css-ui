@@ -1,0 +1,30 @@
+.card--video {
+    position: relative;
+    .card {
+        &__media {
+            position: relative;
+        }
+        &__category {
+            margin-bottom: 0;
+        }
+        &__body {
+            margin-bottom: 15px;
+        }
+        &__title {
+            font-family: $sans-font;
+            font-size: 1rem;
+            padding-bottom: .5rem;
+        }
+        &__icon {
+            position: absolute ;
+            color: $light-color;
+            font-size: 3rem;
+            padding: 8px ;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+@media (min-width: 768px) {}
