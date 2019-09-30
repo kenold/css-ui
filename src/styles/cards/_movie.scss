@@ -1,3 +1,7 @@
+.l-cards--full.container {
+    padding: 0;
+    width: 100%;
+}
 .card--overlay {
     position: relative;
     display: block;
@@ -35,6 +39,10 @@
             li {
                 display: block;
                 margin-right: 15px;
+            }
+            .icon {
+                font-size: 75%;
+                padding-right: 2px;
             }
             .cta__play {
                 background-color: $accent;
