@@ -1,33 +1,29 @@
 [
     {
         "id": 1,
-        "title": "Strike Cobra 3d Legging",
-        "date": "3/14/2019",
-        "category": "Lingerie",
+        "title": "Apple Watch Series 5",
+        "category": "Electronic",
         "excerpt": "Praesent id massa id nisl venenatis lacinia.",
         "price": 83.81,
         "sale_price": 41.29
         }, {
         "id": 2,
-        "title": "AE Denim Tie Front Crop Top",
-        "date": "2/28/2019",
-        "category": "Beauty",
+        "title": "KB X-Men Shoes",
+        "category": "Shoes",
         "excerpt": "Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
         "price": 96.92,
         "sale_price": 30.94
 
         }, {
         "id": 3,
-        "title": "Invisible Shield",
-        "date": "12/6/2018",
-        "category": "Men",
+        "title": "Android SmartWatch",
+        "category": "Electronic",
         "excerpt": "Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
         "price": 83.84,
         "sale_price": 29.4
         }, {
         "id": 4,
         "title": "Generation G",
-        "date": "9/22/2018",
         "category": "Women",
         "excerpt": "Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
         "price": 40.1,
