@@ -8,6 +8,7 @@ import BlogWide from '../components/cards/blogWide';
 import Movie from '../components/cards/movie';
 import Product from '../components/cards/product';
 import Video from '../components/cards/video';
+import VideoHover from '../components/cards/videoHover';
 import Testimonial from '../components/cards/testimonial';
 
 import '../styles/cards/cards.scss';
@@ -24,7 +25,7 @@ const Cards = () => (
 		<BlogMinimal />
 		<Movie />
 		<Product />
-		<Video />
+		<VideoHover />
 		<Testimonial />
 	</Layout>
 )
