@@ -16,23 +16,5 @@
         "title": "Blank Space",
         "duration": "4:32",
         "artist": "Taylor Swift"
-    },
-    {
-        "id": 4,
-        "title": "This Is America",
-        "duration": "4:04",
-        "artist": "Childish Gambino"
-    },
-    {
-        "id": 5,
-        "title": "Middle Child",
-        "duration": "3:39",
-        "artist": "J. Cole"
-    },
-    {
-        "id": 6,
-        "title": "Only",
-        "duration": "5:58",
-        "artist": "Nicki Minaj"
     }
 ]
