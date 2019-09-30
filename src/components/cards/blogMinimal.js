@@ -2,14 +2,14 @@ import React from "react"
 import BlogCode from '../codes/blog';
 import BlogData from '../../data/posts.json';
 
-const Minimal = () => (
+const BlogMinimal = () => (
     <section className="l-cards l-cards--minimal container">
         <div className="l-cards__heading">
-            <h4>Cards + Minimal </h4>
+            <h4>Cards + Blog Minimal </h4>
         </div>
 
         <div className="cards">
-            {BlogData.map((post) => (
+            {BlogData.slice(0, 3).map((post) => (
                 <article key={post.id} className="card card--minimal show-1-3">
                     <a href="#">
                         <div className="card__body">
@@ -34,4 +34,4 @@ const Minimal = () => (
     </section>
 )
 
-export default Minimal
+export default BlogMinimal
