@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FaPlay } from 'react-icons/fa';
+import { FaPlayCircle } from 'react-icons/fa';
 import VideoData from '../../data/videos.json';
 
 class Video extends Component {
@@ -11,14 +11,13 @@ class Video extends Component {
                 </div>
 
 				<div className="cards">
-                {VideoData.map((video) => (
+                {VideoData.slice(0, 3).map((video) => (
                     <article key={video.id} className="card card--video show-1-3">
-                        <a href="#">
-                            <figure className="card__media">
+                        <a href="#" title={video.title}>
+                            <div className="card__media">
                                 <img src={"/videos/" + video.id + ".jpg"} alt={video.title} className="card__image" />
-                                <div className="card__label">{video.duration}</div>
-                            </figure>
-                            <div className="card__icon"><FaPlay /></div>
+                                <div className="card__icon"><FaPlayCircle /></div>
+                            </div>
                             <div className="card__body">
                                 <div className="card__title" title={video.title}>
                                     <span>{video.title}</span>
