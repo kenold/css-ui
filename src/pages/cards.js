@@ -25,6 +25,7 @@ const Cards = () => (
 		<BlogMinimal />
 		<Movie />
 		<Product />
+		<Video />
 		<VideoHover />
 		<Testimonial />
 	</Layout>
