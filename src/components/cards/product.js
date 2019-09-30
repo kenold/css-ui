@@ -23,7 +23,10 @@ const Product = () => (
                                 <span>{product.title}</span>
                             </div>
                         </div>
-                        <div className="card__footer">${product.price}</div>
+                        <div className="card__footer price">
+                            <div className="price__original">${product.price}</div>
+                            <div className="price__sale">${product.price - 20.12}</div>
+                        </div>
                     </a>
                 </article>
             ))}
