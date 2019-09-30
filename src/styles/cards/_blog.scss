@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
     .card--blog {
         &:hover {
-            box-shadow: 0 0 20px 0 rgba(0,0,0,.05);
+            @include box-shadow;
             .card__title>span {
                 border-bottom: 1px solid $accent;
             }

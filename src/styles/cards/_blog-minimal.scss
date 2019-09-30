@@ -4,6 +4,9 @@
 }
 
 .card--minimal {
+    &:hover {
+        @include box-shadow;
+    }
     .card {
         &__title {
             font-size: 1.5rem;
