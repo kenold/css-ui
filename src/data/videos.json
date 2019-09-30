@@ -1,20 +1,17 @@
 [
     {
         "id": 1,
-        "title": "Swish Swish ft. Nicki Minaj",
-        "duration": "6:24",
-        "artist": "Katy Perry"
+        "title": "Interesting Facts I Bet You Never Knew About Race",
+        "duration": "6:24"
     },
     {
         "id": 2,
-        "title": "This Is What You Came For",
-        "duration": "3:59",
-        "artist": "Rihanna"
+        "title": "How To Make Your Product Stand Out on Social Media",
+        "duration": "3:59"
     },
     {
         "id": 3,
-        "title": "Blank Space",
-        "duration": "4:32",
-        "artist": "Taylor Swift"
+        "title": "Want To Step Up Your hair style? You Need To Watch This First",
+        "duration": "4:32"
     }
 ]
