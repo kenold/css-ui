@@ -19,9 +19,7 @@ const BlogMinimal = () => (
                             </div>
                         </div>
                         <div className="card__footer">
-                            <a href="#">
-                                <div className="card__cta">Learn more</div>
-                            </a>
+                            <div className="card__cta">Learn more</div>
                         </div>
                     </a>
                 </article>
