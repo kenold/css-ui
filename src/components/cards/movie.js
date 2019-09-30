@@ -3,7 +3,7 @@ import { FaPlay, FaHeart, FaEllipsisV } from 'react-icons/fa';
 import MovieData from '../../data/movies.json';
 
 const Movie = () => (
-    <section className="l-cards container">
+    <section className="l-cards l-cards--full container">
         <div className="l-cards__heading">
             <h4>Cards Overlay + Movies</h4>
         </div>
@@ -23,9 +23,9 @@ const Movie = () => (
                         </div>
                         <div className="card__text">{movie.excerpt}</div>
                         <ul className="card__actions cta">
-                            <li className="cta__play"><a href="#"><FaPlay /> Play</a></li>
-                            <li className="cta__favorite"><a href="#"><FaHeart /> Favorite</a></li>
-                            <li className="cta__more"><a href="#"><FaEllipsisV /></a></li>
+                            <li className="cta__play"><a href="#"><span className="icon"><FaPlay /></span> Play</a></li>
+                            <li className="cta__favorite"><a href="#"><span className="icon"><FaHeart /></span> Favorite</a></li>
+                            <li className="cta__more"><a href="#"><span className="icon"><FaEllipsisV /></span></a></li>
                         </ul>
                     </div>
                 </article>
