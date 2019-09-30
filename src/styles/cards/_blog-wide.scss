@@ -12,7 +12,6 @@
         margin-bottom: 5px;
     }
     .card__title {
-        font-size: 90%;
         padding-bottom: .5rem;
     }
     .card__footer {
@@ -23,9 +22,11 @@
     }
     .card__text {
         color: $black;
+        display: none;
         font-size: 0.9375rem;
         padding-bottom: .5rem;
         line-height: 1.3em;
+
     }
 }
 
@@ -35,17 +36,22 @@
     }
     .card--wide {
         flex: 0 1 calc(50% - .5rem);
-        .card__image {
+        .card {
+            &__image {
             width: 150px;
-        }
-        .card__category {
-            margin-bottom: 5px;
-        }
-        .card__title {
-            font-size: 1rem;
-        }
-        .card__footer {
-            font-size: .5rem;
+            }
+            &__category {
+                margin-bottom: 5px;
+            }
+            &__title {
+                font-size: 1rem;
+            }
+            &__text {
+                display: block;
+            }
+            &__footer {
+                font-size: .5rem;
+            }
         }
     }
 }
