@@ -16,27 +16,35 @@
             padding-bottom: .5rem;
         }
         &__icon {
-            display: none;
+            display: block;
             color: $light-color;
             font-size: 1.5rem;
             padding: 8px ;
             position: absolute ;
             right: 8px ;
-            top: 8px ;
+            top: 8px;
+            filter: drop-shadow(0 5px 4px #333);
         }
         &__label {
             background-color: #000;
             color: $light-color;
             bottom: 0;
             right: 0;
-
         }
     }
 }
 
-// experimental, need to be nested
-.card:hover .card__icon {
-    display: block;
+@media (min-width: 768px) {
+    .card--video-hover {
+        .card {
+            &__icon {
+                display: none;
+            }
+        }
+    }
+    // experimental, need to be nested
+    .card:hover .card__icon {
+        display: block;
+        filter: drop-shadow(0 5px 4px #bbb);
+    }
 }
-
-@media (min-width: 768px) {}
