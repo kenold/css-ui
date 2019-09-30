@@ -7,11 +7,11 @@ class VideoHover extends Component {
         return (
             <section className="l-cards container">
                 <div className="l-cards__heading">
-                    <h4>Cards + Video</h4>
+                    <h4>Cards + Video Hover</h4>
                 </div>
 
 				<div className="cards">
-                {VideoData.map((video) => (
+                {VideoData.slice(3, 6).map((video) => (
                     <article key={video.id} className="card card--video-hover show-1-3">
                         <a href="#">
                             <div className="card__media">
