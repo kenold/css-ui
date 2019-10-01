@@ -10,7 +10,7 @@
             padding-bottom: .5rem;
         }
         &__icon {
-            color: $accent;
+            fill: $accent;
             font-size: 1.5rem;
             padding: 8px ;
             position: absolute ;
@@ -18,7 +18,6 @@
             top: 8px ;
         }
         &__footer {
-            justify-content: flex-start;
             font-size: .875rem;
             .strike {
                 text-decoration: line-through;
