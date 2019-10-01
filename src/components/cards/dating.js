@@ -15,7 +15,7 @@ const Dating = () => (
                         </figure>
                         <div className="darken"></div>
                     </a>
-                    <div className="card__body">
+                    <div className="card__body card__body--dating">
                         <a href="#profile" class="model">
                             <div className="card__title" title={model.name}>
                                 {model.name}, {model.age}
