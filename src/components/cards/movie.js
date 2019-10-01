@@ -10,24 +10,28 @@ const Movie = () => (
         <div className="cards">
             {MovieData.map((movie) => (
                 <article key={movie.id} className="card card--overlay show-1-3">
-                    <a href="#">
+                    <a href="#movie-detail" title={movie.title}>
                         <figure className="card__media">
                             <img src={"/movies/" + movie.id + ".jpg"} alt={movie.title} className="card__image" />
                         </figure>
                         <div className="darken"></div>
+                        <div className="card__notification">Now Streaming</div>
+                    </a>
                         <div className="card__body">
                             <div className="separator"></div>
-                            <div className="card__title" title={movie.title}>
-                                {movie.title}
-                            </div>
-                            <div className="card__text">{movie.excerpt}</div>
+                            <a href="#movie-detail">
+                                <div className="card__title" title={movie.title}>
+                                    {movie.title}
+                                </div>
+                                <div className="card__text">{movie.excerpt}</div>
+                            </a>
                             <ul className="card__actions cta">
                                 <li className="cta__play"><a href="#play" title="Play"><span className="icon"><FaPlay /></span> Play</a></li>
                                 <li className="cta__favorite"><a href="#favorite" title="Favorite"><span className="icon"><FaHeart /></span> Favorite</a></li>
                                 <li className="cta__more"><a href="#more" title="More Info"><span className="icon"><FaEllipsisV /></span></a></li>
                             </ul>
                         </div>
-                    </a>
+
                 </article>
             ))}
         </div>
