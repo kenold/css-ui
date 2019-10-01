@@ -3,17 +3,17 @@
         "id": 1,
         "title": "First Kiss",
         "excerpt": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
-        "isStreaming": "no"
+        "isStreaming": false
     },
     {
         "id": 2,
         "title": "Intimidation Game",
         "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien.",
-        "isStreaming": "Yes"
+        "isStreaming": true
         }, {
         "id": 3,
-        "title": "Lisbon in the sunshine",
+        "title": "The Weathered Sailer",
         "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien.",
-        "isStreaming": "no"
+        "isStreaming": false
         }
 ]
