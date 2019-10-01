@@ -51,6 +51,23 @@
             .cta__more {
                 margin-left: auto;
             }
+            &.swipe {
+                li {
+                    border: 6px solid #F4F4F4;
+                    border-radius: 50%;
+                    height: 24px;
+                    width: 24px;
+                    padding: 15px;
+                    margin-right: -5px;
+                }
+            }
+            .swipe__left {
+                fill: red;
+                //font-size: 3rem;
+            }
+            .swipe__right {
+                fill: $accent;
+            }
         }
     }
     .separator {
