@@ -11,7 +11,7 @@ const BlogMinimal = () => (
         <div className="cards">
             {BlogData.slice(0, 3).map((post) => (
                 <article key={post.id} className="card card--minimal show-1-3">
-                    <a href="#">
+                    <a href="#blog-detail">
                         <div className="card__body">
                             <div className="card__category">{post.category}</div>
                             <div className="card__title" title={post.title}>

@@ -11,7 +11,7 @@ const BlogLabel = () => (
         <div className="cards">
             {BlogData.slice(0, 3).map((post) => (
                 <article key={post.id} className="card card--label show-1-3">
-                    <a href="#">
+                    <a href="#blog-detail">
                         <figure className="card__media">
                             <img src={"/blog-wide/" + post.id + ".jpg"} alt={post.title} className="card__image" />
                             <div className="card__label">{post.category}</div>

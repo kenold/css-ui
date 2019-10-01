@@ -9,7 +9,7 @@ const BlogWide = () => (
         <div className="cards cards--blog">
             {BlogData.map((post) => (
                 <article key={post.id} className="card card--wide">
-                    <a href="#">
+                    <a href="#blog-detail">
                         <figure className="card__media">
                             <img src={"/blog/" + post.id + ".jpg"} alt={post.title} className="card__image" />
                         </figure>
