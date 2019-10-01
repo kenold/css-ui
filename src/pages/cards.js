@@ -6,6 +6,7 @@ import BlogMinimal from '../components/cards/blogMinimal';
 import BlogLabel from '../components/cards/blogLabel';
 import BlogWide from '../components/cards/blogWide';
 import Movie from '../components/cards/movie';
+import Dating from '../components/cards/dating';
 import Product from '../components/cards/product';
 import Video from '../components/cards/video';
 import VideoHover from '../components/cards/videoHover';
@@ -24,6 +25,7 @@ const Cards = () => (
 		<BlogWide />
 		<BlogMinimal />
 		<Movie />
+		<Dating />
 		<Product />
 		<Video />
 		<VideoHover />
