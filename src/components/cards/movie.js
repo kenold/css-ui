@@ -22,9 +22,9 @@ const Movie = () => (
                             </div>
                             <div className="card__text">{movie.excerpt}</div>
                             <ul className="card__actions cta">
-                                <li className="cta__play"><a href="#"><span className="icon"><FaPlay /></span> Play</a></li>
-                                <li className="cta__favorite"><a href="#"><span className="icon"><FaHeart /></span> Favorite</a></li>
-                                <li className="cta__more"><a href="#"><span className="icon"><FaEllipsisV /></span></a></li>
+                                <li className="cta__play"><a href="#play" title="Play"><span className="icon"><FaPlay /></span> Play</a></li>
+                                <li className="cta__favorite"><a href="#favorite" title="Favorite"><span className="icon"><FaHeart /></span> Favorite</a></li>
+                                <li className="cta__more"><a href="#more" title="More Info"><span className="icon"><FaEllipsisV /></span></a></li>
                             </ul>
                         </div>
                     </a>
