@@ -9,7 +9,7 @@ const Dating = () => (
         <div className="cards">
             {DatingData.map((model) => (
                 <article key={model.id} className="card card--overlay show-1-3">
-                    <a href="#profile">
+                    <a href="#profile" title={model.name}>
                         <figure className="card__media">
                             <img src={"/models/" + model.id + ".jpg"} alt={model.name} className="card__image" />
                         </figure>
