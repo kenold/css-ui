@@ -9,11 +9,11 @@ const BlogLabel = () => (
         </div>
 
         <div className="cards">
-            {BlogData.map((post) => (
-                <article key={post.id} className="card card--label show-2-4">
+            {BlogData.slice(0, 3).map((post) => (
+                <article key={post.id} className="card card--label show-1-3">
                     <a href="#">
                         <figure className="card__media">
-                            <img src={"/blog/" + post.id + ".jpg"} alt={post.title} className="card__image" />
+                            <img src={"/blog-wide/" + post.id + ".jpg"} alt={post.title} className="card__image" />
                             <div className="card__label">{post.category}</div>
                         </figure>
                         <div className="card__body">
