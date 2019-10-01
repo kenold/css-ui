@@ -31,7 +31,7 @@ const Blog = () => (
         </div>
 
         <div className="code">
-            <BlogCode />
+            {/* <BlogCode /> */}
         </div>
     </section>
 )
