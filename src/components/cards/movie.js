@@ -15,7 +15,9 @@ const Movie = () => (
                             <img src={"/movies/" + movie.id + ".jpg"} alt={movie.title} className="card__image" />
                         </figure>
                         <div className="darken"></div>
-                        <div className="card__notification">Now Streaming</div>
+                        {movie.isStreaming &&
+                            <div className="card__notification">Now Streaming</div>
+                        }
                     </a>
                         <div className="card__body">
                             <div className="separator"></div>
