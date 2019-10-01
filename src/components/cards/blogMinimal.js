@@ -18,9 +18,6 @@ const BlogMinimal = () => (
                                 <span>{post.title}</span>
                             </div>
                         </div>
-                        <div className="card__footer">
-                            <div className="card__cta">Learn more</div>
-                        </div>
                     </a>
                 </article>
             ))}
