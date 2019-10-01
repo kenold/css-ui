@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPlay, FaHeart, FaEllipsisV } from 'react-icons/fa';
+import { FaPlay, FaHeart, FaEllipsisH } from 'react-icons/fa';
 import MovieData from '../../data/movies.json';
 
 const Movie = () => (
@@ -30,7 +30,7 @@ const Movie = () => (
                             <ul className="card__actions btn">
                                 <li className="btn__primary"><a href="#play" title="Play"><span className="icon"><FaPlay /></span> Play</a></li>
                                 <li className="btn__secondary"><a href="#favorite" title="Favorite"><span className="icon"><FaHeart /></span> Favorite</a></li>
-                                <li className="btn__more"><a href="#more" title="More Info"><span className="icon"><FaEllipsisV /></span></a></li>
+                                <li className="btn__more"><a href="#more" title="More Info"><span className="icon"><FaEllipsisH /></span></a></li>
                             </ul>
                         </div>
 
