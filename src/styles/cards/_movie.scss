@@ -16,6 +16,16 @@
             padding-bottom: 20px;
             padding-right: 24px;
         }
+        &__notification {
+            color: $light-color;
+            position: absolute;
+            top: 25px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-transform: uppercase;
+            font-size: 90%;
+            font-weight: 700;
+        }
         &__title {
             color: #fff;
             font-family: $sans-font;
