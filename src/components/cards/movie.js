@@ -15,19 +15,19 @@ const Movie = () => (
                             <img src={"/movies/" + movie.id + ".jpg"} alt={movie.title} className="card__image" />
                         </figure>
                         <div className="darken"></div>
-                    </a>
-                    <div className="card__body">
-                        <div className="separator"></div>
-                        <div className="card__title" title={movie.title}>
-                            {movie.title}
+                        <div className="card__body">
+                            <div className="separator"></div>
+                            <div className="card__title" title={movie.title}>
+                                {movie.title}
+                            </div>
+                            <div className="card__text">{movie.excerpt}</div>
+                            <ul className="card__actions cta">
+                                <li className="cta__play"><a href="#"><span className="icon"><FaPlay /></span> Play</a></li>
+                                <li className="cta__favorite"><a href="#"><span className="icon"><FaHeart /></span> Favorite</a></li>
+                                <li className="cta__more"><a href="#"><span className="icon"><FaEllipsisV /></span></a></li>
+                            </ul>
                         </div>
-                        <div className="card__text">{movie.excerpt}</div>
-                        <ul className="card__actions cta">
-                            <li className="cta__play"><a href="#"><span className="icon"><FaPlay /></span> Play</a></li>
-                            <li className="cta__favorite"><a href="#"><span className="icon"><FaHeart /></span> Favorite</a></li>
-                            <li className="cta__more"><a href="#"><span className="icon"><FaEllipsisV /></span></a></li>
-                        </ul>
-                    </div>
+                    </a>
                 </article>
             ))}
         </div>
