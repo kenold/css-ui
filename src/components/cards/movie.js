@@ -27,10 +27,10 @@ const Movie = () => (
                                 </div>
                                 <div className="card__text">{movie.excerpt}</div>
                             </a>
-                            <ul className="card__actions cta">
-                                <li className="cta__play"><a href="#play" title="Play"><span className="icon"><FaPlay /></span> Play</a></li>
-                                <li className="cta__favorite"><a href="#favorite" title="Favorite"><span className="icon"><FaHeart /></span> Favorite</a></li>
-                                <li className="cta__more"><a href="#more" title="More Info"><span className="icon"><FaEllipsisV /></span></a></li>
+                            <ul className="card__actions btn">
+                                <li className="btn__primary"><a href="#play" title="Play"><span className="icon"><FaPlay /></span> Play</a></li>
+                                <li className="btn__secondary"><a href="#favorite" title="Favorite"><span className="icon"><FaHeart /></span> Favorite</a></li>
+                                <li className="btn__more"><a href="#more" title="More Info"><span className="icon"><FaEllipsisV /></span></a></li>
                             </ul>
                         </div>
 
