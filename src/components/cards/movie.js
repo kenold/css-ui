@@ -12,7 +12,7 @@ const Movie = () => (
                 <article key={movie.id} className="card card--overlay show-1-3">
                     <a href="#">
                         <figure className="card__media">
-                            <img src={"/movies/" + movie.id + ".jpg"} alt="movie.title" className="card__image" />
+                            <img src={"/movies/" + movie.id + ".jpg"} alt={movie.title} className="card__image" />
                         </figure>
                         <div className="darken"></div>
                     </a>
