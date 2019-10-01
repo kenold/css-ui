@@ -24,6 +24,8 @@
 
 @media (min-width: 768px) {
     .card--minimal {
-        padding: 40px 0;
+        .card__body {
+            padding: 40px 0;
+        }
     }
 }
