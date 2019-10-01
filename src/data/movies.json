@@ -2,15 +2,18 @@
     {
         "id": 1,
         "title": "First Kiss",
-        "excerpt": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus."
+        "excerpt": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+        "isStreaming": "no"
     },
     {
         "id": 2,
         "title": "Intimidation Game",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien."
+        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien.",
+        "isStreaming": "Yes"
         }, {
         "id": 3,
         "title": "Lisbon in the sunshine",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien."
+        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien.",
+        "isStreaming": "no"
         }
 ]
