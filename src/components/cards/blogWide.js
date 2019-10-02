@@ -11,16 +11,16 @@ const BlogWide = () => (
                 <article key={post.id} className="card card--wide show-1-1">
                     <a href="#blog-detail">
                         <figure className="card__media">
-                            <img src={"/blog-wide/" + post.id + ".jpg"} alt={post.title} className="card__image" />
+                            <img src={"/800627/" + post.id + ".jpg"} alt={post.title} className="card__image" />
                         </figure>
                         <div className="card__body">
                             <div className="card__category">
                                 {post.category}
                             </div>
                             <div className="card__title" title={post.title}>
-                                <span>{post.title}</span>
+                                <span>{post.title}</span>.
                             </div>
-                            <div className="card__text">{post.excerpt}</div>
+                            <p className="card__text">{post.excerpt}</p>
                         </div>
                     </a>
                 </article>
