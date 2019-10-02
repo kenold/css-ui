@@ -4,8 +4,9 @@
 }
 
 .card--minimal {
+    transition: border .3s ease-in;
     &:hover {
-        @include box-shadow;
+        border: 1px solid rgba($accent, .4);
     }
     .card {
         &__title {
