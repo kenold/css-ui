@@ -56,9 +56,23 @@
         }
     }
 }
+// CARD REVERSE
+.l-cards--wide--reverse {
+    margin-top: 15px;
+}
+.card--wide--reverse {
+    .card {
+        &__media {
+            order: 2;
+        }
+        &__body {
+            order: 1;
+        }
+    }
+}
 
 @media (min-width: 768px) {
-    .cards .card--wide {
+    .card--wide {
         padding: 2.5rem 0px;
         flex-wrap: nowrap;
     }
