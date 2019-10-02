@@ -1,4 +1,7 @@
-// Display 1 column on mobile, 2 columns on desktop
+// Display 1 column on mobile, 1 column on desktop
+.show-1-1 {
+    flex-basis: 100%;
+}
 .show-1-2 {
     flex-basis: 100%;
 }
