@@ -43,8 +43,9 @@ class Blog extends Component {
                     ))}
                 </div>
 
-                <div className="show-code" onClick={this.toggleHidden.bind(this)} >
-                    {this.state.isHidden ? "Show" : "Hide"} Code</div>
+                <div className="show-code" onClick={this.toggleHidden.bind(this)}>
+                    {this.state.isHidden ? "Show" : "Hide"} Code
+                </div>
                 {!this.state.isHidden && <BlogCode />}
             </section>
         )
