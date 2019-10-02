@@ -16,7 +16,10 @@
     .card {
         &__title {
             font-family: $serif-font;
-            font-size: 1.5rem;
+            font-size: 2rem;
+            line-height: 32px;
+            padding-bottom: .375em;
+            text-transform: inherit;
         }
         &__footer {
             margin-top: 1.5rem;
@@ -27,7 +30,7 @@
         }
     }
     .btn {
-        font-size: 17px;
+        font-size: .9rem;
     }
 }
 
