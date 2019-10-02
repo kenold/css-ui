@@ -35,7 +35,6 @@
         flex-wrap: nowrap;
     }
     .card--wide {
-        flex: 0 1 calc(50% - .5rem);
         .card {
             &__image {
             width: 150px;
