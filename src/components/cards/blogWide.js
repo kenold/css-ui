@@ -41,7 +41,7 @@ const BlogWide = () => (
     {/* RIGHT TO LEFT */}
     <section className="l-cards l-cards--wide l-cards--wide--reverse">
         <div className="container">
-            {BlogData.slice(0,1).map((post) => (
+            {BlogData.slice(1,2).map((post) => (
                 <article key={post.id} className="card card--wide card--wide--reverse show-1-1">
                     <a href="#blog-detail">
                         <figure className="card__media">
