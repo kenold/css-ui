@@ -12,7 +12,9 @@
     }
     .card {
         &__title {
+            font-family: $serif-font;
             font-size: 1.5rem;
+            text-transform: inherit;
         }
         &__footer {
             margin-top: 20px;
