@@ -1,5 +1,5 @@
 import React from "react"
-import BlogCode from '../codes/blog';
+// import BlogCode from '../codes/blog';
 import BlogData from '../../data/posts.json';
 
 const BlogLabel = () => (
