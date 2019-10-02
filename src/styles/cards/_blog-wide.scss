@@ -63,6 +63,7 @@
 .l-cards--wide--reverse {
     background-color: rgba($accent, .15);
     padding-top: 15px;
+    padding-bottom: 15px;
     margin-top: 15px;
 }
 .card--wide--reverse {
@@ -121,6 +122,7 @@
     // REVERSE
     .l-cards--wide--reverse {
         padding-top: 0;
+        padding-bottom: 0;
     }
     .card--wide--reverse {
         a {
