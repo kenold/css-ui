@@ -1,38 +1,59 @@
+.l-cards--wide {
+    background-color: $section-bg-color;
+    padding: 1rem 1rem 1rem 0;
+}
 .card--wide {
     display: block;
     border: none;
+    margin-bottom: 0;
     a {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
-    .card__media {
+    .card {
+        &__media {
         flex: 1;
+        }
+        &__image {
+            border-radius: 2px;
+        }
+        &__body {
+            flex: 2;
+        }
+        &__category {
+            color: $accent;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        &__title {
+            font-family: $serif-font;
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding-bottom: .5rem;
+            text-transform: inherit;
+        }
+        &__footer {
+            font-size: .5rem;
+        }
+        &__author {
+            display: none;
+        }
+        &__text {
+            display: none;
+            font-size: 0.9375rem;
+            padding-bottom: .5rem;
+            line-height: 23px;
+        }
     }
-    .card__body {
-        flex: 2;
-    }
-    .card__category {
-        margin-bottom: 5px;
-    }
-    .card__title {
-        font-family: $serif-font;
-        font-size: 1.5rem;
-        font-weight: 600;
-        padding-bottom: .5rem;
-        text-transform: inherit;
-    }
-    .card__footer {
-        font-size: .5rem;
-    }
-    .card__author {
+    .card__meta {
         display: none;
-    }
-    .card__text {
-        display: none;
-        font-size: 0.9375rem;
-        padding-bottom: .5rem;
-        line-height: 23px;
+        &-comment {
+            display: flex;
+        }
+        &-comment-count {
+            padding-left: 5px;
+        }
     }
 }
 
@@ -50,7 +71,7 @@
             &__body {
                 flex: 1;
                 padding-left: 3rem;
-                padding-right: 4rem;
+                padding-right: 5rem;
                 margin: 15px 0;
             }
             &__category {
@@ -67,6 +88,10 @@
             &__footer {
                 font-size: .5rem;
             }
+        }
+        .card__meta {
+            justify-content: space-between;
+            display: flex;
         }
     }
 }
