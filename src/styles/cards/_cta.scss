@@ -1,0 +1,39 @@
+.l-cards--cta {
+    background: #fff;
+    padding-top: 10px;
+    margin-top: 15px;
+    &.container {
+        max-width: 1110px;
+    }
+}
+
+.card--cta {
+    flex-direction: column;
+    &:hover {
+        @include box-shadow;
+    }
+    .card {
+        &__title {
+            font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+        }
+        &__footer {
+            margin-top: auto;
+            justify-content: flex-start;
+            .btn__secondary {
+                margin-left: .8rem;
+            }
+        }
+    }
+    .btn {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 768px) {
+    .card--cta {
+        .card__body {
+            padding: 20px 0;
+        }
+    }
+}
