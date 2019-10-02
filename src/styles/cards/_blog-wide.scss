@@ -1,6 +1,6 @@
 .l-cards--wide {
     background-color: $section-bg-color;
-    padding: 1rem 1rem 1rem 0;
+    // padding: 1rem 1rem 1rem 0;
 }
 .card--wide {
     display: block;
@@ -62,7 +62,8 @@
 // CARD REVERSE
 .l-cards--wide--reverse {
     background-color: rgba($accent, .15);
-    padding: 0;
+    padding-top: 15px;
+    margin-top: 15px;
 }
 .card--wide--reverse {
     a {
@@ -118,6 +119,9 @@
     }
 
     // REVERSE
+    .l-cards--wide--reverse {
+        padding-top: 0;
+    }
     .card--wide--reverse {
         a {
             flex-direction: row;
