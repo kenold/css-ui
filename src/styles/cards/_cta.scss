@@ -18,7 +18,7 @@
             font-size: 1.5rem;
         }
         &__footer {
-            margin-top: auto;
+            margin-top: 1.5rem;
             justify-content: flex-start;
             .btn__secondary {
                 margin-left: .8rem;
@@ -34,6 +34,9 @@
     .card--cta {
         .card__body {
             padding: 20px 0;
+        }
+        .card__footer {
+            margin-top: auto;
         }
     }
 }
