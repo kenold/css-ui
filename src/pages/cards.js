@@ -4,6 +4,7 @@ import React from "react"
 import Blog from '../components/cards/blog';
 import BlogMinimal from '../components/cards/blogMinimal';
 import BlogLabel from '../components/cards/blogLabel';
+import Cta from '../components/cards/cta';
 import BlogWide from '../components/cards/blogWide';
 import Movie from '../components/cards/movie';
 import Dating from '../components/cards/dating';
@@ -24,6 +25,7 @@ const Cards = () => (
 		<BlogLabel />
 		<BlogWide />
 		<BlogMinimal />
+		<Cta />
 		<Movie />
 		<Dating />
 		<Product />
