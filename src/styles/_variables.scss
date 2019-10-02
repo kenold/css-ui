@@ -12,6 +12,9 @@ $border-radius: .3125rem;
 $serif-font: "Crimson Text", Georgia, serif;
 $sans-font: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-@mixin box-shadow( $top : 0 , $left : 0 , $blur : 20px , $spread : 0px , $color : rgba(0,0,0,.05 )) {
+$transition-shadow-transform: box-shadow 200ms ease, transform 200ms ease, -webkit-transform 200ms ease;
+
+@mixin shadow-transform-hover( $top : 0 , $left : 4 , $blur : 8px , $spread : 0px , $color : rgba(0,0,0,.01 )) {
     box-shadow: $top $left $blur $spread $color;
+    transform: translate(0px, -12px);
 }
