@@ -13,13 +13,15 @@
     }
     .card {
         &__media {
-        flex: 1;
+        flex: 2;
+        text-align: center;
         }
         &__image {
             border-radius: 2px;
         }
         &__body {
             flex: 2;
+            margin-right: 0;
         }
         &__category {
             color: $accent;
@@ -28,10 +30,11 @@
         }
         &__title {
             font-family: $serif-font;
-            font-size: 1.125rem;
+            font-size: 1.375rem;
             font-weight: 600;
             padding-bottom: .5rem;
             text-transform: inherit;
+            line-height: 23px;
         }
         &__footer {
             font-size: .5rem;
@@ -60,6 +63,7 @@
 .l-cards--wide--reverse {
     background-color: rgba($accent, .15);
     margin-top: 15px;
+    padding: 0;
 }
 .card--wide--reverse {
     a {
