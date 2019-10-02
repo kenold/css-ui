@@ -5,8 +5,11 @@
         flex-direction: row;
         align-items: center;
     }
-    .card__image {
-        width: 120px;
+    .card__media {
+        flex: 1;
+    }
+    .card__body {
+        flex: 1;
     }
     .card__category {
         margin-bottom: 5px;
@@ -36,8 +39,8 @@
     }
     .card--wide {
         .card {
-            &__image {
-            width: 150px;
+            &__media {
+                flex: 1;
             }
             &__category {
                 margin-bottom: 5px;
