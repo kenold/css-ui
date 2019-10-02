@@ -6,7 +6,7 @@
 .card--minimal {
     transition: border .3s ease-in;
     &:hover {
-        border: 1px solid rgba($accent, .4);
+        border: 1px solid rgba($accent, .5);
     }
     .card {
         &__title {
