@@ -20,8 +20,8 @@ const Cta = () => (
                         </div>
                     </a>
                     <div className="card__footer btn">
-                        <a href="#signup"><div className="btn__primary">{cta.btn1}</div></a>
-                        <a href="#learn-more"><div className="btn__secondary">{cta.btn2}</div></a>
+                    { cta.btn1 && <a href="#signup"><div className="btn__primary">{cta.btn1}</div></a> }
+                    { cta.btn2 && <a href="#learn-more"><div className="btn__secondary">{cta.btn2}</div></a> }
                     </div>
                 </article>
             ))}
