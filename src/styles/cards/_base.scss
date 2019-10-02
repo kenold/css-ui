@@ -1,14 +1,14 @@
 .btn__primary {
     background-color: $accent;
     padding: 8px 15px;
-    border-radius: 5px;
     color: $light-color;
+    font-weight: 400;
 }
 .btn__secondary {
     background-color: transparent;
     padding: 8px 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    font-weight: 400;
 }
 .btn__more {
     margin-left: 1rem;
