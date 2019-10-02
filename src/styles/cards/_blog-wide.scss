@@ -1,5 +1,6 @@
 .card--wide {
     display: block;
+    border: none;
     a {
         display: flex;
         flex-direction: row;
@@ -9,13 +10,17 @@
         flex: 1;
     }
     .card__body {
-        flex: 1;
+        flex: 2;
     }
     .card__category {
         margin-bottom: 5px;
     }
     .card__title {
+        font-family: $serif-font;
+        font-size: 1.5rem;
+        font-weight: 600;
         padding-bottom: .5rem;
+        text-transform: inherit;
     }
     .card__footer {
         font-size: .5rem;
@@ -24,32 +29,40 @@
         display: none;
     }
     .card__text {
-        color: $black;
         display: none;
         font-size: 0.9375rem;
         padding-bottom: .5rem;
-        line-height: 1.3em;
-
+        line-height: 23px;
     }
 }
 
 @media (min-width: 768px) {
     .cards .card--wide {
+        padding: 2.5rem 0px;
         flex-wrap: nowrap;
     }
     .card--wide {
         .card {
             &__media {
                 flex: 1;
+                padding-left: 4rem;
+            }
+            &__body {
+                flex: 1;
+                padding-left: 3rem;
+                padding-right: 4rem;
+                margin: 15px 0;
             }
             &__category {
                 margin-bottom: 5px;
             }
             &__title {
-                font-size: 1rem;
+                font-size: 2rem;
+                line-height: 38px;
             }
             &__text {
                 display: block;
+                font-size: 1rem;
             }
             &__footer {
                 font-size: .5rem;
