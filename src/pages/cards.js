@@ -1,17 +1,17 @@
 import React from "react"
 
 // cards component
-import Blog from '../components/cards/blog';
-import BlogMinimal from '../components/cards/blogMinimal';
-import BlogLabel from '../components/cards/blogLabel';
-import Cta from '../components/cards/cta';
-import BlogWide from '../components/cards/blogWide';
-import Movie from '../components/cards/movie';
-import Dating from '../components/cards/dating';
-import Product from '../components/cards/product';
-import Video from '../components/cards/video';
-import VideoHover from '../components/cards/videoHover';
-import Testimonial from '../components/cards/testimonial';
+import Stacked from '../components/cards/Stacked';
+import StackedMinimal from '../components/cards/StackedMinimal';
+import StackedLabel from '../components/cards/StackedLabel';
+import Cta from '../components/cards/Cta';
+import Horizontal from '../components/cards/Horizontal';
+import Overlay from '../components/cards/Overlay';
+import OverlayDating from '../components/cards/OverlayDating';
+import OverlayProduct from '../components/cards/OverlayProduct';
+import Video from '../components/cards/Video';
+import VideoHover from '../components/cards/VideoHover';
+import Testimonial from '../components/cards/Testimonial';
 
 import '../styles/cards/cards.scss';
 
@@ -21,14 +21,14 @@ import SEO from "../components/seo"
 const Cards = () => (
 	<Layout>
 		<SEO title="Cards" />
-		<Blog />
-		<BlogLabel />
-		<BlogWide />
-		<BlogMinimal />
+		<Stacked />
+		<StackedLabel />
+		<StackedMinimal />
+		<Horizontal />
 		<Cta />
-		<Movie />
-		<Dating />
-		<Product />
+		<Overlay />
+		<OverlayDating />
+		<OverlayProduct />
 		<Video />
 		<VideoHover />
 		<Testimonial />
