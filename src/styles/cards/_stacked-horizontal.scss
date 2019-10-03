@@ -88,6 +88,28 @@
     }
 }
 
+// HORIZONTAL REVERSE --VIDEO
+.card--wide--video {
+    display: flex;
+    .card {
+        &__media {
+            position: relative;
+        }
+        &__icon {
+            position: absolute ;
+            color: $accent;
+            font-size: 2rem;
+            padding: 8px ;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            &:hover {
+                color: rgba($accent, .7);
+            }
+        }
+    }
+}
+
 @media (min-width: 768px) {
     .card--wide {
         padding: 2.5rem 0px;
@@ -139,6 +161,27 @@
             }
             &__body {
                 order: 1;
+            }
+        }
+    }
+
+    //  REVERSE -- VIDEO
+    .card--wide--video {
+        align-items: center;
+        .card {
+            &__title {
+                font-size: 54px;
+                line-height: .9;
+            }
+            &__media {
+                flex-basis: 60%;
+                padding-left: 0;
+            }
+            &__body {
+                flex-basis: 40%;
+            }
+            &__icon {
+                font-size: 4rem;
             }
         }
     }
