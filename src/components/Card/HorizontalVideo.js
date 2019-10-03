@@ -18,7 +18,7 @@ const HorizontalVideo = () => (
                     </div>
                     <div className="card__body">
                         <div className="card__category">
-                            {post.category}
+                            Watch the video
                         </div>
                         <div className="card__title" title={post.title}>
                             <span>{post.title}</span>.
