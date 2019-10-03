@@ -3,12 +3,18 @@
     padding: 8px 15px;
     color: $light-color;
     font-weight: 400;
+    &:hover {
+        background-color: rgba($accent, .8);
+    }
 }
 .btn__secondary {
     background-color: transparent;
     padding: 8px 15px;
     border: 1px solid #ccc;
     font-weight: 400;
+    &:hover {
+        border-color: rgba($accent, .8);
+    }
 }
 .btn__more {
     margin-left: 1rem;
