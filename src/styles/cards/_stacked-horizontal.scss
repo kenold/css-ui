@@ -80,6 +80,12 @@
         &__title {
             font-size: 1.5rem;
         }
+        &__text {
+            display: block;
+        }
+    }
+    .btn__primary {
+        display: initial;
     }
 }
 
