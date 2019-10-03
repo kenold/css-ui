@@ -1,11 +1,10 @@
 .l-cards--wide {
     background-color: $section-bg-color;
-    // padding: 1rem 1rem 1rem 0;
+    padding: 15px 0;
 }
 .card--wide {
     display: block;
     border: none;
-    margin-bottom: 0;
     a {
         display: flex;
         flex-direction: row;
