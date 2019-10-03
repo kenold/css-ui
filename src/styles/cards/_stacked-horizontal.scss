@@ -116,6 +116,9 @@
         transform: translate(-50%, -50%);
     }
 }
+.card.card--wide--video .card__icon {
+    filter: none;
+}
 
 @media (min-width: 768px) {
     .card--wide {

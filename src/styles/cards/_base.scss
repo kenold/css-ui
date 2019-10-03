@@ -23,7 +23,6 @@
 }
 .btn__circle {
     background-color: rgba($accent, .8);
-    padding: 8px 15px;
     color: $light-color;
     font-weight: 400;
     transition: background-color 200ms linear;
@@ -88,9 +87,6 @@
         color: #000;
         font-size: 90%;
     }
-    &__text {
-
-    }
     &__date {
         display: none;
     }
@@ -113,5 +109,9 @@
         &__date {
             display: block;
         }
+    }
+    .btn__circle {
+        height: 6rem;
+        width: 6rem;
     }
 }
