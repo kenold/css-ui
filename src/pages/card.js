@@ -20,7 +20,7 @@ import '../styles/cards/cards.scss';
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
-const Cards = () => (
+const Card = () => (
 	<Layout>
 		<SEO title="Cards" />
 		<Stacked />
@@ -39,4 +39,4 @@ const Cards = () => (
 	</Layout>
 )
 
-export default Cards
+export default Card
