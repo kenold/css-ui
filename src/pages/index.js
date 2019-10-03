@@ -12,9 +12,9 @@ const IndexPage = () => (
       <h1>CSS UI Components</h1>
       <p>Now go build something great.</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Link to="cards"><Image /></Link>
+      <Link to="/card"><Image /></Link>
       </div>
-      <Link to="cards">Cards</Link>
+      <Link to="/card">Cards</Link>
     </div>
   </Layout>
 )
