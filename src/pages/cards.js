@@ -6,6 +6,7 @@ import StackedMinimal from '../components/cards/StackedMinimal';
 import StackedLabel from '../components/cards/StackedLabel';
 import Cta from '../components/cards/Cta';
 import Horizontal from '../components/cards/Horizontal';
+import HorizontalFlipped from "../components/cards/HorizontalFlipped";
 import Overlay from '../components/cards/Overlay';
 import OverlayDating from '../components/cards/OverlayDating';
 import OverlayProduct from '../components/cards/OverlayProduct';
@@ -25,6 +26,7 @@ const Cards = () => (
 		<StackedLabel />
 		<StackedMinimal />
 		<Horizontal />
+		<HorizontalFlipped />
 		<Cta />
 		<Overlay />
 		<OverlayDating />
