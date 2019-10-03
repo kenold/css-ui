@@ -21,6 +21,19 @@
 .btn__more {
     margin-left: 1rem;
 }
+.btn__circle {
+    background-color: rgba($accent, .8);
+    padding: 8px 15px;
+    color: $light-color;
+    font-weight: 400;
+    transition: background-color 200ms linear;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    &:hover {
+        background-color: rgba($accent, 1);
+    }
+}
 
 // TODO: import/use variables partial
 .card {

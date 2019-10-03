@@ -97,7 +97,8 @@
         }
         &__icon {
             position: absolute ;
-            color: $accent;
+            border-radius: 50%;
+            color: #fff;
             font-size: 2rem;
             padding: 8px ;
             left: 50%;
@@ -107,6 +108,12 @@
                 color: rgba($accent, .7);
             }
         }
+    }
+    .btn__circle {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
