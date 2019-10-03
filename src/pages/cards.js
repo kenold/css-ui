@@ -16,7 +16,7 @@ import Testimonial from '../components/cards/Testimonial';
 
 import '../styles/cards/cards.scss';
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
 const Cards = () => (
