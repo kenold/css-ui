@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import BlogCode from '../codes/blog';
 import BlogData from '../../data/posts.json';
 
-class Blog extends Component {
+class Stacked extends Component {
     constructor (props) {
         super(props)
         this.state = {
@@ -52,4 +52,4 @@ class Blog extends Component {
     }
 }
 
-export default Blog
+export default Stacked

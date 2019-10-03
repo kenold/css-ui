@@ -2,7 +2,7 @@ import React from "react"
 // import BlogCode from '../codes/blog';
 import BlogData from '../../data/posts.json';
 
-const BlogMinimal = () => (
+const StackedMinimal = () => (
     <section className="l-cards l-cards--minimal container">
         <div className="l-cards__heading">
             <h4>Cards + Blog Minimal </h4>
@@ -29,4 +29,4 @@ const BlogMinimal = () => (
     </section>
 )
 
-export default BlogMinimal
+export default StackedMinimal

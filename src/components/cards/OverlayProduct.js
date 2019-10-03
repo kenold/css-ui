@@ -1,7 +1,7 @@
 import React from "react";
 import ProductData from '../../data/products.json';
 
-const Product = () => (
+const OverlayProduct = () => (
     <section className="l-cards container">
         <div className="l-cards__heading">
             <h4>Cards Overlay + Icon/Product</h4>
@@ -40,4 +40,4 @@ const Product = () => (
     </section>
 )
 
-export default Product
+export default OverlayProduct

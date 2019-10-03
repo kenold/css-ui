@@ -1,7 +1,7 @@
 import React from "react";
 import DatingData from '../../data/models.json';
 
-const Dating = () => (
+const OverlayDating = () => (
     <section className="l-cards container">
         <div className="l-cards__heading">
             <h4>Cards Overlay + Dating</h4>
@@ -33,4 +33,4 @@ const Dating = () => (
     </section>
 )
 
-export default Dating
+export default OverlayDating

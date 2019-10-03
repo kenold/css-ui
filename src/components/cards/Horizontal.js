@@ -1,7 +1,7 @@
 import React from "react";
 import BlogData from '../../data/posts.json';
 
-const BlogWide = () => (
+const Horizontal = () => (
     <>
     {/* LEFT TO RIGHT */}
     <section className="l-cards l-cards--wide">
@@ -71,4 +71,4 @@ const BlogWide = () => (
     </>
 )
 
-export default BlogWide
+export default Horizontal

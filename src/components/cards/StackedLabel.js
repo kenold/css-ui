@@ -2,7 +2,7 @@ import React from "react"
 // import BlogCode from '../codes/blog';
 import BlogData from '../../data/posts.json';
 
-const BlogLabel = () => (
+const StackedLabel = () => (
     <section className="l-cards container">
         <div className="l-cards__heading">
             <h4>Cards + Blog Label </h4>
@@ -35,4 +35,4 @@ const BlogLabel = () => (
     </section>
 )
 
-export default BlogLabel
+export default StackedLabel
