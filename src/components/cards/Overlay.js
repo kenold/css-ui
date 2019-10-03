@@ -27,11 +27,18 @@ const Overlay = () => (
                                 </div>
                                 <div className="card__text">{movie.excerpt}</div>
                             </a>
-                            <ul className="card__actions btn">
-                                <li className="btn__primary"><a href="#play" title="Play"><span className="icon"><FaPlay /></span> Play</a></li>
-                                <li className="btn__secondary"><a href="#favorite" title="Favorite"><span className="icon"><FaHeart /></span> Favorite</a></li>
-                                <li className="btn__more"><a href="#more" title="More Info"><span className="icon"><FaEllipsisH /></span></a></li>
-                            </ul>
+                            <div className="card__actions btn">
+                                <a href="#play" title="Play">
+                                    <div className="btn__primary"><span className="icon"><FaPlay /></span> Play</div>
+                                </a>
+                                <a href="#favorite" title="Favorite">
+                                    <div className="btn__secondary"><span className="icon"><FaHeart /></span> Favorite</div>
+                                </a>
+                                <a href="#more" title="More Info">
+                                    <div className="btn__more"><span className="icon"><FaEllipsisH /></span></div>
+                                </a>
+
+                            </div>
                         </div>
 
                 </article>
