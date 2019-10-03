@@ -39,12 +39,16 @@
         .card {
             &__icon {
                 display: none;
+                filter: drop-shadow(0 5px 4px #000);
             }
         }
     }
     // experimental, need to be nested
+    .card .card__icon {
+        filter: drop-shadow(0 5px 4px #000);
+    }
     .card:hover .card__icon {
         display: block;
-        filter: drop-shadow(0 5px 4px #bbb);
+        filter: drop-shadow(0 5px 4px #313131);
     }
 }
