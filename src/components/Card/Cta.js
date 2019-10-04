@@ -9,8 +9,8 @@ const Cta = () => (
         </div>
 
         <div className="cards">
-            {CtaData.slice(0, 3).map((cta) => (
-                <article key={cta.id} className="card card--cta show-1-3">
+            {CtaData.slice(0, 4).map((cta) => (
+                <article key={cta.id} className="card card--cta show-1-4">
                     <a href="#cta-detail">
                         <div className="card__body">
                             <div className="card__title" title={cta.title}>
