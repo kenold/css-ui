@@ -10,5 +10,13 @@
             font-size: 0.6875rem;
             border-radius: 5px;
         }
+        &__title {
+            font-size: 1.5rem;
+            line-height: 32px;
+        }
     }
+}
+
+@media (min-width: 768px) {
+
 }
