@@ -19,9 +19,9 @@ class Video extends Component {
                                 <div className="card__icon"><FaPlayCircle /></div>
                             </div>
                             <div className="card__body">
-                                <div className="card__title" title={video.title}>
-                                    <span>{video.title}</span>
-                                </div>
+                                <h4 className="card__title" title={video.title}>
+                                    {video.title}
+                                </h4>
                             </div>
                         </a>
                     </article>
