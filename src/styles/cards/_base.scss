@@ -35,6 +35,9 @@
         background-color: rgba($accent, 1);
     }
 }
+.react-rater-star.is-active {
+    color: $accent;
+}
 
 // TODO: import/use variables partial
 .card {
