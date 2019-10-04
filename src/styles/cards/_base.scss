@@ -99,6 +99,15 @@
     }
 }
 
+.card--blog {
+    flex-direction: row;
+    .card {
+        &__footer {
+            display: none;
+        }
+    }
+}
+
 @media (min-width: 768px) {
     .card {
         &__date {
@@ -108,6 +117,14 @@
             font-size: 1.75rem;
             line-height: 32px;
             letter-spacing: -0.03rem;
+        }
+    }
+    .card--blog {
+        flex-direction: column;
+        .card {
+            &__footer {
+                display: flex;
+            }
         }
     }
 }
