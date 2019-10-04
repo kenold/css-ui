@@ -1,4 +1,6 @@
 import React from "react";
+import Rater from 'react-rater';
+import 'react-rater/lib/react-rater.css';
 import ProductData from '../../data/products.json';
 
 const OverlayProduct = () => (
@@ -22,6 +24,7 @@ const OverlayProduct = () => (
                                 <span>{product.title}</span>
                             </div>
                         </div>
+                        </a>
                         <div className="card__footer">
                             <div className="price">
                                 <span className={"price__original" + (product.discount ? " strike": "")}>${product.price}</span>
@@ -31,9 +34,11 @@ const OverlayProduct = () => (
                                     </span>
                                 }
                             </div>
-                            <div className="rating">5stars</div>
+                            <div className="rating">
+                                <Rater total={5} rating={2} />
+                            </div>
                         </div>
-                    </a>
+
                 </article>
             ))}
         </div>
