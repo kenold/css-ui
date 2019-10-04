@@ -15,9 +15,9 @@
     }
     .card {
         &__title {
-            font-family: $serif-font;
+            font-family: $sans-font;
             font-size: 2rem;
-            line-height: 32px;
+            line-height: 36px;
             padding-bottom: .375em;
             text-transform: inherit;
         }

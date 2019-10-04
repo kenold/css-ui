@@ -28,7 +28,7 @@
             margin-bottom: 5px;
         }
         &__title {
-            font-family: $serif-font;
+            font-family: $sans-font;
             font-size: 1.375rem;
             font-weight: 600;
             padding-bottom: .5rem;
@@ -144,7 +144,8 @@
             }
             &__text {
                 display: block;
-                font-size: 1rem;
+                font-size: 1.25rem;
+                line-height: 30px;
             }
             &__footer {
                 font-size: .5rem;
@@ -175,16 +176,17 @@
         }
     }
 
-    //  REVERSE -- VIDEO
+    //  HORIZONTAL -- VIDEO
     .card--wide--video {
         align-items: center;
         .card {
             &__title {
-                font-size: 54px;
-                line-height: .9;
+                font-size: 2.5rem;
+                line-height: 45px;
+                letter-spacing: -0.04rem;
             }
             &__media {
-                flex-basis: 60%;
+                flex-basis: 40%;
                 padding-left: 0;
             }
             &__body {

@@ -36,6 +36,7 @@
         &__title {
             color: #fff;
             font-family: $sans-font;
+            font-weight: 500;
             font-size: 95%;
             letter-spacing: .02em;
             padding-bottom: 0;
@@ -69,11 +70,11 @@
                     width: 24px;
                     padding: 15px;
                     margin-right: -5px;
+                    box-sizing: initial;
                 }
             }
             .swipe__left {
                 fill: red;
-                //font-size: 3rem;
             }
             .swipe__right {
                 fill: $accent;

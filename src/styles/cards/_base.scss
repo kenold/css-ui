@@ -1,5 +1,6 @@
 .btn__primary {
     background-color: rgba($accent, .8);
+    border-radius: 0.1875rem;
     padding: 8px 15px;
     color: $light-color;
     font-weight: 400;
@@ -10,6 +11,7 @@
 }
 .btn__secondary {
     background-color: transparent;
+    border-radius: 0.1875rem;
     padding: 8px 15px;
     border: 1px solid #ccc;
     font-weight: 400;
@@ -19,10 +21,12 @@
     }
 }
 .btn__more {
+    border-radius: 0.1875rem;
     margin-left: 1rem;
 }
 .btn__circle {
     background-color: rgba($accent, .8);
+    border-radius: 0.1875rem;
     color: $light-color;
     font-weight: 400;
     transition: background-color 200ms linear;
@@ -50,7 +54,7 @@
         height: auto;
     }
     &__body {
-        margin: 15px 20px 0;
+        margin: 15px 20px 5px;
     }
     &__category {
         font-weight: 500;
@@ -62,24 +66,22 @@
         justify-content: space-between;
         font-size: .5rem;
         letter-spacing: 0;
-        margin: auto 20px;
+        margin: auto 20px 20px 20px;
     }
     &__category, &__footer {
         font-size: .75rem;
-        line-height: 1.2em;
+        line-height: 1.2rem;
         word-spacing: normal;
         font-weight: 500;
         color: #787679;
-        margin-bottom: 15px;
     }
     &__title {
         font-size: 1rem;
         font-weight: 700;
         word-spacing: normal;
-        letter-spacing: -.01em;
-        line-height: 1.3em;
-        padding-bottom: .5em;
-        text-transform: capitalize;
+        letter-spacing: -.01rem;
+        line-height: 1.3rem;
+        padding-bottom: .5rem;
     }
     &__subtitle {
         color: #000;
@@ -106,6 +108,11 @@
     .card {
         &__date {
             display: block;
+        }
+        &__title {
+            font-size: 1.75rem;
+            line-height: 32px;
+            letter-spacing: -0.03rem;
         }
     }
 }
