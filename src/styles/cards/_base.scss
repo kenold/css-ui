@@ -26,8 +26,6 @@
     color: $light-color;
     font-weight: 400;
     transition: background-color 200ms linear;
-    height: 4rem;
-    width: 4rem;
     border-radius: 50%;
     &:hover {
         background-color: rgba($accent, 1);
@@ -109,9 +107,5 @@
         &__date {
             display: block;
         }
-    }
-    .btn__circle {
-        height: 6rem;
-        width: 6rem;
     }
 }
