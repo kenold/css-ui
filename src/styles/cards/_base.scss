@@ -42,12 +42,6 @@
     flex-direction: column;
     margin-bottom: 12px;
     border: 1px solid $border-color;
-    a {
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-        color: inherit;
-    }
     &__image {
         display: block;
         border: 0;
@@ -77,11 +71,11 @@
         color: #787679;
     }
     &__title {
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 700;
         word-spacing: normal;
         letter-spacing: -.01rem;
-        line-height: 1.3rem;
+        line-height: 30px;
         padding-bottom: .5rem;
     }
     &__subtitle {
