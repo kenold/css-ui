@@ -98,4 +98,13 @@
     }
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .card--overlay {
+        .swipe a {
+            transition: transform 200ms ease;
+            &:hover {
+                transform: scale(1.06);
+            }
+        }
+    }
+}
