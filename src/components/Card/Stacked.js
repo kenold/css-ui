@@ -22,23 +22,23 @@ class Stacked extends Component {
                 </div>
 
                 <div className="cards">
-                    {BlogData.map((post) => (
-                        <article key={post.id} className="card card--blog show-2-4">
+                    {BlogData.slice(0,3).map((post) => (
+                        <article key={post.id} className="card card--blog show-1-3">
                             <a href="#blog-detail">
                                 <figure className="card__media">
                                     <img src={"/blog/" + post.id + ".jpg"} alt={post.title} className="card__image" />
                                 </figure>
-                                <div className="card__body">
-                                    <div className="card__category">{post.category}</div>
-                                    <div className="card__title" title={post.title}>
-                                        <span>{post.title}</span>
-                                    </div>
-                                </div>
-                                <div className="card__footer">
-                                    <div className="card__author">{post.author}</div>
-                                    <div className="card__date">5 hours ago</div>
-                                </div>
                             </a>
+                            <div className="card__body">
+                                <div className="card__category">{post.category}</div>
+                                <a href="#blog-detail">
+                                    <h4 className="card__title" title={post.title}>{post.title}</h4>
+                                </a>
+                            </div>
+                            <div className="card__footer">
+                                <div className="card__author">{post.author}</div>
+                                <div className="card__date">5 hours ago</div>
+                            </div>
                         </article>
                     ))}
                 </div>

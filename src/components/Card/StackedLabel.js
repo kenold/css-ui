@@ -9,22 +9,23 @@ const StackedLabel = () => (
         </div>
 
         <div className="cards">
-            {BlogData.slice(0, 3).map((post) => (
-                <article key={post.id} className="card card--label show-1-3">
+            {BlogData.slice(0, 4).map((post) => (
+                <article key={post.id} className="card card--label show-2-4">
                     <a href="#blog-detail">
                         <figure className="card__media">
                             <img src={"/blog-wide/" + post.id + ".jpg"} alt={post.title} className="card__image" />
                             <div className="card__label">{post.category}</div>
                         </figure>
+                    </a>
                         <div className="card__body">
-                            <div className="card__title" title={post.title}>
-                                <span>{post.title}</span>
-                            </div>
+                            <a href="#blog-detail">
+                                <h4 className="card__title" title={post.title}>{post.title}</h4>
+                            </a>
                         </div>
                         <div className="card__footer">
                             <div className="card__date">5 hours ago</div>
                         </div>
-                    </a>
+
                 </article>
             ))}
         </div>
