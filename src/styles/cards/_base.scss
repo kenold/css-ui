@@ -39,6 +39,7 @@
 // TODO: import/use variables partial
 .card {
     display: flex;
+    flex-direction: column;
     margin-bottom: 12px;
     border: 1px solid $border-color;
     a {
