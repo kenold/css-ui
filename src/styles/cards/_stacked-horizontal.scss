@@ -26,9 +26,9 @@
         }
         &__title {
             font-family: $sans-font;
-            font-size: 1rem;
+            font-size: 1.5rem;
             font-weight: 600;
-            line-height: 24px;
+            line-height: 30px;
             padding-bottom: .5rem;
             text-transform: inherit;
         }
@@ -60,7 +60,6 @@
     background-color: rgba($accent, .15);
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-top: 15px;
 }
 .card--wide--reverse {
         flex-direction: column;
@@ -84,6 +83,9 @@
 }
 
 // HORIZONTAL REVERSE --VIDEO
+.l-cards--wide--video {
+    background-color: rgba($accent-warning, .15);
+}
 .card--wide--video {
     .card {
         &__media {
@@ -154,8 +156,8 @@
 
     // REVERSE
     .l-cards--wide--reverse {
+        margin-top: 0;
         padding-top: 0;
-        padding-bottom: 0;
     }
     .card--wide--reverse {
         flex-direction: row;
