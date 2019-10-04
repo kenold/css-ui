@@ -10,7 +10,7 @@ const StackedLabel = () => (
 
         <div className="cards">
             {BlogData.slice(0, 4).map((post) => (
-                <article key={post.id} className="card card--label show-2-4">
+                <article key={post.id} className="card card--label show-1-4">
                     <a href="#blog-detail">
                         <figure className="card__media">
                             <img src={"/blog-wide/" + post.id + ".jpg"} alt={post.title} className="card__image" />
