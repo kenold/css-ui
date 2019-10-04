@@ -1,3 +1,20 @@
+Built with:
+- Gatsby Static Site Generator / React JS
+
+Packages used:
+- Node Sass - to compile scss files
+- React Icons - for icons
+- Prism - for code formating
+- React Rater - for product star rating
++ all Gatsby default dependencies
+
 Blog posts generated using https://www.title-generator.com/index.php
-Illustration: https://www.drawkit.io/
-Photos: unsplash.com
+All images are courtesy of unsplash.com
+Illustration: https://www.drawkit.io
+
+
+Deployed and hosted on Netlify.com
+Github Repo: 
+
+
+Gatsby Starter Default
