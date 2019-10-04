@@ -105,6 +105,16 @@
 .card--blog {
     flex-direction: row;
     .card {
+        &__media {
+            flex: 1;
+        }
+        &__body {
+            flex: 1;
+        }
+        &__title {
+            font-size: 1.25rem;
+            line-height: 28px;
+        }
         &__footer {
             display: none;
         }
