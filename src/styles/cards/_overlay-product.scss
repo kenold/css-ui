@@ -7,6 +7,7 @@
         &__title {
             font-family: $sans-font;
             font-size: 1rem;
+            line-height: 24px;
             padding-bottom: .5rem;
         }
         &__icon {
@@ -18,15 +19,27 @@
             top: 8px ;
         }
         &__footer {
-            font-size: .875rem;
+            font-size: .75rem;
             .strike {
                 text-decoration: line-through;
             }
             .price__sale {
                 margin-left: 5px;
             }
+            .rating {
+                font-size: 1rem;
+            }
         }
     }
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .card--overlay-icon {
+        position: relative;
+        .card {
+            &__title {
+                line-height: initial;
+            }
+        }
+    }
+}
