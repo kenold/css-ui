@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `CSS UI`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `CSS UI components created by Kenold Beauplan.`,
+    author: `@kenoldb`,
     pathPrefix: "/css-ui"
   },
   plugins: [
