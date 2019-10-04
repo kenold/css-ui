@@ -9,7 +9,7 @@ const HorizontalFlipped = () => (
                 <article key={post.id} className="card card--wide card--wide--reverse show-1-1">
                     <a href="#blog-detail">
                         <figure className="card__media">
-                            <img src={"/800627/" + post.id + ".jpg"} alt={post.title} className="card__image" />
+                            <img src="/misc/shopping-cart-colour-400px.png" alt={post.title} className="card__image" />
                         </figure>
                         <div className="card__body">
                             <div className="card__category">
