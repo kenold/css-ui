@@ -24,11 +24,11 @@ class Stacked extends Component {
                 <div className="cards">
                     {BlogData.slice(0,3).map((post) => (
                         <article key={post.id} className="card card--blog show-1-3">
-                            <a href="#blog-detail">
-                                <figure className="card__media">
+                            <figure className="card__media">
+                                <a href="#blog-detail">
                                     <img src={"/blog/" + post.id + ".jpg"} alt={post.title} className="card__image" />
-                                </figure>
-                            </a>
+                                </a>
+                            </figure>
                             <div className="card__body">
                                 <div className="card__category">{post.category}</div>
                                 <a href="#blog-detail">
