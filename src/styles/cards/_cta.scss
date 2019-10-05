@@ -22,7 +22,6 @@
             text-transform: inherit;
         }
         &__footer {
-            margin-top: 1.5rem;
             justify-content: flex-start;
             .btn__secondary {
                 margin-left: .8rem;
@@ -42,9 +41,6 @@
             }
             &__content {
                 padding: 20px 0;
-            }
-            &__footer {
-                margin-top: auto;
             }
         }
     }
