@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import Moment from 'react-moment';
 // import BlogCode from '../codes/blog';
 import BlogData from '../../data/posts.json';
 
@@ -24,7 +25,7 @@ const StackedLabel = () => (
                         </div>
                         <div className="card__footer">
                             <div className="card__date">
-                                {Math.floor(Math.random() * 7) + 2} hours ago
+                                <Moment format="MMM D YYYY">{post.date}</Moment>
                             </div>
                         </div>
 
