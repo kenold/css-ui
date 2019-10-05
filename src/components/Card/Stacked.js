@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import BlogCode from '../codes/blog';
+import StackedCode from './StackedCode';
 import BlogData from '../../data/posts.json';
 
 class Stacked extends Component {
@@ -16,9 +16,13 @@ class Stacked extends Component {
       }
     render() {
         return (
+            <>
             <section className="l-cards container">
                 <div className="l-cards__heading">
-                    <h4>Cards + Blog Posts </h4>
+                    <h4>Card: Stacked</h4>
+                    <span className="show-code" title="Display Code" onClick={this.toggleHidden.bind(this)}>
+                        <a href="#stacked-code">&lt; {this.state.isHidden ? "Show" : "Hide"} Code &gt;</a>
+                    </span>
                 </div>
 
                 <div className="cards">
@@ -44,12 +48,13 @@ class Stacked extends Component {
                         </article>
                     ))}
                 </div>
-
-                <div className="show-code" onClick={this.toggleHidden.bind(this)}>
-                    {this.state.isHidden ? "Show" : "Hide"} Code
-                </div>
-                {!this.state.isHidden && <BlogCode />}
             </section>
+            <section className="code-display" id="stacked-code">
+                <div className="container">
+                    {!this.state.isHidden && <StackedCode />}
+                </div>
+            </section>
+            </>
         )
     }
 }
