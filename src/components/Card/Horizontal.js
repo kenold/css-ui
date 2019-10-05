@@ -5,10 +5,6 @@ const Horizontal = () => (
     <section className="l-cards l-cards--wide">
         {/* LEFT TO RIGHT */}
         <div className="container">
-            {/* <div className="l-cards__heading">
-                <h4>Cards + Blog Posts Wide </h4>
-            </div> */}
-
             {BlogData.slice(0,1).map((post) => (
                 <article key={post.id} className="card card--wide show-1-1">
                     <figure className="card__media">

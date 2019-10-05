@@ -5,7 +5,7 @@ import CtaData from '../../data/ctas.json';
 const Cta = () => (
     <section className="l-cards l-cards--cta container">
         <div className="l-cards__heading">
-            <h4>Cards + Call-to-Action </h4>
+            <h4>Card: Call-to-Action </h4>
         </div>
 
         <div className="cards">
