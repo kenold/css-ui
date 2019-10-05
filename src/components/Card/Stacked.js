@@ -20,9 +20,6 @@ class Stacked extends Component {
             <section className="l-cards container">
                 <div className="l-cards__heading">
                     <h4>Card: Stacked</h4>
-                    <span className="show-code" title="Display Code" onClick={this.toggleHidden.bind(this)}>
-                        <a href="#stacked-code">&lt; {this.state.isHidden ? "Show" : "Hide"} Code &gt;</a>
-                    </span>
                 </div>
 
                 <div className="cards">
@@ -49,7 +46,14 @@ class Stacked extends Component {
                     ))}
                 </div>
             </section>
-            <section className="code-display" id="stacked-code">
+
+            <div className="show-code container" title="Display Code" onClick={this.toggleHidden.bind(this)}>
+                <div className="code-button">
+                    &lt; {this.state.isHidden ? "Show" : "Hide"} Code for Card Stacked &gt;
+                </div>
+            </div>
+
+            <section className="code-display">
                 <div className="container">
                     {!this.state.isHidden && <StackedCode />}
                 </div>
