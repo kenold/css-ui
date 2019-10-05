@@ -59,10 +59,21 @@ p {
     padding: 0 1em;
     max-width: 1140px;
 }
-.l-cards__heading h4 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 1rem 0;
+.l-cards__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h4 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 1rem 0;
+    }
+}
+.show-code {
+    cursor: pointer;
+    font-size: .75rem;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 .button {
     display: inline-block;
