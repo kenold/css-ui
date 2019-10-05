@@ -18,11 +18,12 @@ const Cta = () => (
                             </h4>
                         </header>
                         <div className="card__text">{cta.text}</div>
+                    </div>
                         <footer className="card__footer btn">
                         { cta.btn1 && <a href="#signup"><div className="btn__primary">{cta.btn1}</div></a> }
                         { cta.btn2 && <a href="#learn-more"><div className="btn__secondary">{cta.btn2}</div></a> }
                         </footer>
-                    </div>
+
                 </article>
             ))}
         </div>
