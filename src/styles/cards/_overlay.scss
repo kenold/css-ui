@@ -97,6 +97,9 @@
     // OVERLAY DATING
     &--dating {
         text-align: center;
+        .model__name {
+            text-transform: capitalize
+        }
     }
 }
 
