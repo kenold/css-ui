@@ -4,7 +4,7 @@ import DatingData from '../../data/models.json';
 const OverlayDating = () => (
     <section className="l-cards container">
         <div className="l-cards__heading">
-            <h4>Cards Overlay + Dating</h4>
+            <h4>Card: Overlay + Dating</h4>
         </div>
         <div className="cards">
             {DatingData.map((model) => (

@@ -5,7 +5,7 @@ import MovieData from '../../data/movies.json';
 const Overlay = () => (
     <section className="l-cards l-cards--full container">
         <div className="l-cards__heading">
-            <h4>Cards Overlay + Movies</h4>
+            <h4>Card: Overlay + Movie</h4>
         </div>
         <div className="cards">
             {MovieData.map((movie) => (

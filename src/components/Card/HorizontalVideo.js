@@ -7,7 +7,7 @@ const HorizontalVideo = () => (
         {/* LEFT TO RIGHT */}
         <div className="container">
             {/* <div className="l-cards__heading">
-                <h4>Cards + Blog Posts Wide </h4>
+                <h4>Posts Wide </h4>
             </div> */}
 
             {BlogData.slice(2,3).map((post) => (

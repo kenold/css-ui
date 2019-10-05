@@ -50,7 +50,7 @@ class Video extends Component {
         return (
             <section className="l-cards container">
                 <div className="l-cards__heading">
-                    <h4>Cards + Video</h4>
+                    <h4>Video</h4>
                 </div>
                 <Slider {...settings}>
                 {VideoData.map((video) => (
