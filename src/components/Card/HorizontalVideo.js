@@ -17,7 +17,7 @@ const HorizontalVideo = () => (
                         <a href="#play-video" className="btn__circle" title={post.title}><div className="card__icon"><FaPlay /></div></a>
                     </div>
                     <div className="card__body">
-                        <div className="card__category">
+                        <div className="card__topic">
                             Watch the video
                         </div>
                         <h2 className="card__title">

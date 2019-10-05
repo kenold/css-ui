@@ -10,7 +10,7 @@ const code= `
                 <img src="..." alt="" class="card__image" />
             </figure>
             <div class="card__body">
-                <div class="card__category">Blog</div>
+                <div class="card__topic">Blog</div>
                 <div class="card__title">Card Title</div>
             </div>
             <div class="card__footer">

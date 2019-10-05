@@ -13,7 +13,7 @@ const StackedMinimal = () => (
                 <article key={post.id} className="card card--minimal show-1-3">
                     <a href="#blog-detail">
                         <div className="card__body">
-                            <div className="card__category">{post.category}</div>
+                            <div className="card__topic">{post.topic}</div>
                             <div className="card__title" title={post.title}>
                                 <span>{post.title}</span>
                             </div>

@@ -14,7 +14,7 @@ const StackedLabel = () => (
                     <a href="#blog-detail">
                         <figure className="card__media">
                             <img src={"/blog-wide/" + post.id + ".jpg"} alt={post.title} className="card__image" />
-                            <div className="card__label">{post.category}</div>
+                            <div className="card__label">{post.topic}</div>
                         </figure>
                     </a>
                         <div className="card__body">

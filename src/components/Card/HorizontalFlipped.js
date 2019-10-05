@@ -13,8 +13,8 @@ const HorizontalFlipped = () => (
                         </a>
                     </figure>
                     <div className="card__body">
-                        <div className="card__category">
-                            {post.category}
+                        <div className="card__topic">
+                            {post.topic}
                         </div>
                         <a href="#blog-detail">
                             <h2 className="card__title" title={post.title}>{post.title}.</h2>
