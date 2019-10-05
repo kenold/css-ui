@@ -7,18 +7,20 @@ const HorizontalFlipped = () => (
         <div className="container">
             {BlogData.slice(1,2).map((post) => (
                 <article key={post.id} className="card card--wide card--wide--reverse show-1-1">
-                    <figure className="card__media">
+                    <div className="card__image">
                         <a href="#blog-detail">
-                            <img src="/misc/shopping-cart-colour-400px.png" alt={post.title} className="card__image" />
+                            <img src="/misc/shopping-cart-colour-400px.png" alt={post.title} />
                         </a>
-                    </figure>
-                    <div className="card__body">
+                    </div>
+                    <div className="card__content">
                         <div className="card__topic">
                             {post.topic}
                         </div>
-                        <a href="#blog-detail">
-                            <h2 className="card__title" title={post.title}>{post.title}.</h2>
-                        </a>
+                        <header className="card__header">
+                            <h2 className="card__title" title={post.title}>
+                                <a href="#blog-detail">{post.title}.</a>
+                            </h2>
+                        </header>
                         <p className="card__text">{post.excerpt}</p>
                         <div className="btn__primary">Learn more</div>
                     </div>

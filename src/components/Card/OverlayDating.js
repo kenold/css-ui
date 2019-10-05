@@ -9,19 +9,17 @@ const OverlayDating = () => (
         <div className="cards">
             {DatingData.map((model) => (
                 <article key={model.id} className="card card--overlay show-1-3">
-                    <a href="#profile" title={model.name}>
-                        <figure className="card__media">
-                            <img src={"/models/" + model.id + ".jpg"} alt={model.name} className="card__image" />
-                        </figure>
-                        <div className="darken"></div>
-                    </a>
-                    <div className="card__body card__body--dating">
-                        <a href="#profile" className="model">
-                            <div className="card__title" title={model.name}>
-                                {model.name}, {model.age}
-                            </div>
-                            <div className="card__text">{model.profession}</div>
+                    <div className="card__image">
+                        <a href="#movie-detail" title={model.title}>
+                            <img src={"/models/" + model.id + ".jpg"} alt={model.title} />
                         </a>
+                    </div>
+                    <div className="darken"></div>
+                    <div className="card__content card__content--dating">
+                        <div className="card__title" title={model.name}>
+                            <a href="#profile" className="model">{model.name}, {model.age}</a>
+                        </div>
+                        <div className="card__text">{model.profession}</div>
                         <div className="card__actions swipe">
                             <a href="#dislike" title="Dislike">
                                 <div className="swipe__left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg></div>

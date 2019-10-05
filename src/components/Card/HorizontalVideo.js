@@ -12,17 +12,17 @@ const HorizontalVideo = () => (
 
             {BlogData.slice(2,3).map((post) => (
                 <article key={post.id} className="card card--wide card--wide--video show-1-1">
-                    <div className="card__media">
-                        <img src={"/800627/" + post.id + ".jpg"} alt={post.title} className="card__image" />
+                    <div className="card__image">
+                        <img src={"/800627/" + post.id + ".jpg"} alt={post.title} />
                         <a href="#play-video" className="btn__circle" title={post.title}><div className="card__icon"><FaPlay /></div></a>
                     </div>
-                    <div className="card__body">
-                        <div className="card__topic">
-                            Watch the video
-                        </div>
-                        <h2 className="card__title">
-                            {post.title}.
-                        </h2>
+                    <div className="card__content">
+                        <div className="card__topic">Watch the video</div>
+                        <header className="card__header">
+                            <h2 className="card__title" title={post.title}>
+                                <a href="#blog-detail">{post.title}.</a>
+                            </h2>
+                        </header>
                         <p className="card__text">{post.excerpt}</p>
                     </div>
                 </article>

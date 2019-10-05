@@ -6,10 +6,10 @@
         display: block;
     }
     .card {
-        &__image {
+        &__image img {
             border-radius: 10px;
         }
-        &__body {
+        &__content {
             position: absolute;
             bottom: 0px;
             left: 0px;

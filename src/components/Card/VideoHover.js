@@ -13,18 +13,20 @@ class VideoHover extends Component {
 				<div className="cards">
                 {VideoData.slice(3, 6).map((video) => (
                     <article key={video.id} className="card card--video-hover show-1-3">
-                        <a href="#video-detail">
-                            <div className="card__media">
-                                <img src={"/videos/" + video.id + ".jpg"} alt={video.title} className="card__image" />
+                        <div className="card__image">
+                            <a href="#video-detail">
+                                <img src={"/videos/" + video.id + ".jpg"} alt={video.title} />
                                 <div className="card__label">{video.duration}</div>
-                            </div>
-                            <div className="card__icon"><FaPlay /></div>
-                            <div className="card__body">
-                                <div className="card__title" title={video.title}>
-                                    <span>{video.title}</span>
-                                </div>
-                            </div>
-                        </a>
+                                <div className="card__icon"><FaPlay /></div>
+                            </a>
+                        </div>
+                        <div className="card__content">
+                            <header className="card__header">
+                                <h4 className="card__title" title={video.title}>
+                                    {video.title}
+                                </h4>
+                            </header>
+                        </div>
                     </article>
                 ))}
 				</div>

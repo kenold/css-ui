@@ -11,14 +11,14 @@ const StackedMinimal = () => (
         <div className="cards">
             {BlogData.slice(0, 3).map((post) => (
                 <article key={post.id} className="card card--minimal show-1-3">
-                    <a href="#blog-detail">
-                        <div className="card__body">
-                            <div className="card__topic">{post.topic}</div>
-                            <div className="card__title" title={post.title}>
-                                <span>{post.title}</span>
-                            </div>
-                        </div>
-                    </a>
+                    <div className="card__content">
+                        <div className="card__topic">{post.topic}</div>
+                        <header className="card__header">
+                            <h4 className="card__title" title={post.title}>
+                                <a href="#blog-detail">{post.title}</a>
+                            </h4>
+                        </header>
+                    </div>
                 </article>
             ))}
         </div>

@@ -8,14 +8,14 @@
     align-items: center;
     border: none;
     .card {
-        &__media {
+        &__image {
         flex: 2;
         text-align: center;
         }
         &__image {
             border-radius: 2px;
         }
-        &__body {
+        &__content {
             flex: 2;
             margin-right: 0;
         }
@@ -64,10 +64,10 @@
 .card--wide--reverse {
         flex-direction: column;
     .card {
-        &__media {
+        &__image {
             order: 1;
         }
-        &__body {
+        &__content {
             order: 2;
         }
         &__title {
@@ -88,7 +88,7 @@
 }
 .card--wide--video {
     .card {
-        &__media {
+        &__image {
             position: relative;
         }
         &__icon {
@@ -122,11 +122,11 @@
         flex-wrap: nowrap;
         flex-direction: row;
         .card {
-            &__media {
+            &__image {
                 flex: 1;
                 padding-left: 4rem;
             }
-            &__body {
+            &__content {
                 flex: 1;
                 padding-left: 3rem;
                 padding-right: 5rem;
@@ -145,12 +145,8 @@
                 line-height: 30px;
             }
             &__footer {
-                font-size: .5rem;
+                font-size: .8rem;
             }
-        }
-        .card__meta {
-            justify-content: space-between;
-            display: flex;
         }
     }
 
@@ -162,10 +158,10 @@
     .card--wide--reverse {
         flex-direction: row;
         .card {
-            &__media {
+            &__image {
                 order: 2;
             }
-            &__body {
+            &__content {
                 order: 1;
             }
         }
@@ -181,11 +177,11 @@
                 letter-spacing: -0.04rem;
                 line-height: 48px;
             }
-            &__media {
+            &__image {
                 flex-basis: 40%;
                 padding-left: 0;
             }
-            &__body {
+            &__content {
                 flex-basis: 40%;
             }
             &__icon {

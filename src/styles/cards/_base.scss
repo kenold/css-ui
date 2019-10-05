@@ -45,13 +45,13 @@
     flex-direction: column;
     margin-bottom: 12px;
     border: 1px solid $border-color;
-    &__image {
+    &__image img {
         display: block;
         border: 0;
         width: 100%;
         height: auto;
     }
-    &__body {
+    &__content {
         margin: 15px 20px 5px;
     }
     &__topic {
@@ -85,7 +85,7 @@
         color: #000;
         font-size: 90%;
     }
-    &__media {
+    &__image {
         position: relative;
     }
     &__label {
@@ -102,10 +102,10 @@
 .card--blog {
     flex-direction: row;
     .card {
-        &__media {
+        &__image {
             flex: 1;
         }
-        &__body {
+        &__content {
             flex: 2;
         }
         &__title {

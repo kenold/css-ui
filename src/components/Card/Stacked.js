@@ -26,22 +26,24 @@ class Stacked extends Component {
                 <div className="cards">
                     {BlogData.slice(0,3).map((post) => (
                         <article key={post.id} className="card card--blog show-1-3">
-                            <figure className="card__media">
+                            <div className="card__image">
                                 <a href="#blog-detail">
-                                    <img src={"/blog/" + post.id + ".jpg"} alt={post.title} className="card__image" />
-                                </a>
-                            </figure>
-                            <div className="card__body">
-                                <div className="card__topic">{post.topic}</div>
-                                <a href="#blog-detail">
-                                    <h4 className="card__title" title={post.title}>{post.title}</h4>
+                                    <img src={"/blog/" + post.id + ".jpg"} alt={post.title} />
                                 </a>
                             </div>
-                            <div className="card__footer">
-                                <div className="card__author">{post.author}</div>
-                                <div className="card__date">
-                                    <Moment fromNow>{post.date}</Moment>
-                                </div>
+                            <div className="card__content">
+                                <div className="card__topic">{post.topic}</div>
+                                <header className="card__header">
+                                    <h4 className="card__title" title={post.title}>
+                                        <a href="#blog-detail">{post.title}</a>
+                                    </h4>
+                                </header>
+                                <footer className="card__footer">
+                                    <div className="card__author">{post.author}</div>
+                                    <div className="card__date">
+                                        <Moment fromNow>{post.date}</Moment>
+                                    </div>
+                                </footer>
                             </div>
                         </article>
                     ))}
