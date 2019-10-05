@@ -52,7 +52,7 @@
         height: auto;
     }
     &__content {
-        margin: 15px 20px 5px;
+        margin: 15px 20px 15px;
     }
     &__topic {
         font-weight: 500;
@@ -64,7 +64,7 @@
         justify-content: space-between;
         font-size: .5rem;
         letter-spacing: 0;
-        margin: auto 20px 20px 20px;
+        margin-top: auto;
     }
     &__topic, &__footer {
         font-size: .75rem;
@@ -129,6 +129,10 @@
     .card--blog {
         flex-direction: column;
         .card {
+            &__title {
+                font-size: 1.5rem;
+                line-height: 32px;
+            }
             &__footer {
                 display: flex;
             }
