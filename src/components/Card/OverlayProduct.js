@@ -22,25 +22,22 @@ const OverlayProduct = () => (
                             {product.topic}
                         </div>
                         <header className="class__header">
-                        <h5 className="card__title" title="{product.title}">
-                            {product.title}
-                        </h5>
+                            <h5 className="card__title" title="{product.title}">{product.title}</h5>
                         </header>
+                        <footer className="card__footer">
+                            <div className="price">
+                                <span className={"price__original" + (product.discount ? " strike": "")}>${product.price}</span>
+                                {product.discount &&
+                                    <span className="price__sale">
+                                        ${Number(product.price - (product.price * (product.discount/100))).toFixed(2)}
+                                    </span>
+                                }
+                            </div>
+                            <div className="rating">
+                                <Rater total={5} rating={2} />
+                            </div>
+                        </footer>
                     </div>
-                    <footer className="card__footer">
-                        <div className="price">
-                            <span className={"price__original" + (product.discount ? " strike": "")}>${product.price}</span>
-                            {product.discount &&
-                                <span className="price__sale">
-                                    ${Number(product.price - (product.price * (product.discount/100))).toFixed(2)}
-                                </span>
-                            }
-                        </div>
-                        <div className="rating">
-                            <Rater total={5} rating={2} />
-                        </div>
-                    </footer>
-
                 </article>
             ))}
         </div>
