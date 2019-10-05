@@ -23,7 +23,9 @@ const StackedLabel = () => (
                             </a>
                         </div>
                         <div className="card__footer">
-                            <div className="card__date">5 hours ago</div>
+                            <div className="card__date">
+                                {Math.floor(Math.random() * 7) + 2} hours ago
+                            </div>
                         </div>
 
                 </article>

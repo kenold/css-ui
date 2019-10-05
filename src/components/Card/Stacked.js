@@ -37,7 +37,9 @@ class Stacked extends Component {
                             </div>
                             <div className="card__footer">
                                 <div className="card__author">{post.author}</div>
-                                <div className="card__date">5 hours ago</div>
+                                <div className="card__date">
+                                    {Math.floor(Math.random() * 9) + 2} hours ago
+                                </div>
                             </div>
                         </article>
                     ))}
