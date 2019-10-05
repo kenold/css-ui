@@ -19,9 +19,6 @@
             .model .card__title {
                 text-transform: none;
             }
-            &--dating {
-                text-align: center;
-            }
         }
         &__notification {
             color: $light-color;
@@ -96,6 +93,10 @@
         left: 0px;
         bottom: 0px;
         border-radius: 10px;
+    }
+    // OVERLAY DATING
+    &--dating {
+        text-align: center;
     }
 }
 
