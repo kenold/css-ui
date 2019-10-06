@@ -1,4 +1,4 @@
-.btn__primary {
+.btn--primary {
     background-color: rgba($accent, .8);
     border-radius: 0.1875rem;
     border: 1px solid rgba($accent, .8);
@@ -10,7 +10,7 @@
         background-color: rgba($accent, 1);
     }
 }
-.btn__secondary {
+.btn--secondary {
     background-color: transparent;
     border-radius: 0.1875rem;
     padding: 8px 15px;
