@@ -39,7 +39,7 @@ class StackedExpand extends Component {
                                     </h4>
                                 </header>
                                 <footer className="card__footer">
-                                    <div className="card__author">{post.author}</div>
+                                    <div className="card__author">by {post.author}</div>
                                     <div className="card__date">
                                         <Moment fromNow>{post.date}</Moment>
                                     </div>
