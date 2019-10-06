@@ -68,6 +68,7 @@
         font-size: .5rem;
         letter-spacing: 0;
         margin-top: auto;
+        padding-top: 0.5rem;
     }
     &__topic, &__footer {
         font-size: .75rem;
@@ -77,12 +78,11 @@
         color: #787679;
     }
     &__title {
-        font-size: 1.25rem;
-        font-weight: 700;
+        font-size: 1rem;
+        font-weight: 500;
         word-spacing: normal;
         letter-spacing: -.01rem;
         line-height: 28px;
-        padding-bottom: .5rem;
     }
     &__subtitle {
         color: #000;
@@ -122,7 +122,7 @@
 @media (min-width: 768px) {
     .card {
         &__title {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             line-height: 30px;
             letter-spacing: -0.03rem;
         }
@@ -130,6 +130,16 @@
     .card--expand {
         flex-direction: column;
         .card {
+            &__image {
+                img {
+                    object-fit: unset;
+                    width: auto;
+                    height: auto;
+                }
+            }
+            &__title {
+                font-size: 1.25rem;
+            }
             &__label {
                 display: block;
             }
