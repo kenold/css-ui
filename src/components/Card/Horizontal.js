@@ -2,6 +2,13 @@ import React from "react";
 import BlogData from '../../data/posts.json';
 
 const Horizontal = () => (
+    <>
+    <section className="l-cards container">
+        <div className="l-cards__heading">
+            <h4>Stacked &rarr; Horizontal</h4>
+        </div>
+    </section>
+
     <section className="l-cards l-cards--wide">
         {/* LEFT TO RIGHT */}
         <div className="container">
@@ -32,6 +39,7 @@ const Horizontal = () => (
             ))}
         </div>
     </section>
+    </>
 )
 
 export default Horizontal
