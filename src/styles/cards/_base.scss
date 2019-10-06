@@ -102,6 +102,9 @@
         &__label {
             display: none;
         }
+        &__date {
+            display: none;
+        }
         &__footer .card__author {
             display: none;
         }
@@ -119,6 +122,12 @@
     .card--expand {
         flex-direction: column;
         .card {
+            &__label {
+                display: block;
+            }
+            &__date {
+                display: block;
+            }
             &__footer .card__author{
                 display: block;
             }
