@@ -3,24 +3,28 @@
         "id": 1,
         "title": "Dubai Desert",
         "topic": "Dubai",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+        "excerpt": "Morning Safari with Camel Ride",
+        "price": "122"
     },
     {
         "id": 2,
         "title": "Mount Everest",
         "topic": "USA",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+        "excerpt": "The ultimagte helicopter tour",
+        "price": "87"
     },
     {
         "id": 3,
         "title": "Eifel Tour",
         "topic": "Paris, France",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+        "excerpt": "Tour by Elevator with Local Guide",
+        "price": "65"
     },
     {
         "id": 4,
         "title": "Manhattan",
         "topic": "New York, NY",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+        "excerpt": "Cruise around the Statue of Liberty",
+        "price": "43"
     }
 ]
