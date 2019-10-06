@@ -8,12 +8,12 @@
     {
         "id": 2,
         "title": "Intimidation Game",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien.",
+        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium.",
         "isStreaming": true
         }, {
         "id": 3,
         "title": "The Weathered Sailer",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien.",
+        "excerpt": "Ornare imperdiet, sapien urna pretium nisl, volutpat sapien.",
         "isStreaming": false
         }
 ]
