@@ -1,6 +1,7 @@
 .btn__primary {
     background-color: rgba($accent, .8);
     border-radius: 0.1875rem;
+    border: 1px solid rgba($accent, .8);
     padding: 8px 15px;
     color: $light-color;
     font-weight: 400;
