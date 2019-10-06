@@ -2,6 +2,7 @@ import React from "react"
 
 // cards component
 import Stacked from '../components/Card/Stacked';
+import StackedExpand from '../components/Card/StackedExpand';
 import StackedMinimal from '../components/Card/StackedMinimal';
 import StackedLabel from '../components/Card/StackedLabel';
 import Cta from '../components/Card/Cta';
@@ -24,6 +25,7 @@ const Card = () => (
 	<Layout>
 		<SEO title="Cards" />
 		<Stacked />
+		<StackedExpand />
 		<StackedLabel />
 		<StackedMinimal />
 		<Horizontal />
