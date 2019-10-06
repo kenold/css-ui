@@ -23,6 +23,7 @@
         }
         &__footer {
             justify-content: flex-start;
+            padding-top: 2rem;
             .btn__secondary {
                 margin-left: .8rem;
             }
@@ -41,6 +42,9 @@
             }
             &__content {
                 padding: 20px 0;
+            }
+            &__footer {
+                padding-top: 2rem;
             }
         }
     }
