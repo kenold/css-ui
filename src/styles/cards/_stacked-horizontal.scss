@@ -78,8 +78,10 @@
             display: block;
         }
     }
-    .btn__primary {
+    .btn {
         display: initial;
+        align-self: flex-start;
+        margin-top: 0.75rem;
     }
 }
 
