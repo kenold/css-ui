@@ -95,6 +95,11 @@
     .card {
         &__image {
             flex: 1;
+            img {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+            }
         }
         &__content {
             flex: 1;
