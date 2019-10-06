@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { FaMapMarkerAlt } from 'react-icons/fa';
 import StackedCode from './StackedCode';
 import TourData from '../../data/tours.json';
 
@@ -31,7 +32,9 @@ class Stacked extends Component {
                                 </a>
                             </div>
                             <div className="card__content">
-                                <div className="card__topic">{tour.topic}</div>
+                                <div className="card__topic">
+                                    <FaMapMarkerAlt /> {tour.topic}
+                                </div>
                                 <header className="card__header">
                                     <h4 className="card__title" title={tour.title}>
                                         <a href="#tour-detail">{tour.title}</a>
