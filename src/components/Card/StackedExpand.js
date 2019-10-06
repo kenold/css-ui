@@ -20,7 +20,7 @@ class StackedExpand extends Component {
             <>
             <section className="l-cards container">
                 <div className="l-cards__heading">
-                    <h4>Card: Stacked -> Expand</h4>
+                    <h4>Card: Stacked &rarr; Expand</h4>
                 </div>
 
                 <div className="cards">
