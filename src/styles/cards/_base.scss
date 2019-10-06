@@ -54,6 +54,7 @@
     &__content {
         display: flex;
         flex-direction: column;
+        flex-grow: 1;
         margin: 15px 20px 15px;
     }
     &__topic {
@@ -76,43 +77,27 @@
         color: #787679;
     }
     &__title {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         font-weight: 700;
         word-spacing: normal;
         letter-spacing: -.01rem;
-        line-height: 30px;
+        line-height: 28px;
         padding-bottom: .5rem;
     }
     &__subtitle {
         color: #000;
         font-size: 90%;
     }
-    &__image {
-        position: relative;
-    }
-    &__label {
-        position: absolute;
-        margin: 4px;
-        font-size: .875rem;
-        padding: 2px 4px;
-        border-radius: 2px;
-        letter-spacing: .5px;
-        text-transform: uppercase;
-    }
 }
 
-.card--blog {
+.card--expand {
     flex-direction: row;
     .card {
         &__image {
-            flex: 1;
+            flex: 2;
         }
         &__content {
             flex: 2;
-        }
-        &__title {
-            font-size: 1.25rem;
-            line-height: 28px;
         }
         &__footer .card__author {
             display: none;
@@ -123,18 +108,14 @@
 @media (min-width: 768px) {
     .card {
         &__title {
-            font-size: 1.75rem;
-            line-height: 32px;
+            font-size: 1.5rem;
+            line-height: 30px;
             letter-spacing: -0.03rem;
         }
     }
-    .card--blog {
+    .card--expand {
         flex-direction: column;
         .card {
-            &__title {
-                font-size: 1.5rem;
-                line-height: 32px;
-            }
             &__footer .card__author{
                 display: block;
             }
