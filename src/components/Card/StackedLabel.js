@@ -6,17 +6,17 @@ import BlogData from '../../data/posts.json';
 const StackedLabel = () => (
     <section className="l-cards container">
         <div className="l-cards__heading">
-            <h4>Card: Stacked + Label </h4>
+            <h4>Card: Stacked + Label</h4>
         </div>
 
         <div className="cards">
-            {BlogData.slice(0, 4).map((post) => (
-                <article key={post.id} className="card card--label show-1-4">
+            {BlogData.slice(0, 3).map((post) => (
+                <article key={post.id} className="card card--label show-1-3">
                     <div className="card__image">
                         <a href="#blog-detail">
                             <img src={"/blog-wide/" + post.id + ".jpg"} alt={post.title} />
+                            <div className="card__label">{post.topic}</div>
                         </a>
-                        <div className="card__label">{post.topic}</div>
                     </div>
                     <div className="card__content">
                         <header className="card__header">
@@ -32,10 +32,6 @@ const StackedLabel = () => (
                     </div>
                 </article>
             ))}
-        </div>
-
-        <div className="code">
-
         </div>
     </section>
 )
