@@ -21,10 +21,10 @@ const Overlay = () => (
                     }
                     <div className="card__content">
                         <div className="separator"></div>
-                            <h4 className="card__title" title={movie.title}>
-                                <a href="#movie-detail">{movie.title}</a>
-                            </h4>
-                            <div className="card__text">{movie.excerpt}</div>
+                        <h4 className="card__title" title={movie.title}>
+                            <a href="#movie-detail">{movie.title}</a>
+                        </h4>
+                        <p className="card__text">{movie.excerpt}</p>
                         <div className="card__actions btn">
                             <a href="#play" title="Play">
                                 <div className="btn__primary"><span className="icon"><FaPlay /></span> Play</div>

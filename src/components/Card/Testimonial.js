@@ -13,7 +13,7 @@ const Testimonial = () => (
             {TestimonialData.map((testimonial) => (
                 <article key={testimonial.id} className="card card--testimonial show-1-3">
                     <div className="card__content">
-                        <div className="card__text">"{testimonial.text}"</div>
+                        <p className="card__text">"{testimonial.text}"</p>
                     </div>
                     <footer className="card__footer author">
                         <div className="author__photo">
