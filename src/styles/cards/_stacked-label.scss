@@ -5,6 +5,7 @@
         }
         &__label {
             position: absolute;
+            display: block;
             background-color: $accent;
             color: $light-color;
             bottom: 5px;

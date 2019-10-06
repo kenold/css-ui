@@ -94,10 +94,13 @@
     flex-direction: row;
     .card {
         &__image {
-            flex: 2;
+            flex: 1;
         }
         &__content {
             flex: 2;
+        }
+        &__label {
+            display: none;
         }
         &__footer .card__author {
             display: none;
