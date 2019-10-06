@@ -60,24 +60,6 @@
                 font-size: 75%;
                 padding-right: 2px;
             }
-            &.swipe {
-                justify-content: center;
-                div {
-                    border: 6px solid #F4F4F4;
-                    border-radius: 50%;
-                    height: 24px;
-                    width: 24px;
-                    padding: 15px;
-                    margin-right: -5px;
-                    box-sizing: initial;
-                }
-            }
-            .swipe__left {
-                fill: red;
-            }
-            .swipe__right {
-                fill: $accent;
-            }
         }
     }
     .separator {
@@ -100,6 +82,30 @@
         text-align: center;
         .model__name {
             text-transform: capitalize
+        }
+        .swipe {
+            justify-content: center;
+            div {
+                display: flex;
+                align-items: center;
+                border: 6px solid #F4F4F4;
+                border-radius: 50%;
+                height: 24px;
+                width: 24px;
+                padding: 15px;
+                margin-right: -5px;
+                box-sizing: initial;
+            }
+        }
+        .swipe__left,
+        .swipe__right {
+            font-size: 2rem;
+        }
+        .swipe__left {
+            color: red;
+        }
+        .swipe__right {
+            color: $accent;
         }
     }
 }
