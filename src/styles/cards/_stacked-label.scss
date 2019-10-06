@@ -1,5 +1,8 @@
 .card--label {
     .card {
+        &__title {
+            font-size: 1.25rem;
+        }
         &__image {
             position: relative;
         }
