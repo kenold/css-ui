@@ -26,7 +26,7 @@
     margin-left: 1rem;
 }
 .btn__circle {
-    background-color: rgba($accent, .8);
+    background-color: $accent;
     border-radius: 0.1875rem;
     color: $light-color;
     font-weight: 400;
@@ -34,6 +34,24 @@
     border-radius: 50%;
     &:hover {
         background-color: rgba($accent, 1);
+    }
+}
+.btn__circle--float {
+    &-center {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-color: rgba($accent, .8);
+        transform: translate(-50%, -50%);
+        height: 3rem;
+        width: 3rem;
+    }
+    &-rb {
+        position: absolute;
+        right: 24px;
+        bottom: -20px;
+        height: 3rem;
+        width: 3rem;
     }
 }
 .react-rater-star.is-active {
