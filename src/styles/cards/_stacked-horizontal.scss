@@ -34,7 +34,8 @@
         }
         &__footer {
             font-size: .8rem;
-            margin-top: 1rem;
+            margin-top: 0;
+            padding-top: 0;
         }
         &__author {
             display: none;
@@ -50,6 +51,7 @@
         display: none;
         &-comment {
             display: flex;
+            align-items: center;
         }
         &-comment-count {
             padding-left: 5px;
@@ -146,6 +148,9 @@
                 display: block;
                 font-size: 1.25rem;
                 line-height: 30px;
+            }
+            &__footer {
+                margin-top: 1rem;
             }
         }
     }
