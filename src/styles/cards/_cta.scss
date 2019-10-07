@@ -1,21 +1,11 @@
 .l-cards--cta {
-    background: #fff;
     padding-top: 10px;
     margin-top: 15px;
-    &.container {
-        max-width: 1110px;
-    }
 }
 
 .card--cta {
-    flex-direction: column;
-    transition: border .3s ease-in;
-    &:hover {
-        border: 1px solid rgba($accent, .4);
-    }
     .card {
         &__title {
-            font-family: $sans-font;
             font-size: 1.75rem;
             line-height: 32px;
             padding-bottom: .375em;
