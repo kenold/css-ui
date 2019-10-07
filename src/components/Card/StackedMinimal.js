@@ -15,7 +15,9 @@ const StackedMinimal = () => (
                         <div className="card__topic">{post.topic}</div>
                         <header className="card__header">
                             <h4 className="card__title" title={post.title}>
-                                <a href="#blog-detail">{post.title}</a>
+                                <a href="#blog-detail">
+                                    <span>{post.title}</span>
+                                </a>
                             </h4>
                         </header>
                     </div>
