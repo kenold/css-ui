@@ -24,7 +24,7 @@ const Overlay = () => (
                         <h4 className="card__title" title={movie.title}>
                             <a href="#movie-detail">{movie.title}</a>
                         </h4>
-                        <p className="card__text">{movie.excerpt}</p>
+                        <p className="card__text">{movie.synopsis}</p>
                         <div className="card__actions btn">
                             <a href="#play" title="Play">
                                 <div className="btn--primary"><span className="icon"><FaPlay /></span> Play</div>
