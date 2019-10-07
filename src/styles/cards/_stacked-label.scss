@@ -29,6 +29,11 @@
     .card {
         &__image {
             position: relative;
+            img {
+                height: 280px;
+                object-fit: cover;
+                object-position: top;
+            }
         }
         &__icon-link {
             position: absolute;
