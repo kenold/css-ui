@@ -20,3 +20,23 @@ $transition-shadow-transform:
     box-shadow: $top $left $blur $spread $color;
     transform: translate(0px, -12px);
 }
+
+.blue {
+    background-color: #8c7dfe;
+}
+.purple {
+    //background-color: #dfd8e3;
+    //background-color: #c9b2ff;
+    background-color: #c579ff;
+}
+.green {
+    //background-color: #e8f2ec;
+    background-color: #d6efd9;
+}
+.yellow {
+    background-color: #fbf9e0;
+}
+.pink {
+    //background-color: #ffb2f5;
+    background-color: #ff73bc;
+}
