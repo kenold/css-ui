@@ -52,6 +52,10 @@
         bottom: -20px;
         height: 3rem;
         width: 3rem;
+        transition: all 0.3s ease;
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 }
 .react-rater-star.is-active {
