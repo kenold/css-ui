@@ -14,7 +14,7 @@ const HorizontalVideo = () => (
                 <article key={post.id} className="card card--wide card--wide--video show-1-1">
                     <div className="card__image">
                         <img src={"/800627/" + post.id + ".jpg"} alt={post.title} />
-                        <a href="#play-video" className="btn__circle btn__circle--float-center" title={post.title}>
+                        <a href="#play-video" className="card__icon-link btn__circle btn__circle--float-center" title={post.title}>
                             <div className="card__icon"><FaPlay /></div>
                         </a>
                     </div>
