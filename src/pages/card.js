@@ -4,6 +4,7 @@ import React from "react"
 import Stacked from '../components/Card/Stacked';
 import StackedExpand from '../components/Card/StackedExpand';
 import StackedMinimal from '../components/Card/StackedMinimal';
+import StackedMinimalThemed from '../components/Card/StackedMinimalThemed';
 import StackedLabel from '../components/Card/StackedLabel';
 import Cta from '../components/Card/Cta';
 import Horizontal from '../components/Card/Horizontal';
@@ -28,6 +29,7 @@ const Card = () => (
 		<StackedExpand />
 		<StackedLabel />
 		<StackedMinimal />
+		<StackedMinimalThemed />
 		<Horizontal />
 		<HorizontalFlipped />
 		<HorizontalVideo />
