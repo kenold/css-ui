@@ -25,6 +25,24 @@
     }
 }
 
+.card--float {
+    .card {
+        &__image {
+            position: relative;
+        }
+        &__icon {
+            color: $light-color;
+            font-size: 1.5rem;
+            position: absolute;
+            line-height: 0;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
 @media (min-width: 768px) {
     .card {
         &__label {
