@@ -4,15 +4,18 @@
 }
 
 .card--minimal {
-    transition: border .3s ease-in;
-    &:hover {
-        border: 1px solid rgba($accent, .5);
-    }
     .card {
         &__title {
             font-family: $sans-font;
             font-size: 1.5rem;
             text-transform: inherit;
+            span {
+                border-bottom: 1px solid transparent;
+                transition: border-bottom .3s ease-in;
+            }
+            &:hover span {
+                border-bottom: 1px solid rgba($accent, .5);
+            }
         }
         &__footer {
             margin-top: 20px;
