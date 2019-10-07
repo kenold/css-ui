@@ -1,28 +1,28 @@
 [
     {
         "id": 1,
-        "title": "Dubai Desert",
+        "title": "Safari",
         "topic": "Dubai",
         "excerpt": "Morning Safari with Camel Ride",
         "price": "122"
     },
     {
         "id": 2,
-        "title": "Mount Everest",
+        "title": "Everest",
         "topic": "Nepal",
         "excerpt": "The ultimagte helicopter tour",
         "price": "87"
     },
     {
         "id": 3,
-        "title": "Eifel Tour",
+        "title": "Eifel",
         "topic": "France",
         "excerpt": "Tour by Elevator with Local Guide",
         "price": "65"
     },
     {
         "id": 4,
-        "title": "Avenida Paulista",
+        "title": "Avenida",
         "topic": "Brazil",
         "excerpt": "Cruise around the Statue of Liberty",
         "price": "43"
