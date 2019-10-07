@@ -29,6 +29,13 @@
 }
 
 // THEMED
+.l-cards--minimal-themed.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.l-cards--minimal-themed .l-cards__heading {
+    padding-left: 1rem;
+}
 .card--minimal--themed {
     color: $light-color;
     border: none;
@@ -60,6 +67,10 @@
         }
     }
 
+    .l-cards--minimal-themed.container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
     .card--minimal--themed {
 
     }
