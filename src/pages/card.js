@@ -6,6 +6,7 @@ import StackedExpand from '../components/Card/StackedExpand';
 import StackedMinimal from '../components/Card/StackedMinimal';
 import StackedMinimalThemed from '../components/Card/StackedMinimalThemed';
 import StackedLabel from '../components/Card/StackedLabel';
+import StackedFloat from '../components/Card/StackedFloat';
 import Cta from '../components/Card/Cta';
 import Horizontal from '../components/Card/Horizontal';
 import HorizontalFlipped from "../components/Card/HorizontalFlipped";
@@ -28,6 +29,7 @@ const Card = () => (
 		<Stacked />
 		<StackedExpand />
 		<StackedLabel />
+		<StackedFloat />
 		<StackedMinimal />
 		<StackedMinimalThemed />
 		<Horizontal />
