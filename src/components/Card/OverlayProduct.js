@@ -16,8 +16,10 @@ const OverlayProduct = () => (
                         <a href="#product-detail" title={product.title}>
                             <img src={"/products/" + product.id + ".jpg"} alt={product.title} />
                         </a>
+                        <a href="#favorite" title="Favorite">
+                            <div className="card__icon"><FaRegHeart /></div>
+                        </a>
                     </div>
-                    <div className="card__icon"><FaRegHeart /></div>
                     <div className="card__content">
                         <div className="card__topic">
                             {product.topic}
