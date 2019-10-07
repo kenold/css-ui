@@ -1,22 +1,17 @@
 import React from "react";
 import { FaPlay } from 'react-icons/fa';
+import Button from "../../components/Button/Icon";
 import BlogData from '../../data/posts.json';
 
 const HorizontalVideo = () => (
     <section className="l-cards l-cards--wide l-cards--wide--video">
         {/* LEFT TO RIGHT */}
         <div className="container">
-            {/* <div className="l-cards__heading">
-                <h4>Posts Wide </h4>
-            </div> */}
-
             {BlogData.slice(2,3).map((post) => (
                 <article key={post.id} className="card card--wide card--wide--video show-1-1">
                     <div className="card__image">
                         <img src={"/800627/" + post.id + ".jpg"} alt={post.title} />
-                        <a href="#play-video" className="card__icon-link btn__circle btn__circle--float-center" title={post.title}>
-                            <div className="card__icon"><FaPlay /></div>
-                        </a>
+                        <Button url="#play" type="circle"><FaPlay /></Button>
                     </div>
                     <div className="card__content">
                         <div className="card__topic">Watch the video</div>
