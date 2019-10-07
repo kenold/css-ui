@@ -13,7 +13,7 @@ const StackedFloat = () => (
             {MovieData.slice(0, 3).map((movie) => (
                 <article key={movie.id} className="card card--float show-1-3">
                     <div className="card__image">
-                        <img src={"/movies/" + (movie.id) + ".jpg"} alt={movie.title} />
+                        <img src={"/movies/" + (movie.id+3) + ".jpg"} alt={movie.title} />
                         <Button url="#play" type="circle"><FaPlay /></Button>
                     </div>
                     <div className="card__content">
