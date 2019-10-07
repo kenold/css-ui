@@ -28,10 +28,38 @@
     }
 }
 
+// THEMED
+.card--minimal--themed {
+    color: $light-color;
+    border: none;
+    border-radius: initial;
+    padding: 5rem 2rem;
+    .card {
+        &__topic {
+            color: rgba($light-color, .6);
+        }
+        &__footer {
+            color: $light-color;
+            font-size: .9375rem;
+            justify-content: flex-start;
+            >span {
+                margin-right: .5rem;
+            }
+            span {
+                display: initial;
+            }
+        }
+    }
+}
+
 @media (min-width: 768px) {
     .card--minimal {
         .card__content {
             padding: 40px 0;
         }
+    }
+
+    .card--minimal--themed {
+
     }
 }
