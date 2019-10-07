@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlay } from 'react-icons/fa';
+import Button from "../Button/Icon";
 import MovieData from '../../data/movies.json';
 
 const StackedFloat = () => (
@@ -13,9 +14,7 @@ const StackedFloat = () => (
                 <article key={movie.id} className="card card--float show-1-3">
                     <div className="card__image">
                         <img src={"/movies/" + (movie.id) + ".jpg"} alt={movie.title} />
-                        <a href="#action" className="card__icon-link btn btn--circle">
-                            <div className="card__icon"><FaPlay /></div>
-                        </a>
+                        <Button url="#play" type="circle"><FaPlay /></Button>
                     </div>
                     <div className="card__content">
                         <div className="card__topic">{movie.topic}</div>
