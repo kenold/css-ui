@@ -13,7 +13,7 @@ const OverlayProduct = () => (
             {ProductData.map((product) => (
                 <article key={product.id} className="card card--overlay-icon show-2-4">
                     <div className="card__image">
-                        <a href="#product-detail">
+                        <a href="#product-detail" title={product.title}>
                             <img src={"/products/" + product.id + ".jpg"} alt={product.title} />
                         </a>
                     </div>
@@ -23,7 +23,9 @@ const OverlayProduct = () => (
                             {product.topic}
                         </div>
                         <header className="class__header">
-                            <h5 className="card__title" title="{product.title}">{product.title}</h5>
+                            <h5 className="card__title">
+                                <a href="#product-detail" title={product.title}>{product.title}</a>
+                            </h5>
                         </header>
                         <footer className="card__footer">
                             <div className="price">
