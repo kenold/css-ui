@@ -13,8 +13,8 @@ const StackedFloat = () => (
                 <article key={movie.id} className="card card--float show-1-3">
                     <div className="card__image">
                         <img src={"/movies/" + (movie.id) + ".jpg"} alt={movie.title} />
-                        <a href="#action" className="card__icon-link btn btn--circle btn--circle-rb">
-                            <div className="card__icon card__icon--play"></div>
+                        <a href="#action" className="card__icon-link btn btn--circle">
+                            <div className="card__icon"><FaPlay /></div>
                         </a>
                     </div>
                     <div className="card__content">
