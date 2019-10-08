@@ -29,10 +29,13 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
-        <footer className="container">
-          © {new Date().getFullYear()}, Created by
-          {` `}
-          <a href="https://twitter.com/kenoldb">Kenold Beauplan</a>
+        <footer className="main__footer">
+          <div className="container">
+            © {new Date().getFullYear()} by
+            {` `}
+            <a href="https://twitter.com/kenoldb" target="_blank">Kenold Beauplan</a> |
+            See <a href="https://github.com/kenold/css-ui" target="_blank">Github Repo</a>
+          </div>
         </footer>
       </div>
     </>
