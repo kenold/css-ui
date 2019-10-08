@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-    .card--blog {
+    .card--stacked {
         transition: $transition-shadow-transform;
         &:hover {
             @include shadow-transform-hover;

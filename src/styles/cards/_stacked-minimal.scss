@@ -25,6 +25,11 @@
             border-radius: 5px;
             padding: 10px 15px;
         }
+        &__content {
+            @include md {
+                padding: 40px 0;
+            }
+        }
     }
 }
 
@@ -32,6 +37,10 @@
 .l-cards--minimal-themed.container {
     padding-left: 0;
     padding-right: 0;
+    @include md {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 .l-cards--minimal-themed .l-cards__heading {
     padding-left: 1rem;
@@ -57,21 +66,5 @@
                 display: initial;
             }
         }
-    }
-}
-
-@media (min-width: 768px) {
-    .card--minimal {
-        .card__content {
-            padding: 40px 0;
-        }
-    }
-
-    .l-cards--minimal-themed.container {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .card--minimal--themed {
-
     }
 }

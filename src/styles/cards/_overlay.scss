@@ -85,6 +85,12 @@
         }
         .swipe {
             justify-content: center;
+            a {
+                transition: transform 200ms ease;
+                &:hover {
+                    transform: scale(1.06);
+                }
+            }
             div {
                 display: flex;
                 align-items: center;
@@ -106,17 +112,6 @@
         }
         .swipe__right {
             color: $accent;
-        }
-    }
-}
-
-@media (min-width: 768px) {
-    .card--overlay {
-        .swipe a {
-            transition: transform 200ms ease;
-            &:hover {
-                transform: scale(1.06);
-            }
         }
     }
 }

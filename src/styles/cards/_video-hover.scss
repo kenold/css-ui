@@ -1,5 +1,10 @@
 .card--video-hover {
     position: relative;
+    @include md {
+        &:hover .card__icon {
+            display: block;
+        }
+    }
     .card {
         &__image {
             position: relative;
@@ -21,6 +26,9 @@
             position: absolute ;
             right: 8px ;
             top: 8px;
+            @include md {
+                display: none;
+            }
         }
         &__label {
             position: absolute;
@@ -33,19 +41,5 @@
             padding: 2px 4px;
             border-radius: 2px;
         }
-    }
-}
-
-@media (min-width: 768px) {
-    .card--video-hover {
-        .card {
-            &__icon {
-                display: none;
-            }
-        }
-    }
-    // experimental, need to be nested
-    .card:hover .card__icon {
-        display: block;
     }
 }

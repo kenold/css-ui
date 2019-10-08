@@ -37,14 +37,3 @@
         }
     }
 }
-
-@media (min-width: 768px) {
-    .card {
-        &__label {
-            display: block;
-        }
-        &__date {
-            display: block;
-        }
-    }
-}

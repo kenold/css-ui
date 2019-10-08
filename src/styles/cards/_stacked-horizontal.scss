@@ -7,10 +7,19 @@
     flex-direction: column;
     align-items: center;
     border: none;
+    @include md {
+        padding: 2.5rem 0px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
     .card {
         &__image {
-        flex: 2;
-        text-align: center;
+            flex: 2;
+            text-align: center;
+            @include md {
+                flex: 1;
+                padding-left: 4rem;
+            }
         }
         &__image {
             border-radius: 2px;
@@ -18,11 +27,20 @@
         &__content {
             flex: 2;
             margin-right: 0;
+            @include md {
+                flex: 1;
+                padding-left: 3rem;
+                padding-right: 5rem;
+                margin: 15px 0;
+            }
         }
         &__topic {
             color: $accent;
             font-weight: 500;
             margin-bottom: 5px;
+            @include md {
+                margin-bottom: 5px;
+            }
         }
         &__title {
             font-family: $sans-font;
@@ -31,11 +49,18 @@
             line-height: 30px;
             padding-bottom: .5rem;
             text-transform: inherit;
+            @include md {
+                font-size: 2rem;
+                line-height: 38px;
+            }
         }
         &__footer {
             font-size: .8rem;
             margin-top: 0;
             padding-top: 0;
+            @include md {
+                margin-top: 1rem;
+            }
         }
         &__author {
             display: none;
@@ -45,6 +70,11 @@
             font-size: 0.9375rem;
             padding-bottom: .5rem;
             line-height: 23px;
+            @include md {
+                display: block;
+                font-size: 1.25rem;
+                line-height: 30px;
+            }
         }
     }
     .card__meta {
@@ -63,15 +93,28 @@
     background-color: rgba($accent, .15);
     padding-top: 15px;
     padding-bottom: 15px;
+    @include md {
+        margin-top: 0;
+        padding-top: 0;
+    }
 }
 .card--wide--reverse {
         flex-direction: column;
+        @include md {
+            flex-direction: row;
+        }
     .card {
         &__image {
             order: 1;
+            @include md {
+                order: 2;
+            }
         }
         &__content {
             order: 2;
+            @include md {
+                order: 1;
+            }
         }
         &__title {
             font-size: 1.5rem;
@@ -87,14 +130,26 @@
     }
 }
 
-// HORIZONTAL REVERSE --VIDEO
+// HORIZONTAL VIDEO
 .l-cards--wide--video {
     background-color: rgba($accent-warning, .15);
 }
 .card--wide--video {
+    @include md {
+        flex-direction: row;
+    }
     .card {
         &__image {
             position: relative;
+            @include md {
+                flex-basis: 40%;
+                padding-left: 0;
+            }
+        }
+        &__content {
+            @include md {
+                flex-basis: 40%;
+            }
         }
         &__icon-link {
             position: absolute;
@@ -106,83 +161,8 @@
             }
         }
     }
-}
-.card.card--wide--video .card__icon {
-    filter: none;
-}
-
-@media (min-width: 768px) {
-    .card--wide {
-        padding: 2.5rem 0px;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        .card {
-            &__image {
-                flex: 1;
-                padding-left: 4rem;
-            }
-            &__content {
-                flex: 1;
-                padding-left: 3rem;
-                padding-right: 5rem;
-                margin: 15px 0;
-            }
-            &__topic {
-                margin-bottom: 5px;
-            }
-            &__title {
-                font-size: 2rem;
-                line-height: 38px;
-            }
-            &__text {
-                display: block;
-                font-size: 1.25rem;
-                line-height: 30px;
-            }
-            &__footer {
-                margin-top: 1rem;
-            }
-        }
-    }
-
-    // REVERSE
-    .l-cards--wide--reverse {
-        margin-top: 0;
-        padding-top: 0;
-    }
-    .card--wide--reverse {
-        flex-direction: row;
-        .card {
-            &__image {
-                order: 2;
-            }
-            &__content {
-                order: 1;
-            }
-        }
-    }
-
-    //  HORIZONTAL -- VIDEO
-    .card--wide--video {
-        align-items: center;
-        flex-direction: row;
-        .card {
-            &__title {
-                font-size: 2rem;
-                letter-spacing: -0.04rem;
-                line-height: 38px;
-            }
-            &__image {
-                flex-basis: 40%;
-                padding-left: 0;
-            }
-            &__content {
-                flex-basis: 40%;
-            }
-        }
-        .btn__circle {
-            height: 5rem;
-            width: 5rem;
-        }
+    .btn__circle {
+        height: 5rem;
+        width: 5rem;
     }
 }

@@ -60,7 +60,7 @@
     &__content {
         display: flex;
         flex-direction: column;
-        flex-grow: 1;
+        flex: 1;
         margin: 15px 20px 15px;
     }
     &__icon-link {
@@ -81,6 +81,10 @@
         word-spacing: normal;
         letter-spacing: -.01rem;
         line-height: 26px;
+        @include md {
+            line-height: 30px;
+            letter-spacing: -0.03rem;
+        }
     }
     &__subtitle {
         color: #000;
@@ -104,61 +108,44 @@
 
 .card--expand {
     flex-direction: row;
+    @include md {
+        flex-direction: column;
+    }
     .card {
         &__image {
             img {
                 width: 150px;
                 height: 150px;
                 object-fit: cover;
-            }
-        }
-        &__content {
-            flex: 1;
-        }
-        &__title {
-            font-size: 1.125rem;
-            line-height: 26px;
-        }
-        &__label {
-            display: none;
-        }
-        &__date {
-            display: none;
-        }
-        &__footer .card__author {
-            display: none;
-        }
-    }
-}
-
-@media (min-width: 768px) {
-    .card {
-        &__title {
-            //font-size: 1.25rem;
-            line-height: 30px;
-            letter-spacing: -0.03rem;
-        }
-    }
-    .card--expand {
-        flex-direction: column;
-        .card {
-            &__image {
-                img {
+                @include md {
                     object-fit: unset;
                     width: auto;
                     height: auto;
                 }
             }
-            &__title {
+        }
+        &__title {
+            font-size: 1.125rem;
+            line-height: 26px;
+            @include sm {
                 font-size: 1.25rem;
             }
-            &__label {
+        }
+        &__label {
+            display: none;
+            @include sm {
                 display: block;
             }
-            &__date {
+        }
+        &__date {
+            display: none;
+            @include sm {
                 display: block;
             }
-            &__footer .card__author{
+        }
+        &__footer .card__author {
+            display: none;
+            @include sm {
                 display: block;
             }
         }
