@@ -25,3 +25,8 @@
 a {
     @include borderRadius(3px);
 }
+
+@mixin shadow-transform-hover( $top : 0 , $left : 4 , $blur : 8px , $spread : 0px , $color : rgba(0,0,0,.01 )) {
+    box-shadow: $top $left $blur $spread $color;
+    transform: translate(0px, -12px);
+}
