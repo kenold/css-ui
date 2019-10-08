@@ -1,8 +1,0 @@
-@media (min-width: 768px) {
-    .card--stacked {
-        transition: $transition-shadow-transform;
-        &:hover {
-            @include shadow-transform-hover;
-        }
-    }
-}
