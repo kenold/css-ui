@@ -18,8 +18,6 @@ import Video from '../components/Card/Video';
 import VideoHover from '../components/Card/VideoHover';
 import Testimonial from '../components/Card/Testimonial';
 
-import '../styles/cards/cards.scss';
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
