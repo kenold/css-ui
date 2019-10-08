@@ -57,6 +57,9 @@ h4 {
     max-width: 1140px;
 }
 .l-cards__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     h4 {
         font-size: 1.25rem;
         font-weight: bold;
