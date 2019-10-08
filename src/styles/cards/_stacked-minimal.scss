@@ -11,11 +11,11 @@
             text-transform: inherit;
             line-height: 32px;
             span {
-                border-bottom: 1px solid transparent;
+                border-bottom: 2px solid transparent;
                 transition: border-bottom .3s ease-in;
             }
             &:hover span {
-                border-bottom: 1px solid rgba($accent, .5);
+                border-bottom: 2px solid rgba($accent, .5);
             }
         }
         &__footer {
