@@ -72,6 +72,14 @@
     }
 }
 
+// HOVER STATES
+.card--hoverup {
+    transition: $transition-shadow-transform;
+    &:hover {
+        @include shadow-transform-hover;
+    }
+}
+
 .card--expand {
     @include xs {
         flex-direction: row;
