@@ -25,7 +25,7 @@ class StackedTour extends Component {
 
                 <div className="cards">
                     {TourData.slice(0,4).map((tour) => (
-                        <article key={tour.id} className="card show-1-4">
+                        <article key={tour.id} className="card show-2-4">
                             <div className="card__image">
                                 <a href="#tour-detail">
                                     <img src={"/tours/" + tour.id + ".jpg"} alt={tour.title} />
@@ -40,7 +40,8 @@ class StackedTour extends Component {
                                         <a href="#tour-detail">{tour.title}</a>
                                     </h4>
                                 </header>
-                                <p className="card__text">{tour.excerpt}</p>
+                                <p className="card__text card__text--small">{tour.excerpt}</p>
+                                <div className="card__subtext"><span>from</span> ${tour.price}</div>
                             </div>
                         </article>
                     ))}
