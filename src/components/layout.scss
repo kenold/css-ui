@@ -100,5 +100,16 @@ h4 {
     }
 }
 
-@media (min-width: 768px) {
+.main__footer {
+    font-size: .875rem;
+    background-color: #f8f6f4;
+    padding-top: 96px;
+    padding-bottom: 48px;
+    a {
+        color: $accent;
+        font-weight: 500;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
