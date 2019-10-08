@@ -1,0 +1,25 @@
+//576
+@mixin sm { @media (min-width: #{$screen-sm-min}) {@content;} }
+//768
+@mixin md { @media (min-width: #{$screen-md-min}) {@content;} }
+//992
+@mixin lg { @media (min-width: #{$screen-lg-min}) {@content;} }
+//1200
+@mixin xl { @media (min-width: #{$screen-xl-min}) {@content;} }
+
+@mixin truncate($width: 100%) {
+	width: $width;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@mixin borderRadius($radius: 5px) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+a {
+    @include borderRadius(3px);
+}
