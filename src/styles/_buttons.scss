@@ -1,0 +1,41 @@
+.btn--primary {
+    background-color: rgba($accent, .8);
+    border-radius: 0.1875rem;
+    border: 1px solid rgba($accent, .8);
+    padding: 8px 15px;
+    color: $light-color;
+    font-weight: 400;
+    transition: background-color 200ms linear;
+    &:hover {
+        background-color: rgba($accent, 1);
+    }
+}
+.btn--secondary {
+    background-color: transparent;
+    border-radius: 0.1875rem;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    font-weight: 400;
+    transition: border-color 200ms linear;
+    &:hover {
+        border-color: rgba($accent, .9);
+    }
+}
+.btn--more {
+    border-radius: 0.1875rem;
+    margin-left: 1rem;
+}
+
+.btn--circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    background-color: $accent;
+    color: $light-color;
+    width: 48px;
+    height: 48px;
+    line-height: 0;
+    font-size: 1.5rem;
+}
