@@ -48,7 +48,7 @@
         letter-spacing: -.01rem;
         line-height: 26px;
         @include md {
-            line-height: 30px;
+            line-height: 28px;
             letter-spacing: -0.03rem;
         }
     }
@@ -73,12 +73,23 @@
 }
 
 // HOVER STATES
-.card--hoverup {
+.card--hover-up {
     transition: $transition-shadow-transform;
     &:hover {
         @include shadow-transform-hover;
     }
 }
+.card--hover-fade {
+    img {
+        opacity: 1;
+        transition: opacity 200ms ease;
+        &:hover {
+            opacity: .85;
+        }
+    }
+}
+
+// END HOVER STATES
 
 .card--expand {
     @include xs {
