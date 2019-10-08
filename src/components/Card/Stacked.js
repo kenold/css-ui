@@ -25,7 +25,7 @@ class Stacked extends Component {
 
                 <div className="cards">
                     {TourData.slice(0,4).map((tour) => (
-                        <article key={tour.id} className="card show-2-4">
+                        <article key={tour.id} className="card sm-show-1-4 md-show-2-4">
                             <div className="card__image">
                                 <a href="#tour-detail">
                                     <img src={"/tours/" + tour.id + ".jpg"} alt={tour.title} />
