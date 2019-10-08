@@ -5,16 +5,18 @@ import '../../../static/prism.css';
 
 const code= `
     <div class="card">
-        <figure class="card__image">
+        <div class="card__image">
             <a href="...">
-                <img src="..." alt="" class="card__image-temp" />
+                <img src="..." alt="" />
             </a>
-        </figure>
+        </div>
         <div class="card__content">
             <div class="card__topic">Blog</div>
-            <div class="card__title">
-                <a href="...">Card Title</a>
-            </div>
+            <header class="card__header">
+                <h4 class="card__title">
+                    <a href="...">Card Title</a>
+                </h4>
+            </header>
         </div>
         <div class="card__footer">
             <div class="card__author">Jane Doe</div>
