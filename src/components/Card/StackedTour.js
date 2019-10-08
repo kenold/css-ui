@@ -4,17 +4,6 @@ import StackedCode from './StackedCode';
 import TourData from '../../data/tours.json';
 
 class StackedTour extends Component {
-    constructor (props) {
-        super(props)
-        this.state = {
-          isHidden: true
-        }
-      }
-      toggleHidden () {
-        this.setState({
-          isHidden: !this.state.isHidden
-        })
-      }
     render() {
         return (
             <>
@@ -45,18 +34,6 @@ class StackedTour extends Component {
                             </div>
                         </article>
                     ))}
-                </div>
-            </section>
-
-            <div className="show-code container" title="Display Code" onClick={this.toggleHidden.bind(this)}>
-                <div className="code-button">
-                    &lt; {this.state.isHidden ? "Show" : "Hide"} Code for Card Stacked &gt;
-                </div>
-            </div>
-
-            <section className="code-display">
-                <div className="container">
-                    {!this.state.isHidden && <StackedCode />}
                 </div>
             </section>
             </>
