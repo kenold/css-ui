@@ -56,9 +56,21 @@
                 display: block;
                 margin-right: 15px;
             }
+            .btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             .icon {
                 font-size: 75%;
                 padding-right: 2px;
+            }
+            .btn__text {
+                display: none;
+                @include xs {
+                    display: block;
+                    margin-left: .2rem;
+                }
             }
         }
     }
