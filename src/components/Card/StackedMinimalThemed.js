@@ -23,7 +23,7 @@ const StackedMinimalThemed = () => (
                         <p className="card__text">{post.title}</p>
                         <a href="#blog-detail">
                         <footer className="card__footer">
-                            <span>Watch</span>
+                            <span>{post.cta}</span>
                             <span>&gt;</span>
                         </footer></a>
                     </div>
