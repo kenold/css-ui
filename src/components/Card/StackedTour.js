@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { FaMapMarkerAlt } from 'react-icons/fa';
-import StackedCode from './StackedCode';
 import TourData from '../../data/tours.json';
 
 class StackedTour extends Component {
@@ -14,7 +13,7 @@ class StackedTour extends Component {
 
                 <div className="cards">
                     {TourData.slice(0,4).map((tour) => (
-                        <article key={tour.id} className="card card--hoverup show-2-4">
+                        <article key={tour.id} className="card card--hover-up show-2-4">
                             <div className="card__image">
                                 <a href="#tour-detail">
                                     <img src={"/tours/" + tour.id + ".jpg"} alt={tour.title} />

@@ -14,7 +14,7 @@ class StackedExpand extends Component {
 
                 <div className="cards">
                     {BlogData.slice(0,3).map((post) => (
-                        <article key={post.id} className="card card--expand show-1-3">
+                        <article key={post.id} className="card card--expand card--hover-fade show-1-3">
                             <div className="card__image">
                                 <a href="#blog-detail">
                                     <img src={"/blog-wide/" + post.id + ".jpg"} alt={post.title} />
