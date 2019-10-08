@@ -91,6 +91,27 @@
 
 // END HOVER STATES
 
+.card--overlap {
+    border: none;
+    //margin:-2.25rem 2.1875rem 0 2.5rem;
+    .card {
+        &__content {
+            background-color: #fff;
+            margin-top: -15px;
+            text-align: center;
+        }
+        &__title {
+            font-size: 1.75rem;
+            line-height: 32px;
+            padding: 1.25rem 1rem;
+        }
+        &__footer {
+            justify-content: space-around;
+        }
+    }
+}
+
+
 .card--expand {
     @include xs {
         flex-direction: row;
