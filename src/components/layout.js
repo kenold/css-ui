@@ -33,8 +33,8 @@ const Layout = ({ children }) => {
           <div className="container">
             © {new Date().getFullYear()} by
             {` `}
-            <a href="https://twitter.com/kenoldb" target="_blank">Kenold Beauplan</a> |
-            See <a href="https://github.com/kenold/css-ui" target="_blank">Github Repo</a>
+            <a href="https://twitter.com/kenoldb" target="_blank" rel="noopener noreferrer">Kenold Beauplan</a> |
+            See <a href="https://github.com/kenold/css-ui" target="_blank" rel="noopener noreferrer">Github Repo</a>
           </div>
         </footer>
       </div>
