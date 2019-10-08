@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { FaMapMarkerAlt } from 'react-icons/fa';
+import Moment from 'react-moment';
 import StackedCode from './StackedCode';
-import TourData from '../../data/tours.json';
+import BlogData from '../../data/posts.json';
 
-class Stacked extends Component {
+class StackedExpand extends Component {
     constructor (props) {
         super(props)
         this.state = {
@@ -20,27 +20,30 @@ class Stacked extends Component {
             <>
             <section className="l-cards container">
                 <div className="l-cards__heading">
-                    <h4>Card: Stacked</h4>
+                    <h4>Card: Stacked &rarr; Expand</h4>
                 </div>
 
                 <div className="cards">
-                    {TourData.slice(0,4).map((tour) => (
-                        <article key={tour.id} className="card show-1-4">
+                    {BlogData.slice(0,3).map((post) => (
+                        <article key={post.id} className="card card--expand show-1-3">
                             <div className="card__image">
-                                <a href="#tour-detail">
-                                    <img src={"/tours/" + tour.id + ".jpg"} alt={tour.title} />
+                                <a href="#blog-detail">
+                                    <img src={"/blog-wide/" + post.id + ".jpg"} alt={post.title} />
                                 </a>
                             </div>
                             <div className="card__content">
-                                <div className="card__topic">
-                                    <FaMapMarkerAlt /> {tour.topic}
-                                </div>
+                                <div className="card__topic">{post.topic}</div>
                                 <header className="card__header">
-                                    <h4 className="card__title" title={tour.title}>
-                                        <a href="#tour-detail">{tour.title}</a>
+                                    <h4 className="card__title" title={post.title}>
+                                        <a href="#blog-detail">{post.title}</a>
                                     </h4>
                                 </header>
-                                <p className="card__text">{tour.excerpt}</p>
+                                <footer className="card__footer">
+                                    <div className="card__author">by {post.author}</div>
+                                    <div className="card__date">
+                                        <Moment fromNow>{post.date}</Moment>
+                                    </div>
+                                </footer>
                             </div>
                         </article>
                     ))}
@@ -63,4 +66,4 @@ class Stacked extends Component {
     }
 }
 
-export default Stacked
+export default StackedExpand
