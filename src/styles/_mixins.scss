@@ -1,3 +1,5 @@
+//320
+@mixin xs { @media (min-width: #{$screen-xs-min}) {@content;} }
 //576
 @mixin sm { @media (min-width: #{$screen-sm-min}) {@content;} }
 //768
