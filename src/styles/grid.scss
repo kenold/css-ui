@@ -20,7 +20,7 @@
         flex: 0 1 calc(50% - .5rem);
     }
     .show-1-3 {
-        flex: 0 1 calc(33% - .75rem);
+        flex: 0 1 calc(33% - .5rem);
         &.no-gap {
             flex-basis: 33.33%;
         }
