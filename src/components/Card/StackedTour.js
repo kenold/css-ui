@@ -8,7 +8,7 @@ class StackedTour extends Component {
             <>
             <section className="l-cards container">
                 <div className="l-cards__heading">
-                    <h4>Card: Stacked + Tour</h4>
+                    <h4>Tour</h4>
                 </div>
 
                 <div className="cards">

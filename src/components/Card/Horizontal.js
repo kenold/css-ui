@@ -6,7 +6,7 @@ const Horizontal = () => (
     <>
     <section className="l-cards container">
         <div className="l-cards__heading">
-            <h4>Stacked &rarr; Horizontal</h4>
+            <h4>Horizontal</h4>
         </div>
     </section>
 

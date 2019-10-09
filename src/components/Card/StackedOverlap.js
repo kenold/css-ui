@@ -7,7 +7,7 @@ class StackedOverlap extends Component {
         return (
             <section className="l-cards container" id="stacked">
                 <div className="l-cards__heading">
-                    <h4>Card: Stacked &rarr; Overlap</h4>
+                    <h4>Overlap</h4>
                 </div>
 
                 <div className="cards">

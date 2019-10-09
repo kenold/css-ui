@@ -5,7 +5,7 @@ import BlogData from '../../data/posts.json';
 const StackedMinimalThemed = () => (
     <section className="l-cards l-cards--minimal-themed container">
         <div className="l-cards__heading">
-            <h4>Card: Minimal Themed</h4>
+            <h4>Minimal Themed</h4>
         </div>
 
         <div className="cards">

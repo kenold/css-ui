@@ -6,7 +6,7 @@ import MovieData from '../../data/movies.json';
 const StackedFloat = () => (
     <section className="l-cards container">
         <div className="l-cards__heading">
-            <h4>Stacked &rarr; Floating Icon</h4>
+            <h4>Floating Icon</h4>
         </div>
 
         <div className="cards">

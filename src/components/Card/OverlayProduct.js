@@ -7,7 +7,7 @@ import ProductData from '../../data/products.json';
 const OverlayProduct = () => (
     <section className="l-cards container">
         <div className="l-cards__heading">
-            <h4>Card: Product</h4>
+            <h4>E-Commerce</h4>
         </div>
         <div className="cards">
             {ProductData.map((product) => (

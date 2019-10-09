@@ -6,7 +6,7 @@ import BlogData from '../../data/posts.json';
 const StackedBadge = () => (
     <section className="l-cards container">
         <div className="l-cards__heading">
-            <h4>Stacked &rarr; Label</h4>
+            <h4>Stacked + Badge</h4>
         </div>
 
         <div className="cards">

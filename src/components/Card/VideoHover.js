@@ -7,7 +7,7 @@ class VideoHover extends Component {
         return (
             <section className="l-cards container">
                 <div className="l-cards__heading">
-                    <h4>Card: Video + Hover</h4>
+                    <h4>Video + Badge</h4>
                 </div>
 
 				<div className="cards">

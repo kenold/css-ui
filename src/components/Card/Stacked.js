@@ -20,7 +20,7 @@ class Stacked extends Component {
             <>
             <section className="l-cards container" id="stacked">
                 <div className="l-cards__heading">
-                    <h4>Card: Stacked</h4>
+                    <h4>Stacked</h4>
 
                     <div className="show-code" title="Display Code" onClick={this.toggleHidden.bind(this)}>
 
