@@ -27,7 +27,7 @@ const Horizontal = () => (
                                 <a href="#blog-detail">{post.title}.</a>
                             </h2>
                         </header>
-                        <p className="card__text">{post.excerpt}</p>
+                        <p className="card__text">{post.text}</p>
                         <div className="card__footer">
                             <div className="card__meta-author">by {post.author}</div>
                             <div className="card__meta-comment">

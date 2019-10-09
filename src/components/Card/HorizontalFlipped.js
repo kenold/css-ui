@@ -21,7 +21,7 @@ const HorizontalFlipped = () => (
                                 <a href="#blog-detail">{post.title}.</a>
                             </h2>
                         </header>
-                        <p className="card__text">{post.excerpt}</p>
+                        <p className="card__text">{post.text}</p>
                         <a href="#blog-detail">
                             <div className="btn btn--primary">Learn more</div>
                         </a>

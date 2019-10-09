@@ -28,7 +28,7 @@ class StackedTour extends Component {
                                         <a href="#tour-detail">{tour.title}</a>
                                     </h4>
                                 </header>
-                                <p className="card__text card__text--small">{tour.excerpt}</p>
+                                <p className="card__text card__text--small">{tour.text}</p>
                                 <div className="card__subtext"><span>from</span> ${tour.price}</div>
                             </div>
                         </article>

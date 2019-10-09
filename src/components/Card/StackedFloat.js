@@ -22,7 +22,7 @@ const StackedFloat = () => (
                             <h4 className="card__title" title={movie.title}>
                                 <a href="#blog-detail">{movie.title}</a>
                             </h4>
-                            <p className="card__text">{movie.synopsis}</p>
+                            <p className="card__text">{movie.text}</p>
                         </header>
                         <div className="card__text">{movie.synosis}</div>
                     </div>
