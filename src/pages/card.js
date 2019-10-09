@@ -13,6 +13,7 @@ import Cta from '../components/Card/Cta';
 import Horizontal from '../components/Card/Horizontal';
 import HorizontalFlipped from "../components/Card/HorizontalFlipped";
 import HorizontalVideo from '../components/Card/HorizontalVideo';
+import HorizontalMusicPlayer from '../components/Card/HorizontalMusicPlayer';
 import Overlay from '../components/Card/Overlay';
 import OverlayDating from '../components/Card/OverlayDating';
 import OverlayProduct from '../components/Card/OverlayProduct';
@@ -38,6 +39,7 @@ StackedBadge />
 		<Horizontal />
 		<HorizontalFlipped />
 		<HorizontalVideo />
+		<HorizontalMusicPlayer />
 		<Cta />
 		<Overlay />
 		<OverlayDating />
