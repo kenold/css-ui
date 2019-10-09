@@ -26,7 +26,6 @@ const HorizontalFlipped = () => (
                             <div className="btn btn--primary">Learn more</div>
                         </a>
                     </div>
-
                 </article>
             ))}
         </div>
