@@ -16,7 +16,7 @@ class VideoHover extends Component {
                         <div className="card__image">
                             <a href="#video-detail">
                                 <img src={"/videos/" + video.id + ".jpg"} alt={video.title} />
-                                <div className="card__label">{video.duration}</div>
+                                <div className="card__badge card__badge--right">{video.duration}</div>
                                 <div className="card__icon"><FaPlay /></div>
                             </a>
                         </div>
