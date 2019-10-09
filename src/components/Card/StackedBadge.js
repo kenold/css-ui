@@ -3,7 +3,7 @@ import Moment from 'react-moment';
 // import BlogCode from '../codes/blog';
 import BlogData from '../../data/posts.json';
 
-const StackedLabel = () => (
+const StackedBadge = () => (
     <section className="l-cards container">
         <div className="l-cards__heading">
             <h4>Stacked &rarr; Label</h4>
@@ -36,4 +36,4 @@ const StackedLabel = () => (
     </section>
 )
 
-export default StackedLabel
+export default StackedBadge
