@@ -7,7 +7,7 @@ import StackedTour from '../components/Card/StackedTour';
 import StackedExpand from '../components/Card/StackedExpand';
 import StackedMinimal from '../components/Card/StackedMinimal';
 import StackedMinimalThemed from '../components/Card/StackedMinimalThemed';
-import StackedLabel from '../components/Card/StackedLabel';
+import StackedBadge from '../components/Card/StackedBadge';
 import StackedFloat from '../components/Card/StackedFloat';
 import Cta from '../components/Card/Cta';
 import Horizontal from '../components/Card/Horizontal';
@@ -30,7 +30,8 @@ const Card = () => (
 		<StackedOverlap />
 		<StackedTour />
 		<StackedExpand />
-		<StackedLabel />
+		<StackedBadge
+StackedBadge />
 		<StackedFloat />
 		<StackedMinimal />
 		<StackedMinimalThemed />
