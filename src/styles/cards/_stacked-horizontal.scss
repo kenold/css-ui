@@ -168,15 +168,37 @@
     }
 }
 
+// MUSIC PLAYER
 .card--music {
     flex-direction: row;
+    justify-content: center;
+    @include xs {
+        justify-content: space-between;
+    }
     .card {
         &__image {
             order: 2;
+            flex-basis: 150px;
+            @include xs {
+                flex-basis: 120px;
+            }
         }
         &__content {
             order: 1;
             flex: initial;
+            @include xs {
+                margin-left: 15px;
+            }
+        }
+    }
+    .controls__list {
+        display: flex;
+        margin-top: 2rem;
+        @include xs {
+            margin-top: 1rem;
+        }
+        li {
+            margin-right: 1rem;
         }
     }
 }
