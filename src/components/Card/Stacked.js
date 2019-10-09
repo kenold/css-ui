@@ -67,8 +67,6 @@ class Stacked extends Component {
                 </div>
             </section>
 
-
-
             <section className="code-display" id="code">
                 <div className="container">
                     {!this.state.isHidden && <StackedCode />}
