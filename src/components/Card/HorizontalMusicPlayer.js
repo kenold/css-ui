@@ -1,14 +1,15 @@
 import React from "react";
 import MusicData from '../../data/tracks.json';
+import { FaStepBackward, FaStepForward, FaPlay } from 'react-icons/fa';
 
 const HorizontalMusicPlayer = () => (
-    <section className="l-cards">
+    <section className="l-cards l-cards--music">
         <div className="l-cards__heading container">
             <h4>Music Player</h4>
         </div>
         <div className="container">
             {MusicData.slice(0,1).map((track) => (
-                <article key={track.id} className="card card--music show-1-1">
+                <div key={track.id} className="card card--music">
                     <div className="card__image">
                         <img src={"/tracks/" + track.id + ".jpg"} alt={track.title} />
                     </div>
@@ -19,15 +20,13 @@ const HorizontalMusicPlayer = () => (
                             </h2>
                         </header>
                         <p className="card__subtitle">{track.artist}</p>
-                        <footer className="card__footer">
-                            <ul className="controls__list">
-                                <li className="control__item"></li>
-                                <li className="control__item"></li>
-                                <li className="control__item"></li>
-                            </ul>
-                        </footer>
+                        <ul className="controls__list">
+                            <li className="control__item"><FaStepBackward /></li>
+                            <li className="control__item"><FaPlay /></li>
+                            <li className="control__item"><FaStepForward /></li>
+                        </ul>
                     </div>
-                </article>
+                </div>
             ))}
         </div>
     </section>
