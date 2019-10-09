@@ -169,33 +169,59 @@
 }
 
 // MUSIC PLAYER
+.l-cards--music {
+    .container + .container {
+        display: flex;
+        justify-content: center;
+        background-color: #f8f6f4;
+    }
+}
 .card--music {
     flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
+    background-color: $light-color;
+    @include box-shadow;
     @include xs {
         justify-content: space-between;
+    }
+    @include md {
+        max-width: 450px;
     }
     .card {
         &__image {
             order: 2;
-            flex-basis: 150px;
+            flex-basis: 100px;
             @include xs {
                 flex-basis: 120px;
             }
+            @include md {
+                flex-basis: 150px;
+            }
+        }
+        &__title {
+            font-size: 1rem;
         }
         &__content {
             order: 1;
             flex: initial;
+            margin-top: .5rem;
             @include xs {
                 margin-left: 15px;
+            }
+            @include md {
+                margin-top: 20px;
             }
         }
     }
     .controls__list {
         display: flex;
-        margin-top: 2rem;
+        margin-top: .5rem;
         @include xs {
             margin-top: 1rem;
+        }
+        @include md {
+            margin-top: 2rem;
         }
         li {
             margin-right: 1rem;
