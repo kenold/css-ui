@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "First Kiss",
-        "synopsis": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+        "text": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
         "topic": "Romance",
         "action": "Play",
         "isStreaming": false
@@ -10,14 +10,14 @@
     {
         "id": 2,
         "title": "Intimidation Game",
-        "synopsis": "Fusce congue, diam id ornare imperdiet, sapien urna pretium.",
+        "text": "Fusce congue, diam id ornare imperdiet, sapien urna pretium.",
         "topic": "Drama",
         "action": "Plus",
         "isStreaming": true
         }, {
         "id": 3,
         "title": "The Weathered Sailer",
-        "synopsis": "Ornare imperdiet, sapien urna pretium nisl, volutpat sapien.",
+        "text": "Ornare imperdiet, sapien urna pretium nisl, volutpat sapien.",
         "topic": "Thriller",
         "action": "Play",
         "isStreaming": false

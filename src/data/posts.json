@@ -5,7 +5,7 @@
         "shortTitle": "Stylist",
         "date": "9/30/2019",
         "topic": "Fashion",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien.",
+        "text": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien.",
         "author": "Jane Doe",
         "theme": "blue",
         "cta": "More"
@@ -16,7 +16,7 @@
         "shortTitle": "Designer",
         "date": "2/3/2019",
         "topic": "Shopping",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+        "text": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
         "author": "Jean E. Gustave",
         "theme": "purple",
         "cta": "Watch"
@@ -27,7 +27,7 @@
         "shortTitle": "Connect",
         "date": "4/27/2018",
         "topic": "Dating",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+        "text": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
         "author": "Kenold Beauplan",
         "theme": "pink",
         "cta": "Get hooked"
@@ -38,7 +38,7 @@
         "shortTitle": "Bravery",
         "date": "4/3/2017",
         "topic": "Style",
-        "excerpt": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+        "text": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
         "author": "John Smith",
         "theme": "green",
         "cta": "Learn more"
