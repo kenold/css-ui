@@ -15,9 +15,7 @@ const HorizontalMusicPlayer = () => (
                     </div>
                     <div className="card__content">
                         <header className="card__header">
-                            <h2 className="card__title" title={track.title}>
-                                {track.title}.
-                            </h2>
+                            <h2 className="card__title">{track.title}</h2>
                         </header>
                         <p className="card__subtitle">{track.artist}</p>
                         <ul className="controls__list">
