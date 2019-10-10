@@ -1,7 +1,12 @@
 .card--social {
     .card__header {
         display: flex;
+        align-items: center;
         padding: 20px 20px 0;
+        .user__name {
+            font-size: .875rem;
+            line-height: 15px;
+        }
         .card__date {
             font-size: 0.75rem;
         }
@@ -20,11 +25,15 @@
     } //.card__header
     .card__content {
         padding-bottom: 0;
-    }
-    .card__image {
-        padding-top: .75rem;
-        img {
-            @include border-radius;
+        .card__image {
+            padding-top: .75rem;
+            img {
+                @include border-radius;
+            }
+        }
+        .card__text {
+            font-size: 0.875em;
+            line-height: 22px;
         }
     }
     .card__footer {
