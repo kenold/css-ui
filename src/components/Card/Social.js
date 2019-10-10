@@ -31,7 +31,7 @@ class Social extends Component {
                             </div>
                             <div className="card__image">
                                 <a href="#blog-detail">
-                                    <img src={"/blog-wide/" + (post.id+8) + ".jpg"} alt={post.title} />
+                                    <img src={"/social/" + post.id + ".jpg"} alt={post.title} />
                                 </a>
                             </div>
                             <footer className="card__footer action">
