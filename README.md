@@ -272,7 +272,7 @@ Ex: `<div class="card card--float">...</div>`
 </div>
 ```
 #### Video Badge Card + Play Icon on Hover
-````html
+```html
 <div class="card card--video-hover">
 	<div class="card__image">
 		<img src="..." />
