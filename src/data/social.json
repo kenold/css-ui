@@ -2,22 +2,22 @@
     {
         "id": 1,
         "text": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat!",
-        "likes": 3700,
+        "likeCount": 3700,
         "comments": 1100,
         "username": "Jane Doe"
     },
     {
         "id": 2,
         "text": "Congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien.",
-        "likes": 1250,
-        "comments": 2430,
+        "likeCount": 1250,
+        "commentCount": 2430,
         "username": "John Smith"
     },
     {
         "id": 3,
         "text": "Volutpat sapien arcu sed augue. diam id ornare imperdiet, sapien urna pretium nisl.",
-        "likes": 500,
-        "comments": 178,
+        "likeCount": 500,
+        "commentCount": 178,
         "username": "Beth Murphy"
     }
 ]
