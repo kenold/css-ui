@@ -20,7 +20,7 @@ class Social extends Component {
                                 </div>
                                 <div className="username-date">
                                     <div className="user__name">
-                                            <a href="#profile">{post.author}</a>
+                                            <a href="#profile">{post.username}</a>
                                     </div>
                                     <div className="card__date">Yesterday at 12:31 PM</div>
                                 </div>
@@ -36,18 +36,18 @@ class Social extends Component {
                             </div>
                             <footer className="card__footer action">
                                 <div className="action__like">
-                                    <a href="#like" className="action__icon" title="Like">
-                                        <FaThumbsUp />
-                                        <span className="action__count">
+                                    <a href="#like" title="Like">
+                                        <span className="icon"><FaThumbsUp /></span>
+                                        <span className="count">
                                             {post.likeCount > 1000 ?
                                                 (Number(post.likeCount/1000).toFixed(1))+ "K": post.likeCount}
                                         </span>
                                     </a>
                                 </div>
                                 <div className="action__comment">
-                                    <a href="#comments" className="action__icon" title="Comment">
-                                        <FaRegCommentAlt />
-                                        <span className="action__count">
+                                    <a href="#comments" title="Comment">
+                                        <span className="icon"><FaRegCommentAlt /></span>
+                                        <span className="count">
                                             {post.commentCount > 1000 ?
                                                 (Number(post.commentCount/1000).toFixed(1)) + "K" : post.commentCount}
                                         </span>
