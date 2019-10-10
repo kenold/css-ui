@@ -120,12 +120,6 @@
                 }
             }
         }
-        &__content {
-            @include xs {
-                margin-left: 20px;
-                margin-right: 20px;
-            }
-        }
         &__title {
             font-size: 1.125rem;
             line-height: 26px;
