@@ -38,13 +38,17 @@ class Social extends Component {
                                 <div className="action__like">
                                     <a href="#like" className="action__icon" title="Like">
                                         <FaThumbsUp />
-                                        <span className="action__count">{post.likeCount}</span>
+                                        <span className="action__count">
+                                            {post.likeCount > 1000 ? (post.likeCount/1000)+"K": post.likeCount}
+                                        </span>
                                     </a>
                                 </div>
                                 <div className="action__comment">
                                     <a href="#comments" className="action__icon" title="Comment">
                                         <FaRegCommentAlt />
-                                        <span className="action__count">{post.commentCount}</span>
+                                        <span className="action__count">
+                                            {post.commentCount > 1000 ? (post.commentCount/1000)+"K": post.commentCount}
+                                        </span>
                                     </a>
                                 </div>
                             </footer>
