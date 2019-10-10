@@ -10,13 +10,9 @@
             line-height: 32px;
             padding-bottom: .375em;
             text-transform: inherit;
+            width: 90%;
             @include md {
                 font-size: 2rem;
-            }
-        }
-        &__content {
-            @include md {
-                padding: 20px 0;
             }
         }
         &__footer {
