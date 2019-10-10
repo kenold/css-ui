@@ -24,6 +24,14 @@
 //     @include borderRadius(3px);
 // }
 
+@mixin transition-transform($duration: 200ms, $timing: ease) {
+	transition: transform $duration $timing;
+}
+
+@mixin scale($amount: 1.06) {
+	transform: scale($amount);
+}
+
 @mixin box-shadow {
     box-shadow: 4px 4px 8px 0 rgba(0,0,0,.10);
 }
