@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Moment from 'react-moment';
 import { FaThumbsUp, FaRegCommentAlt, FaEllipsisV } from 'react-icons/fa';
 import SocialData from '../../data/social.json';
 
@@ -16,11 +15,13 @@ class Social extends Component {
                         <article key={post.id} className="card card--social show-1-3">
                             <header className="card__header user">
                                 <div className="user__avatar">
-                                    <img src={"/avatars/" + post.id + ".jpg"} alt={post.username} />
+                                    <a href="#profile">
+                                        <img src={"/avatars/" + post.id + ".jpg"} alt={post.username} />
+                                    </a>
                                 </div>
                                 <div className="username-date">
                                     <div className="user__name">
-                                            <a href="#profile">{post.username}</a>
+                                        <a href="#profile">{post.username}</a>
                                     </div>
                                     <div className="card__date">Yesterday at 12:31 PM</div>
                                 </div>
