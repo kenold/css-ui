@@ -15,7 +15,7 @@ See all Sass files in `/src/styles/`
         </a>
     </div>
     <div class="card__content">
-        <div class="card__topic">Blog</div>
+        <div class="card__topic">Topic</div>
         <header class="card__header">
             <h4 class="card__title">
                 <a href="...">Card Title</a>
@@ -28,38 +28,39 @@ See all Sass files in `/src/styles/`
     </div>
 </div>
 ```
-For overlapped card, add `card--overlap` to parent class.
+#### Overlapped Card
+Overlapped card uses the same structure as Basic Stacked Card, just add the `card--overlap` modifier to the parent class.
 Ex: `<div class="card card--overlap">...</div>`
 
 #### Social Card (using FontAwesome icons)
 ```html
-<div className="card card--social">
-    <header className="card__header user">
-        <div className="user__avatar">  
+<div class="card card--social">
+    <header class="card__header user">
+        <div class="user__avatar">  
           <img src="..." />
         </div>
-        <div className="username-date">
-            <div className="user__name">
+        <div class="username-date">
+            <div clas="user__name">
                 Jane Doe
             </div>
-            <div className="card__date">Yesterday at 12:31 PM</div>
+            <div class="card__date">Yesterday at 12:31 PM</div>
         </div>
-        <div className="more-link"><i class="fas fa-ellipsis-v"></i></div>
+        <div class="more-link"><i class="fas fa-ellipsis-v"></i></div>
     </header>
-    <div className="card__content">
-        <div className="card__text">Lorem..</div>
-        <div className="card__image">
+    <div class="card__content">
+        <div class="card__text">Lorem..</div>
+        <div class="card__image">
             <img src="..." />            
         </div>
     </div>
-    <footer className="card__footer action">
-        <div className="action__like">
-            <span className="icon"><i class="fas fa-thumbs-up"></i></span>
-            <span className="count">3.7K</span>
+    <footer class="card__footer action">
+        <div class="action__like">
+            <span class="icon"><i class="fas fa-thumbs-up"></i></span>
+            <span class="count">3.7K</span>
         </div>
-        <div className="action__comment">
-            <span className="icon"><i class="far fa-comment-alt"></i></span>
-            <span className="count">178</span>
+        <div class="action__comment">
+            <span class="icon"><i class="far fa-comment-alt"></i></span>
+            <span class="count">178</span>
         </div>
     </footer>
 </div>
@@ -67,17 +68,17 @@ Ex: `<div class="card card--overlap">...</div>`
 
 #### Badge Card
 ```html
-<div className="card card--badge">
-    <div className="card__image">
+<div class="card card--badge">
+    <div class="card__image">
         <img src="..." />
-        <div className="card__topic">Blog</div>
+        <div class="card__topic">Topic</div>
     </div>
-    <div className="card__content">
-        <header className="card__header">
-            <h4 className="card__title">Card Title</h4>
+    <div class="card__content">
+        <header class="card__header">
+            <h4 class="card__title">Card Title</h4>
         </header>
-        <footer className="card__footer">
-            <div className="card__date">
+        <footer class="card__footer">
+            <div class="card__date">
                 Oct. 10, 2019
             </div>
         </footer>
@@ -85,3 +86,82 @@ Ex: `<div class="card card--overlap">...</div>`
 </div>
 ```
 
+#### Floating Icon Card
+Floating Icon Card uses the same structure as the Badge Stacked Card, add the `card--float` modifier to the parent class.
+Ex: `<div class="card card--float">...</div>`
+
+#### Card Minimal
+```html
+<div class="card card--minimal">
+    <div class="card__content">
+        <div class="card__topic">Topic</div>
+        <header class="card__header">
+            <h4 class="card__title">
+                <span>Card title</span>
+            </h4>
+        </header>
+    </div>
+</div>
+```
+
+#### Card Minimal Themed
+```html
+<div class="card card--minimal--themed green no-gap">
+    <div class="card__content">
+        <div class="card__topic">Topic</div>
+        <header class="card__header">
+            <h4 class="card__title">
+                Short Title
+            </h4>
+        </header>
+        <p class="card__text">Text</p>
+        <footer class="card__footer">
+            <span>CTA</span>
+            <span>&gt;</span>
+        </footer>
+    </div>
+</div>
+```
+
+### Card Horizontal (uses FontAwesome for comment icon)
+```html
+<div class="card card--horizontal">
+	<div class="card__image">
+		<img src="..." />
+	</div>
+	<div class="card__content">
+		<div class="card__topic">Topic</div>
+		<header class="card__header">
+			<h2 class="card__title">Title</h2>
+		</header>
+		<p class="card__text">Lorem...</p>
+		<div class="card__footer">
+			<div class="card__meta-author">by John Smith</div>
+			<div class="card__meta-comment">
+				<i class="fas fa-comment"></i>
+				<span class="card__meta-comment-count">57</span>
+			</div>
+		</div>
+	</div>
+</div>
+```
+### Card Horizontal Video (uses FontAwesome for play icon)
+```html
+<div class="card card--horizontal card--horizontal--video">
+	<div class="card__image">
+		<img src="..." />
+		<div class="btn btn--circle">
+			<div class="card__icon">
+				<i class="fas fa-play"></i>
+			</div>
+		</div>
+	</div>
+	<div class="card__content">
+		<div class="card__topic">Topic</div>
+		<header class="card__header">
+			<h2 class="card__title">Title</h2>
+		</header>
+		<p class="card__text">Lorem...</p>
+	</div>
+</div>
+```
