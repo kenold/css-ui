@@ -6,8 +6,7 @@ Created by Kenold Beauplan - [@kenoldb](https://twitter.com/kenoldb).
 
 See all Sass files in `/src/styles/`
 
-Basic Stacked Card
-
+#### Basic Stacked Card
 ```html
 <div class="card">
     <div class="card__image">
@@ -29,8 +28,10 @@ Basic Stacked Card
     </div>
 </div>
 ```
+For overlapped card, add `card--overlap` to parent class.
+Ex: `<div class="card card--overlap">...</div>`
 
-Social Card (using FontAwesome icons)
+#### Social Card (using FontAwesome icons)
 ```html
 <div className="card card--social">
     <header className="card__header user">
@@ -57,11 +58,30 @@ Social Card (using FontAwesome icons)
             <span className="count">3.7K</span>
         </div>
         <div className="action__comment">
-            <a href="#comments" title="Comment">
-                <span className="icon"><i class="far fa-comment-alt"></i></span>
-                <span className="count">178</span>
-            </a>
+            <span className="icon"><i class="far fa-comment-alt"></i></span>
+            <span className="count">178</span>
         </div>
     </footer>
 </div>
 ```
+
+#### Badge Card
+```html
+<div className="card card--badge">
+    <div className="card__image">
+        <img src="..." />
+        <div className="card__topic">Blog</div>
+    </div>
+    <div className="card__content">
+        <header className="card__header">
+            <h4 className="card__title">Card Title</h4>
+        </header>
+        <footer className="card__footer">
+            <div className="card__date">
+                Oct. 10, 2019
+            </div>
+        </footer>
+    </div>
+</div>
+```
+
