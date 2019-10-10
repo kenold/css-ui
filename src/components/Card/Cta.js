@@ -1,12 +1,10 @@
 import React from "react"
-// import BlogCode from '../codes/blog';
 import CtaData from '../../data/ctas.json';
+import Heading from "./Heading.js";
 
 const Cta = () => (
     <section className="l-cards l-cards--cta container">
-        <div className="l-cards__heading">
-            <h4>Call-to-Action </h4>
-        </div>
+        <Heading title="Call-to-Action" />
 
         <div className="cards">
             {CtaData.slice(0, 3).map((cta) => (
@@ -26,11 +24,6 @@ const Cta = () => (
                 </article>
             ))}
         </div>
-
-        <div className="code">
-
-        </div>
     </section>
 )
-
 export default Cta
