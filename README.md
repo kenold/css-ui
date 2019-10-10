@@ -1,8 +1,6 @@
 ## CSS UI Component
 
-Created with HTML5, CSS (Sass, Flexbox). Static site built with Gatsby JS.
-
-Created by Kenold Beauplan - [@kenoldb](https://twitter.com/kenoldb).
+Created with HTML5, CSS (Sass, Flexbox). Static site generated with Gatsby JS. Project created by Kenold Beauplan - [@kenoldb](https://twitter.com/kenoldb).
 
 See all Sass files in `/src/styles/`
 
@@ -11,7 +9,7 @@ See all Sass files in `/src/styles/`
 <div class="card">
     <div class="card__image">
         <a href="...">
-            <img src="..." alt="" />
+            <img src="..." />
         </a>
     </div>
     <div class="card__content">
@@ -305,3 +303,19 @@ Ex: `<div class="card card--float">...</div>`
 	</div>
 </div>
 ```
+- Icons: [FontAwesome](https://fontawesome.com/)
+- Dummy blog posts generated at [title-generator.com](https://www.title-generator.com/index.php).
+- All images are courtesy of [Unsplah](https:unsplash.com).
+- Illustration from [Drawkit.io[(https://www.drawkit.io).
+
+Packages used:
+- React JS
+- Node Sass - to compile scss files
+- React Icons - for icons
+- Prism - for code formating
+- React Rater - for product star rating
+- Moment JS
++ all Gatsby default dependencies
+
+Deployed and hosted on [Netlify.com](https://www.netlify.com/)
+
