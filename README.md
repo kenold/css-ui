@@ -1,6 +1,7 @@
 ## CSS UI Component
 
-Created with HTML5, CSS (Sass, Flexbox). Static site generated with Gatsby JS. Project created by Kenold Beauplan - [@kenoldb](https://twitter.com/kenoldb).
+Created with HTML5, CSS (Sass, Flexbox). Static site generated with Gatsby JS. 
+Project created by Kenold Beauplan - [@kenoldb](https://twitter.com/kenoldb).
 
 See all Sass files in `/src/styles/`
 
