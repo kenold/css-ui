@@ -4,10 +4,10 @@
 @import './grid';
 @import '../styles/cards/cards';
 
-.react-rater-star.is-active,
-.react-rater-star.will-be-active {
-    color: $accent;
-}
 .react-rater-star {
     font-size: 1rem;
+    &.is-active,
+    &.will-be-active {
+        color: $accent!important;
+    }
 }
