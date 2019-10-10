@@ -49,8 +49,11 @@
 .card--minimal--themed {
     color: $light-color;
     border: none;
+    padding: 1rem 2rem;
     border-radius: initial;
-    padding: 5rem 2rem;
+    @include md {
+        padding: 5rem 2rem;
+    }
     margin-bottom: 0;
     .card {
         &__topic {
