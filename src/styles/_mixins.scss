@@ -24,6 +24,12 @@
 //     @include borderRadius(3px);
 // }
 
+@mixin border-circle($width:48px, $height:48px) {
+    width: $width;
+    height: $height;
+    border-radius: 50%;
+}
+
 @mixin transition-transform($duration: 200ms, $timing: ease) {
 	transition: transform $duration $timing;
 }

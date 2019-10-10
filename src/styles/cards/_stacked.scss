@@ -15,12 +15,8 @@
         }
         .user__avatar img {
             // TODO: convert this to mixin for testimonial
-            display: block;
-            width: 48px;
-            height: 48px;
+            @include border-circle;
             margin-right: 15px;
-            flex: 0 0 auto;
-            border-radius: 50%;
         }
     } //.card__header
     .card__content {
