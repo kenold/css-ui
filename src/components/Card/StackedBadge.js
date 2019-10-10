@@ -11,11 +11,11 @@ const StackedBadge = () => (
 
         <div className="cards">
             {BlogData.slice(0, 3).map((post) => (
-                <article key={post.id} className="card card--label show-1-3">
+                <article key={post.id} className="card card--badge show-1-3">
                     <div className="card__image">
                         <a href="#blog-detail">
                             <img src={"/blog-wide/" + (post.id+4) + ".jpg"} alt={post.title} />
-                            <div className="card__label">{post.topic}</div>
+                            <div className="card__topic">{post.topic}</div>
                         </a>
                     </div>
                     <div className="card__content">

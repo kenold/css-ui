@@ -1,4 +1,4 @@
-.card--label {
+.card--badge {
     .card {
         &__title {
             font-size: 1.25rem;
@@ -6,7 +6,7 @@
         &__image {
             position: relative;
         }
-        &__label {
+        &__topic {
             position: absolute;
             background-color: $accent;
             color: $light-color;
