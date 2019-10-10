@@ -271,3 +271,37 @@ Ex: `<div class="card card--float">...</div>`
 	</div>
 </div>
 ```
+#### Video Badge Card + Play Icon on Hover
+````html
+<div class="card card--video-hover">
+	<div class="card__image">
+		<img src="..." />
+		<div class="card__badge card__badge--right">3:44</div>
+		<div class="card__icon">
+			<i class="fas fa-play-circle"></i>
+		</div>
+	</div>
+	<div class="card__content">
+		<header class="card__header">
+			<h4 class="card__title">Title</h4>
+		</header>
+	</div>
+</div>
+```
+
+#### Testimonial Card
+```html
+<div class="card card--testimonial">
+	<div class="card__content">
+		<p class="card__text">"Lorem..."</p>
+		<footer class="card__footer author">
+			<div class="author__photo">
+				<img src="..." class="author__image" />
+			</div>
+			<div class="author__name">
+				Author <br /> Job
+			</div>
+		</footer>
+	</div>
+</div>
+```
