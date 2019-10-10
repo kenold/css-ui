@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Moment from 'react-moment';
 import { FaThumbsDown, FaThumbsUp, FaRegCommentAlt, FaEllipsisV } from 'react-icons/fa';
-import BlogData from '../../data/posts.json';
+import SocialData from '../../data/social.json';
 
 class Social extends Component {
     render() {
@@ -12,7 +12,7 @@ class Social extends Component {
                 </div>
 
                 <div className="cards">
-                    {BlogData.slice(0,3).map((post) => (
+                    {SocialData.slice(0,3).map((post) => (
                         <article key={post.id} className="card card--social show-1-3">
                             <header className="card__header user">
                                 <div className="user__avatar">
@@ -34,16 +34,19 @@ class Social extends Component {
                                     <img src={"/blog-wide/" + (post.id+8) + ".jpg"} alt={post.title} />
                                 </a>
                             </div>
-                            <footer className="card__footer">
-                                <div className="ratings">
-                                    <div className="rating__down">
-                                        <a href="#dislike"><FaThumbsDown /></a>
-                                    </div>
-                                    <div className="rating__up">
-                                        <a href="#like"><FaThumbsUp /></a>
-                                    </div>
+                            <footer className="card__footer action">
+                                <div className="action__like">
+                                    <a href="#like" className="action__icon" title="Like">
+                                        <FaThumbsUp />
+                                        <span className="action__count">{post.likes}</span>
+                                    </a>
                                 </div>
-                                <div className="comments"><FaRegCommentAlt /></div>
+                                <div className="action__comment">
+                                    <a href="#comments" className="action__icon" title="Comment">
+                                        <FaRegCommentAlt />
+                                        <span className="action__count">{post.comments}</span>
+                                    </a>
+                                </div>
                             </footer>
                         </article>
                     ))}
