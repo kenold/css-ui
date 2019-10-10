@@ -24,6 +24,10 @@
         }
         &__footer {
             font-size: .75rem;
+            padding-top: 0;
+            @include md {
+                padding-top: 0.5rem;
+            }
             .strike {
                 text-decoration: line-through;
             }
