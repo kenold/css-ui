@@ -16,7 +16,7 @@ const Testimonial = () => (
                         <p className="card__text">"{testimonial.text}"</p>
                         <footer className="card__footer author">
                             <div className="author__photo">
-                                <img src={"/testimonials/" + testimonial.id + ".jpg"} alt={testimonial.authorName} className="author__image" />
+                                <img src={"/avatars/" + testimonial.id + ".jpg"} alt={testimonial.authorName} className="author__image" />
                             </div>
                             <div className="author__name">
                                 {testimonial.authorName} <br /> {testimonial.authorPosition}
