@@ -258,7 +258,7 @@ Ex: `<div class="card card--float">...</div>`
 </div>
 ```
 #### Video Card
-````html
+```html
 <divclass="card card--video">
 	<div class="card__image">		
 		<img src="..." />
