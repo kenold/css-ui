@@ -1,10 +1,10 @@
 ## CSS UI Component
 
-Created with HTML5, CSS (Sass, Flexbox). Static site generated with Gatsby JS. 
+Created with HTML5, CSS (Sass, Flexbox). Static site generated with Gatsby JS.
 
 Project created by Kenold Beauplan - [@kenoldb](https://twitter.com/kenoldb).
 
-See all Sass files in `/src/styles/`
+See all [Cards Sass](https://github.com/kenold/css-ui/tree/master/src/styles/cards) files in `/src/styles/cards`
 
 #### Basic Stacked Card
 ```html
@@ -36,7 +36,7 @@ Ex: `<div class="card card--overlap">...</div>`
 ```html
 <div class="card card--social">
     <header class="card__header user">
-        <div class="user__avatar">  
+        <div class="user__avatar">
           <img src="..." />
         </div>
         <div class="username-date">
@@ -50,7 +50,7 @@ Ex: `<div class="card card--overlap">...</div>`
     <div class="card__content">
         <div class="card__text">Lorem..</div>
         <div class="card__image">
-            <img src="..." />            
+            <img src="..." />
         </div>
     </div>
     <footer class="card__footer action">
@@ -187,26 +187,26 @@ Ex: `<div class="card card--float">...</div>`
 ```html
 <div class="card card--overlay">
 	<div class="card__image">
-		<img src="..." />		
+		<img src="..." />
 	</div>
-	<div class="darken"></div>	
-	<div class="card__notification">Now Streaming</div>	
+	<div class="darken"></div>
+	<div class="card__notification">Now Streaming</div>
 	<div class="card__content">
 		<div class="separator"></div>
 		<h4 class="card__title">Title</h4>
 		<p class="card__text">Lorem...</p>
-		<div class="card__actions">			
+		<div class="card__actions">
 			<div class="btn btn--primary">
 				<span class="icon"><i class="fas fa-play"></span>
 				<span class="btn__text">Play</span>
-			</div>					
+			</div>
 			<div class="btn btn--secondary">
 				<span class="icon"><i class="fas fa-heart"></span>
 				<span class="btn__text">Favorite</span>
 			</div>
 			<div class="btn btn--ellipsis">
 				<span class="icon"><i class="fas fa-ellipsis-h"></i></span>
-			</div>			
+			</div>
 		</div>
 	</div>
 </div>
@@ -221,7 +221,7 @@ Ex: `<div class="card card--float">...</div>`
 	<div class="card__content">
 		<div class="card__title model">
 			<span class="model__name">Name, </span>
-			<span class="model__age">Age</span>			
+			<span class="model__age">Age</span>
 		</div>
 		<div class="card__text">Lorem...</div>
 		<div class="card__actions swipe">
@@ -260,7 +260,7 @@ Ex: `<div class="card card--float">...</div>`
 #### Video Card
 ```html
 <div class="card card--video">
-	<div class="card__image">		
+	<div class="card__image">
 		<img src="..." />
 		<div class="card__icon">
 			<i class="fas fa-play-circle"></i>
@@ -307,7 +307,7 @@ Ex: `<div class="card card--float">...</div>`
 ```
 - Icons: [FontAwesome](https://fontawesome.com/)
 - Dummy blog posts generated at [title-generator.com](https://www.title-generator.com/index.php).
-- All images are courtesy of [Unsplah](https:unsplash.com).
+- All images are courtesy of [Unsplash](https:unsplash.com).
 - Illustration from [Drawkit.io[(https://www.drawkit.io).
 
 Packages used:
