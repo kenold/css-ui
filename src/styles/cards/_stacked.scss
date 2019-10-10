@@ -19,14 +19,23 @@
         }
     } //.card__header
     .card__footer {
-        padding: 20px;
+        padding: 20px 20px 10px;
         font-size: 1.125rem;
         .action__like a,
         .action__comment a {
             display: flex;
             align-items: end;
+            &:hover {
+                color: $accent;
+            }
         }
-        .action__count {
+        .action__like .icon {
+            @include transition-transform;
+            &:hover {
+                @include scale(1.5);
+            }
+        }
+        .count {
             font-size: .8125rem;;
             font-weight: normal;
             margin-left: 0.4375rem;
