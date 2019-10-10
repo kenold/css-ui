@@ -18,13 +18,22 @@
             border-radius: 50%;
         }
     } //.card__header
+    .card__content {
+        padding-bottom: 0;
+    }
+    .card__image {
+        padding-top: .75rem;
+        img {
+            @include border-radius;
+        }
+    }
     .card__footer {
         padding: 20px 20px 10px;
         font-size: 1.125rem;
         .action__like a,
         .action__comment a {
             display: flex;
-            align-items: end;
+            align-items: flex-end;
             &:hover {
                 color: $accent;
             }
@@ -46,25 +55,37 @@
 // CARD OVERLAP
 .card--overlap {
     border: none;
+    margin-bottom: 1.25rem;
     .card {
         &__content {
             background-color: #fff;
-            margin-top: -25px;
+            margin: -2.25rem 1rem 0 1rem;
+            padding: 0;
             text-align: center;
+            @include md {
+                margin: -2.25rem 2.1875rem 0 2.5rem;
+            }
         }
         &__title {
-            line-height: 24px;
-            padding: 1.25rem 1rem;
+            font-size: 1.5rem;
             font-weight: 500;
+            line-height: 28px;
+            padding: 1.25rem 1rem .5rem;
             @include sm {
                 font-size: 1.75rem;
                 line-height: 32px;
             }
+            @include md {
+                padding: 1.25rem 1rem .75rem;
+            }
         }
         &__footer {
             display: initial;
-            margin-top: inherit;
-            padding-top: .5rem;
+            margin-top: 0;
+            padding-top: 0;
+            @include md {
+                //padding-top: 2rem;
+            }
         }
     }
 }
