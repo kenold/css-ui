@@ -39,7 +39,8 @@ class Social extends Component {
                                     <a href="#like" className="action__icon" title="Like">
                                         <FaThumbsUp />
                                         <span className="action__count">
-                                            {post.likeCount > 1000 ? (post.likeCount/1000)+"K": post.likeCount}
+                                            {post.likeCount > 1000 ?
+                                                (Number(post.likeCount/1000).toFixed(1))+ "K": post.likeCount}
                                         </span>
                                     </a>
                                 </div>
@@ -47,7 +48,8 @@ class Social extends Component {
                                     <a href="#comments" className="action__icon" title="Comment">
                                         <FaRegCommentAlt />
                                         <span className="action__count">
-                                            {post.commentCount > 1000 ? (post.commentCount/1000)+"K": post.commentCount}
+                                            {post.commentCount > 1000 ?
+                                                (Number(post.commentCount/1000).toFixed(1)) + "K" : post.commentCount}
                                         </span>
                                     </a>
                                 </div>
