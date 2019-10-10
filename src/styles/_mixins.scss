@@ -16,7 +16,7 @@
 	text-overflow: ellipsis;
 }
 
-@mixin borderRadius($radius: 5px) {
+@mixin border-radius($radius: 5px) {
     border-radius: $radius;
 }
 
