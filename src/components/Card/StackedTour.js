@@ -5,7 +5,6 @@ import TourData from '../../data/tours.json';
 class StackedTour extends Component {
     render() {
         return (
-            <>
             <section className="l-cards container">
                 <div className="l-cards__heading">
                     <h4>Tour</h4>
@@ -35,7 +34,6 @@ class StackedTour extends Component {
                     ))}
                 </div>
             </section>
-            </>
         )
     }
 }
