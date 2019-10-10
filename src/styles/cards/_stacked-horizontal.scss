@@ -174,17 +174,22 @@
         display: flex;
         justify-content: center;
         background-color: #f8f6f4;
-        padding: 2rem 0;
+        padding: 1rem;
+        @include md {
+            padding: 2rem 0;
+        }
     }
 }
 .card--music {
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     background-color: $light-color;
+    max-height: 150px;
     @include box-shadow;
     @include xs {
         justify-content: space-between;
+        max-height: 150px;
     }
     @include md {
         max-width: 450px;
@@ -192,9 +197,10 @@
     .card {
         &__image {
             order: 2;
-            flex-basis: 100px;
+            padding-right: .5rem;
             @include xs {
-                flex-basis: 120px;
+                flex-basis: 150px;
+                padding-right: 0;
             }
             @include md {
                 flex-basis: 150px;
@@ -207,9 +213,6 @@
             order: 1;
             flex: initial;
             margin-top: .5rem;
-            @include xs {
-                margin-left: 15px;
-            }
             @include md {
                 margin-top: 20px;
             }
@@ -227,6 +230,10 @@
         li {
             margin-right: 1rem;
             cursor: pointer;
+            @include transition-transform;
+            &:hover {
+                @include scale(1.5);
+            }
         }
     }
 }
