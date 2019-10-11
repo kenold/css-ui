@@ -10,7 +10,7 @@ import StackedMinimal from '../components/Card/StackedMinimal';
 import StackedMinimalThemed from '../components/Card/StackedMinimalThemed';
 import StackedBadge from '../components/Card/StackedBadge';
 import StackedFloat from '../components/Card/StackedFloat';
-import Cta from '../components/Card/Cta';
+import CtaList from '../components/Card/CtaList';
 import Horizontal from '../components/Card/Horizontal';
 import HorizontalFlipped from "../components/Card/HorizontalFlipped";
 import HorizontalVideo from '../components/Card/HorizontalVideo';
@@ -41,7 +41,7 @@ const Card = () => (
 		<HorizontalFlipped />
 		<HorizontalVideo />
 		<HorizontalMusicPlayer />
-		<Cta />
+		<CtaList />
 		<Overlay />
 		<OverlayDating />
 		<OverlayProduct />
