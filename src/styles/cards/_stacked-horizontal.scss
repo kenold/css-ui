@@ -1,8 +1,8 @@
-.l-cards--wide {
+.l-cards--horizontal {
     background-color: $section-bg-color;
     padding: 15px 0;
 }
-.card--wide {
+.card--horizontal {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +89,7 @@
     }
 }
 // CARD REVERSE
-.l-cards--wide--reverse {
+.l-cards--horizontal--reverse {
     background-color: rgba($accent, .15);
     padding-top: 15px;
     padding-bottom: 15px;
@@ -98,7 +98,7 @@
         padding-top: 0;
     }
 }
-.card--wide--reverse {
+.card--horizontal--reverse {
         flex-direction: column;
         @include md {
             flex-direction: row;
@@ -131,10 +131,10 @@
 }
 
 // HORIZONTAL VIDEO
-.l-cards--wide--video {
+.l-cards--horizontal--video {
     background-color: rgba($accent-warning, .15);
 }
-.card--wide--video {
+.card--horizontal--video {
     @include md {
         flex-direction: row;
     }

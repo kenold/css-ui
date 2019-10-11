@@ -2,11 +2,11 @@ import React from "react";
 import BlogData from '../../data/posts.json';
 
 const HorizontalFlipped = () => (
-    <section className="l-cards l-cards--wide l-cards--wide--reverse">
+    <section className="l-cards l-cards--horizontal l-cards--horizontal--reverse">
         {/* RIGHT TO LEFT */}
         <div className="container">
             {BlogData.slice(1,2).map((post) => (
-                <article key={post.id} className="card card--wide card--wide--reverse show-1-1">
+                <article key={post.id} className="card card--horizontal card--horizontal--reverse show-1-1">
                     <div className="card__image">
                         <a href="#blog-detail">
                             <img src="/misc/shopping-cart-colour-400px.png" alt={post.title} />

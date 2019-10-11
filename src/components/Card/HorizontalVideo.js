@@ -4,11 +4,11 @@ import Button from "../../components/Button/Icon";
 import BlogData from '../../data/posts.json';
 
 const HorizontalVideo = () => (
-    <section className="l-cards l-cards--wide l-cards--wide--video">
+    <section className="l-cards l-cards--horizontal l-cards--horizontal--video">
         {/* LEFT TO RIGHT */}
         <div className="container">
             {BlogData.slice(2,3).map((post) => (
-                <article key={post.id} className="card card--wide card--wide--video show-1-1">
+                <article key={post.id} className="card card--horizontal card--horizontal--video show-1-1">
                     <div className="card__image">
                         <img src={"/800627/" + post.id + ".jpg"} alt={post.title} />
                         <Button url="#play" type="circle"><FaPlay /></Button>

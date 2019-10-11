@@ -10,11 +10,11 @@ const Horizontal = () => (
         </div>
     </section>
 
-    <section className="l-cards l-cards--wide">
+    <section className="l-cards l-cards--horizontal">
         {/* LEFT TO RIGHT */}
         <div className="container">
             {BlogData.slice(0,1).map((post) => (
-                <article key={post.id} className="card card--wide show-1-1">
+                <article key={post.id} className="card card--horizontal show-1-1">
                     <div className="card__image">
                         <a href="#blog-detail">
                             <img src={"/800627/" + post.id + ".jpg"} alt={post.title} />
