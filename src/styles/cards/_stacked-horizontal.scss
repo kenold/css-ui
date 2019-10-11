@@ -233,6 +233,7 @@
             @include transition-transform;
             &:hover {
                 @include scale(1.5);
+                color: $accent;
             }
         }
     }
