@@ -3,7 +3,7 @@ import React from "react"
 import BlogData from '../../data/posts.json';
 
 const StackedMinimal = () => (
-    <section className="l-cards l-cards--minimal container">
+    <section className="l-cards container">
         <div className="l-cards__heading">
             <h4>Minimal </h4>
         </div>
