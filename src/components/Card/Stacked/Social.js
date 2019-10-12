@@ -21,11 +21,11 @@ const StackedSocial = (props) => (
         </header>
         <div className="card__content">
             <div className="card__text">{props.text}</div>
-            <div className="card__image">
-                <a href="#blog-detail">
-                    <img src={"/social/" + props.id + ".jpg"} alt={props.text} />
-                </a>
-            </div>
+        </div>
+        <div className="card__image">
+            <a href="#blog-detail">
+                <img src={"/social/" + props.id + ".jpg"} alt={props.text} />
+            </a>
         </div>
         <footer className="card__footer action">
             <div className="action__like">
