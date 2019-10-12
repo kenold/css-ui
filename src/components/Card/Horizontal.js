@@ -1,6 +1,6 @@
 import React from "react";
 import { FaComment } from 'react-icons/fa';
-import BlogData from '../../data/posts.json';
+import BlogData from '~data/posts.json';
 
 const Horizontal = () => (
     <>

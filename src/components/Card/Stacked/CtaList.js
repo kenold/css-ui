@@ -1,14 +1,15 @@
 import React from "react"
 import CtaData from '~data/ctas.json';
 import Cta from "./Cta";
-import Section from "~components/section";
+import Section from "~components/Section";
 
-const List = () => (
-    <Section headingTitle="Call-to-Action">
+const CtaList = () => (
+    <Section title="Call-to-Action">
         <div className="cards">
             {CtaData.slice(0, 3).map((cta) => (
                 <Cta
-                    grid="show-1-3"
+                    key={cta.id}
+                    cssClasses="show-1-3"
                     title={cta.title}
                     text={cta.text}
                     btn1={cta.btn1}
@@ -18,4 +19,4 @@ const List = () => (
         </div>
    </Section>
 )
-export default List
+export default CtaList

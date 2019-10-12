@@ -35,18 +35,7 @@
 }
 
 // THEMED
-.l-cards--minimal-themed.container {
-    padding-left: 0;
-    padding-right: 0;
-    @include md {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-}
-.l-cards--minimal-themed .l-cards__heading {
-    padding-left: 1rem;
-}
-.card--minimal--themed {
+.card--minimal-themed {
     color: $light-color;
     border: none;
     padding: 1rem 2rem;

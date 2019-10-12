@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlay } from 'react-icons/fa';
 import Button from "../../components/Button/Icon";
-import BlogData from '../../data/posts.json';
+import BlogData from '~data/posts.json';
 
 const HorizontalVideo = () => (
     <section className="l-cards l-cards--horizontal l-cards--horizontal--video">

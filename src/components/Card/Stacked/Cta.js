@@ -1,7 +1,7 @@
 import React from "react"
 
 const Cta = (props) => (
-    <article key={props.id} className={"card card--cta " + props.grid}>
+    <article className={"card card--cta" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__content">
             <header className="card__header">
                 <h4 className="card__title" title={props.title}>

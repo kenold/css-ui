@@ -1,5 +1,5 @@
 import React from "react";
-import BlogData from '../../data/posts.json';
+import BlogData from '~data/posts.json';
 
 const HorizontalFlipped = () => (
     <section className="l-cards l-cards--horizontal l-cards--horizontal--reverse">

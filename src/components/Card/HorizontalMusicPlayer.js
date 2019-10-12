@@ -1,5 +1,5 @@
 import React from "react";
-import MusicData from '../../data/tracks.json';
+import MusicData from '~data/tracks.json';
 import { FaStepBackward, FaStepForward, FaPlay } from 'react-icons/fa';
 
 const HorizontalMusicPlayer = () => (
