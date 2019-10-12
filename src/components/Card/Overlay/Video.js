@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPlayCircle } from 'react-icons/fa';
-import Section from '~components/Section'
+import Section from '~components/section'
 import VideoData from '~data/videos.json';
 
 const OverlayVideo = (props) => (

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTimes, FaHeart } from 'react-icons/fa';
-import Section from '~components/Section'
+import Section from '~components/section'
 import DatingData from '~data/models.json';
 
 const OverlayDating = (props) => (

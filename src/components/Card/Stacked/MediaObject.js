@@ -2,7 +2,7 @@ import React from "react";
 import Moment from 'react-moment';
 import BlogData from '~data/posts.json';
 import StackedBasic from './Basic'
-import Section from '~components/Section'
+import Section from '~components/section'
 
 const StackedMediaObject = (props) => (
     <article className={"card" + (props.cssClasses ? " " + props.cssClasses:"")}>

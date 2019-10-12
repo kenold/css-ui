@@ -1,6 +1,6 @@
 import React from "react";
 import { FaThumbsUp, FaRegCommentAlt, FaEllipsisV } from 'react-icons/fa';
-import Section from "~components/Section"
+import Section from "~components/section"
 import SocialData from '~data/social.json';
 
 const StackedSocial = (props) => (

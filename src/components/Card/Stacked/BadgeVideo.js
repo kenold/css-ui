@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPlay } from 'react-icons/fa';
-import Section from '~components/Section'
+import Section from '~components/section'
 import VideoData from '~data/videos.json'
 
 const StackedBadgeVideo = (props) => (

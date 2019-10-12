@@ -1,6 +1,6 @@
 import React from "react"
 import CtaData from '~data/ctas.json';
-import Section from "~components/Section";
+import Section from "~components/section";
 
 const StackedCta = (props) => (
     <article className={"card card--cta" + (props.cssClasses ? " " + props.cssClasses:"")}>
