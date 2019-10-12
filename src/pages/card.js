@@ -1,26 +1,25 @@
 import React from "react"
 
-// cards component
-import Stacked from '~components/Card/Stacked';
-import Social from '~components/Card/Social';
-import StackedOverlap from '~components/Card/StackedOverlap';
-import StackedTour from '~components/Card/StackedTour';
-import StackedExpand from '~components/Card/StackedExpand';
-import StackedMinimal from '~components/Card/StackedMinimal';
-import StackedMinimalThemed from '~components/Card/StackedMinimalThemed';
-import StackedBadge from '~components/Card/StackedBadge';
-import StackedFloat from '~components/Card/StackedFloat';
-import CtaList from '~components/Card/Stacked/Cta/List';
+// card components
+import StackedBasicList from '~components/Card/Stacked/BasicList';
+import StackedSocialList from '~components/Card/Stacked/SocialList';
+import StackedOverlapList from '~components/Card/Stacked/OverlapList';
+import StackedTourList from '~components/Card/Stacked/TourList';
+import StackedMediaObejectList from '~components/Card/Stacked/MediaObjectList';
+import StackedMinimalThemedList from '~components/Card/Stacked/MinimalThemedList';
+import StackedBadgeList from '~components/Card/Stacked/BadgeList';
+import StackedBadgeVideoList from '~components/Card/Stacked/BadgeVideoList';
+import StackedFloatList from '~components/Card/Stacked/FloatList';
+import StackedCtaList from '~components/Card/Stacked/CtaList';
+import StackedTestimonialList from '~components/Card/Stacked/TestimonialList';
 import Horizontal from '~components/Card/Horizontal';
 import HorizontalFlipped from "~components/Card/HorizontalFlipped";
 import HorizontalVideo from '~components/Card/HorizontalVideo';
 import HorizontalMusicPlayer from '~components/Card/HorizontalMusicPlayer';
-import Overlay from '~components/Card/Overlay';
-import OverlayDating from '~components/Card/OverlayDating';
-import OverlayProduct from '~components/Card/OverlayProduct';
-import Video from '~components/Card/Video';
-import VideoHover from '~components/Card/VideoHover';
-import Testimonial from '~components/Card/Testimonial';
+import OverlayMovieList from '~components/Card/Overlay/MovieList';
+import OverlayDatingList from '~components/Card/Overlay/DatingList';
+import OverlayProductList from '~components/Card/Overlay/ProductList';
+import OverlayVideoList from '~components/Card/Overlay/VideoList';
 
 import Layout from "~components/layout"
 import SEO from "~components/seo"
@@ -28,26 +27,25 @@ import SEO from "~components/seo"
 const Card = () => (
 	<Layout>
 		<SEO title="Cards" />
-		<Stacked />
-		<Social />
-		<StackedOverlap />
-		<StackedTour />
-		<StackedExpand />
-		<StackedBadge />
-		<StackedFloat />
-		<StackedMinimal />
-		<StackedMinimalThemed />
+		<StackedBasicList />
+		<StackedSocialList />
+		<StackedOverlapList />
+		<StackedTourList />
+		<StackedMediaObejectList />
+		<StackedBadgeList />
+		<StackedFloatList />
+		<StackedMinimalThemedList />
 		<Horizontal />
 		<HorizontalFlipped />
 		<HorizontalVideo />
 		<HorizontalMusicPlayer />
-		<CtaList />
-		<Overlay />
-		<OverlayDating />
-		<OverlayProduct />
-		<Video />
-		<VideoHover />
-		<Testimonial />
+		<StackedCtaList />
+		<OverlayMovieList />
+		<OverlayDatingList />
+		<OverlayProductList />
+		<OverlayVideoList />
+		<StackedBadgeVideoList />
+		<StackedTestimonialList />
 	</Layout>
 )
 
