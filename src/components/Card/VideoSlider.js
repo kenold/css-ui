@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { FaPlay } from 'react-icons/fa';
-import VideoData from '../../data/videos.json';
+import VideoData from '~data/videos.json';
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
