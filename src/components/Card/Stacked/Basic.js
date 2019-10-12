@@ -17,6 +17,7 @@ const StackedBasic = (props) => (
                     <a href="#blog-detail">{props.title}</a>
                 </h4>
             </header>
+            <div className="card__text">{props.text}</div>
             <footer className="card__footer">
                 <div className="card__author">by {props.author}</div>
                 <div className="card__date">
