@@ -30,7 +30,7 @@ const StackedMediaObject = (props) => (
 )
 export default StackedMediaObject
 
-export const StackedMediaObjectList = (props) => (
+export const StackedMediaObjectList = () => (
     <Section title="Media Object">
         <div className="cards cards--stacked">
             {BlogData.slice(0,3).map((post) => (
