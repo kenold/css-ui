@@ -1,6 +1,6 @@
 import React from "react";
 import Moment from 'react-moment';
-import Section from '../../../components/Section'
+import Section from '~components/Section'
 import BlogData from '~data/posts.json';
 
 const StackedBadge = (props) => (

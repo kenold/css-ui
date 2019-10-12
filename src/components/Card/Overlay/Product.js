@@ -2,7 +2,7 @@ import React from "react";
 import { FaRegHeart } from 'react-icons/fa';
 import Rater from 'react-rater';
 import 'react-rater/lib/react-rater.css';
-import Section from '../../../components/Section'
+import Section from '~components/Section'
 import ProductData from '~data/products.json'
 
 const OverlayProduct = (props) => (
