@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlay } from 'react-icons/fa';
 import Button from "~components/Button/Icon";
-import Section from '~components/Section'
+import Section from '../../../components/Section'
 import MovieData from '~data/movies.json';
 
 const StackedFloatingIcon = (props) => (

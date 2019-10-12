@@ -1,7 +1,7 @@
 import React from "react";
 import Moment from 'react-moment';
 import BlogData from '~data/posts.json';
-import Section from "~components/Section"
+import Section from "../../../components/Section"
 
 const StackedOverlap = (props) => (
     <article className={"card card--overlap" + (props.cssClasses ? " " + props.cssClasses:"")}>

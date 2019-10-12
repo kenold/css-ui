@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPlay, FaHeart, FaEllipsisH } from 'react-icons/fa';
-import Section from '~components/Section'
+import Section from '../../../components/Section'
 import MovieData from '~data/movies.json';
 
 const OverlayMovie = (props) => (

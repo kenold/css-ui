@@ -1,6 +1,6 @@
 import React from "react";
 import { FaMapMarkerAlt } from 'react-icons/fa';
-import Section from '~components/Section'
+import Section from '../../../components/Section'
 import TourData from "~data/tours.json"
 
 const StackedTour = (props) => (
