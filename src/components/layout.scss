@@ -27,7 +27,6 @@ img {
 figure {
     margin: 0;
 }
-
 // End CSS reset
 
 body {
@@ -66,6 +65,9 @@ h4 {
         color: rgba($accent, .7);
         margin: 1rem 0;
     }
+}
+.w-50 {
+    width: 80%;
 }
 .show-code {
     display: flex;
