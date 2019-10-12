@@ -28,7 +28,7 @@ const StackedBadge = (props) => (
 export default StackedBadge;
 
 export const StackedBadgeList = () => (
-    <Section>
+    <Section title="Badge">
         <div className="cards">
             {BlogData.slice(0, 3).map((post) => (
                 <StackedBadge
