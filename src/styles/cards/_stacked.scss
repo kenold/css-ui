@@ -14,13 +14,12 @@
             margin-left: auto;
         }
         .user__avatar img {
-            // TODO: convert this to mixin for testimonial
             @include border-circle;
             margin-right: 15px;
         }
     } //.card__header
     .card__content {
-        padding-bottom: 0;
+        padding-bottom: 15px;
         padding-top: 5px;
         .card__image {
             padding-top: .75rem;
@@ -29,7 +28,7 @@
             }
         }
         .card__text {
-            font-size: 0.875em;
+            font-size: 0.9375em;
             line-height: 22px;
         }
     }
