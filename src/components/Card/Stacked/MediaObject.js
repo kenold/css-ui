@@ -32,11 +32,11 @@ export default StackedMediaObject
 
 export const StackedMediaObjectList = () => (
     <Section title="Media Object">
-        <div className="cards cards--stacked">
+        <div className="cards cards--stacked w-50">
             {BlogData.slice(0,3).map((post) => (
                 <StackedBasic
                     key={post.id}
-                    cssClasses="card--expand card--hover-fade show-1-3"
+                    cssClasses="card--media-object card--hover-fade show-1-3"
                     id={post.id}
                     title={post.title}
                     topic={post.topic}
