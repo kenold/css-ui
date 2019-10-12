@@ -1,28 +1,29 @@
 import React from "react"
-
-// card components
-import StackedBasicList from '~components/Card/Stacked/BasicList';
-import StackedSocialList from '~components/Card/Stacked/SocialList';
-import StackedOverlapList from '~components/Card/Stacked/OverlapList';
-import StackedTourList from '~components/Card/Stacked/TourList';
-import StackedMediaObejectList from '~components/Card/Stacked/MediaObjectList';
-import StackedMinimalThemedList from '~components/Card/Stacked/MinimalThemedList';
-import StackedBadgeList from '~components/Card/Stacked/BadgeList';
-import StackedBadgeVideoList from '~components/Card/Stacked/BadgeVideoList';
-import StackedFloatList from '~components/Card/Stacked/FloatList';
-import StackedCtaList from '~components/Card/Stacked/CtaList';
-import StackedTestimonialList from '~components/Card/Stacked/TestimonialList';
-import Horizontal from '~components/Card/Horizontal';
-import HorizontalFlipped from "~components/Card/HorizontalFlipped";
-import HorizontalVideo from '~components/Card/HorizontalVideo';
-import HorizontalMusicPlayer from '~components/Card/HorizontalMusicPlayer';
-import OverlayMovieList from '~components/Card/Overlay/MovieList';
-import OverlayDatingList from '~components/Card/Overlay/DatingList';
-import OverlayProductList from '~components/Card/Overlay/ProductList';
-import OverlayVideoList from '~components/Card/Overlay/VideoList';
-
 import Layout from "~components/layout"
 import SEO from "~components/seo"
+
+// card components using ~Card alias from gatsby-node.js
+import { StackedBasicList } from '~Card/Stacked/Basic';
+import { StackedSocialList } from '~Card/Stacked/Social';
+import { StackedOverlapList } from '~Card/Stacked/Overlap';
+import { StackedTourList } from '~Card/Stacked/Tour';
+import { StackedMediaObjectList } from '~Card/Stacked/MediaObject';
+import { StackedMinimalThemedList } from '~Card/Stacked/MinimalThemed';
+import { StackedBadgeList } from '~Card/Stacked/Badge';
+import { StackedFloatingIconList } from '~Card/Stacked/FloatingIcon';
+import { StackedCtaList } from '~Card/Stacked/Cta';
+import { StackedTestimonialList } from '~Card/Stacked/Testimonial';
+import { StackedBadgeVideoList } from '~Card/Stacked/BadgeVideo';
+
+import Horizontal from '~Card/Horizontal';
+import HorizontalFlipped from "~Card/HorizontalFlipped";
+import HorizontalVideo from '~Card/HorizontalVideo';
+import HorizontalMusicPlayer from '~Card/HorizontalMusicPlayer';
+
+import { OverlayMovieList } from '~Card/Overlay/Movie';
+import { OverlayDatingList } from '~Card/Overlay/Dating';
+import { OverlayVideoList } from '~Card/Overlay/Video';
+import { OverlayProductList } from '~Card/Overlay/Product';
 
 const Card = () => (
 	<Layout>
@@ -31,9 +32,9 @@ const Card = () => (
 		<StackedSocialList />
 		<StackedOverlapList />
 		<StackedTourList />
-		<StackedMediaObejectList />
+		<StackedMediaObjectList />
 		<StackedBadgeList />
-		<StackedFloatList />
+		<StackedFloatingIconList />
 		<StackedMinimalThemedList />
 		<Horizontal />
 		<HorizontalFlipped />
