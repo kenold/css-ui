@@ -99,8 +99,9 @@
 .cards--stacked {
     flex-direction: column;
 }
-.card--expand {
+.card--media-object {
     flex-direction: row;
+    align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     border-top: 0;
     border-right: 0;
@@ -118,8 +119,8 @@
                 height: 90px;
                 object-fit: cover;
                 @include md {
-                    width: 200px;
-                    height: 200px;
+                    width: 400px;
+                    height: 300px;
                 }
             }
         }
@@ -128,7 +129,7 @@
             padding-left: 15px;
             @include md {
                 padding-top: 15px;
-                padding-left: 20px;
+                padding-left: 50px;
             }
         }
         &__title {
@@ -136,6 +137,11 @@
             line-height: 22px;
             @include sm {
                 font-size: 1.25rem;
+                line-height: 24px;
+            }
+            @include md {
+                font-size: 2rem;
+                line-height: 40px;
             }
         }
         &__label {
@@ -144,14 +150,23 @@
                 display: block;
             }
         }
+        &__text {
+            display: none;
+            padding-top: .5rem;
+            @include md {
+                display: block;
+            }
+        }
         &__date {
             display: none;
+            margin-left: 1rem;
             @include sm {
                 display: block;
             }
         }
         &__footer {
             margin-top: 0;
+            justify-content: flex-start;
         }
         &__footer .card__author {
             display: none;
