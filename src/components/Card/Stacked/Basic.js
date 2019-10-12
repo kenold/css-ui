@@ -1,7 +1,9 @@
 import React from "react";
 import Moment from 'react-moment';
+import BlogData from "~data/posts.json";
+import Section from "~components/Section"
 
-const Basic = (props) => (
+const StackedBasic = (props) => (
     <article className={"card" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__image">
             <a href="#blog-detail">
@@ -24,4 +26,22 @@ const Basic = (props) => (
         </div>
     </article>
 )
-export default Basic
+export default StackedBasic
+
+export const StackedBasicList = () => (
+    <Section title="Stacked">
+        <div className="cards">
+            {BlogData.slice(0,3).map((post) => (
+                <StackedBasic
+                    key={post.id}
+                    cssClasses="show-1-3"
+                    id={(post.id) + 8}
+                    title={post.title}
+                    topic={post.topic}
+                    author={post.author}
+                    date={post.date}
+                />
+            ))}
+        </div>
+    </Section>
+)

@@ -1,7 +1,9 @@
 import React from "react";
 import { FaPlay, FaHeart, FaEllipsisH } from 'react-icons/fa';
+import Section from '~components/Section'
+import MovieData from '~data/movies.json';
 
-const Movie = (props) => (
+const OverlayMovie = (props) => (
     <article className={"card card--overlay" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__image">
             <a href="#movie-detail" title={props.title}>
@@ -40,4 +42,21 @@ const Movie = (props) => (
         </div>
     </article>
 )
-export default Movie
+export default OverlayMovie
+
+export const OverlayMovieList = () => (
+    <Section title="Overlay + Movie">
+        <div className="cards">
+            {MovieData.map((movie) => (
+                <OverlayMovie
+                    key={movie.id}
+                    cssClasses="show-1-3"
+                    id={movie.id}
+                    title={movie.title}
+                    isStreaming={movie.isStreaming}
+                    text={movie.text}
+                />
+            ))}
+        </div>
+    </Section>
+)

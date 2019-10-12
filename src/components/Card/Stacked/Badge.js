@@ -1,7 +1,9 @@
 import React from "react";
 import Moment from 'react-moment';
+import Section from '~components/Section'
+import BlogData from '~data/posts.json';
 
-const Badge = (props) => (
+const StackedBadge = (props) => (
     <article className={"card card--badge" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__image">
             <a href="#blog-detail">
@@ -23,5 +25,22 @@ const Badge = (props) => (
         </div>
     </article>
 )
+export default StackedBadge;
 
-export default Badge
+export const StackedBadgeList = () => (
+    <Section>
+        <div className="cards">
+            {BlogData.slice(0, 3).map((post) => (
+                <StackedBadge
+                    key={post.id}
+                    cssClasses="show-1-3"
+                    id={(post.id) + 4}
+                    title={post.title}
+                    topic={post.topic}
+                    author={post.author}
+                    date={post.date}
+                />
+            ))}
+        </div>
+    </Section>
+)

@@ -1,7 +1,9 @@
 import React from "react";
 import { FaMapMarkerAlt } from 'react-icons/fa';
+import Section from '~components/Section'
+import TourData from "~data/tours.json"
 
-const Tour = (props) => (
+const StackedTour = (props) => (
     <article className={"card" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__image">
             <a href="#tour-detail">
@@ -22,4 +24,22 @@ const Tour = (props) => (
         </div>
     </article>
 )
-export default Tour
+export default StackedTour
+
+export const StackedTourList = (props) => (
+    <Section title="Tour">
+        <div className="cards">
+            {TourData.slice(0,4).map((tour) => (
+                <StackedTour
+                    key={tour.id}
+                    cssClasses="card--hover-up show-2-4"
+                    id={tour.id}
+                    title={tour.title}
+                    topic={tour.topic}
+                    text={tour.text}
+                    price={tour.price}
+                />
+            ))}
+        </div>
+    </Section>
+)

@@ -2,8 +2,10 @@ import React from "react";
 import { FaRegHeart } from 'react-icons/fa';
 import Rater from 'react-rater';
 import 'react-rater/lib/react-rater.css';
+import Section from '~components/Section'
+import ProductData from '~data/products.json'
 
-const Product = (props) => (
+const OverlayProduct = (props) => (
     <article className={"card card--overlay-icon" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__image">
             <a href="#product-detail" title={props.title}>
@@ -38,4 +40,22 @@ const Product = (props) => (
         </div>
     </article>
 )
-export default Product
+export default OverlayProduct
+
+export const OverlayProductList = () => (
+    <Section title="Overlay Icon">
+        <div className="cards">
+            {ProductData.map((product) => (
+                <OverlayProduct
+                    key={product.id}
+                    cssClasses="show-2-4"
+                    id={product.id}
+                    title={product.title}
+                    topic={product.topic}
+                    price={product.price}
+                    discount={product.discount}
+                />
+            ))}
+        </div>
+    </Section>
+)

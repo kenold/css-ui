@@ -1,7 +1,11 @@
 import React from "react"
+import Section from '~components/Section'
+import BlogData from '~data/posts.json';
 
-const MinimalThemed = (props) => (
-    <article className={"card card--minimal-themed " + props.theme + (props.cssClasses ? " " + props.cssClasses:"")}>
+const StackedMinimalThemed = (props) => (
+    <article className={"card card--minimal-themed "
+                        + props.theme
+                        + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__content">
             <div className="card__topic">{props.topic}</div>
             <header className="card__header">
@@ -20,4 +24,22 @@ const MinimalThemed = (props) => (
         </div>
     </article>
 )
-export default MinimalThemed
+export default StackedMinimalThemed
+
+export const StackedMinimalThemedList = () => (
+    <Section title="Minimal Themes">
+        <div className="cards">
+            {BlogData.slice(0, 3).map((post) => (
+                <StackedMinimalThemed
+                    key={post.id}
+                    cssClasses="show-1-3 no-gap"
+                    title={post.title}
+                    topic={post.topic}
+                    shortTitle={post.shortTitle}
+                    cta={post.cta}
+                    theme={post.theme}
+                />
+            ))}
+        </div>
+    </Section>
+)

@@ -1,6 +1,8 @@
 import React from "react"
+import Section from '~components/Section'
+import TestimonialData from '~data/testimonials.json';
 
-const Testimonial = (props) => (
+const StackedTestimonial = (props) => (
     <article className={"card card--testimonial" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__content">
             <p className="card__text">"{props.text}"</p>
@@ -15,4 +17,21 @@ const Testimonial = (props) => (
         </div>
     </article>
 )
-export default Testimonial
+export default StackedTestimonial
+
+export const StackedTestimonialList = () => (
+    <Section title="Testimonial">
+        <div className="cards">
+            {TestimonialData.map((testimonial) => (
+                <StackedTestimonial
+                    key={testimonial.id}
+                    cssClasses="show-1-3"
+                    id={testimonial.id}
+                    text={testimonial.text}
+                    authorName={testimonial.authorName}
+                    authorPosition={testimonial.authorPosition}
+                />
+            ))}
+        </div>
+    </Section>
+)

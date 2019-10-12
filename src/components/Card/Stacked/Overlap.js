@@ -1,7 +1,9 @@
 import React from "react";
 import Moment from 'react-moment';
+import BlogData from '~data/posts.json';
+import Section from "~components/Section"
 
-const Overlap = (props) => (
+const StackedOverlap = (props) => (
     <article className={"card card--overlap" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__image">
             <a href="#blog-detail">
@@ -22,4 +24,20 @@ const Overlap = (props) => (
         </div>
     </article>
 )
-export default Overlap
+export default StackedOverlap
+
+export const StackedOverlapList = (props) => (
+    <Section title="Overlap">
+        <div className="cards">
+            {BlogData.slice(0,3).map((post) => (
+                <StackedOverlap
+                    key={post.id}
+                    cssClasses="show-1-3"
+                    id={post.id}
+                    title={post.title}
+                    date={post.date}
+                />
+            ))}
+        </div>
+    </Section>
+)

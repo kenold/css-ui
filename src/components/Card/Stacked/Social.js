@@ -1,7 +1,9 @@
 import React from "react";
 import { FaThumbsUp, FaRegCommentAlt, FaEllipsisV } from 'react-icons/fa';
+import Section from "~components/Section"
+import SocialData from '~data/social.json';
 
-const Social = (props) => (
+const StackedSocial = (props) => (
     <article className={"card card--social" + (props.grid ? " " + props.grid:"")}>
         <header className="card__header user">
             <div className="user__avatar">
@@ -47,4 +49,22 @@ const Social = (props) => (
         </footer>
     </article>
 )
-export default Social
+export default StackedSocial
+
+export const StackedSocialList = () => (
+    <Section title="Social">
+        <div className="cards">
+            {SocialData.slice(0,3).map((post) => (
+                <StackedSocial
+                    key={post.id}
+                    grid="show-1-3"
+                    id={post.id}
+                    username={post.username}
+                    text={post.text}
+                    likeCount={post.likeCount}
+                    commentCount={post.commentCount}
+                />
+            ))}
+        </div>
+    </Section>
+)

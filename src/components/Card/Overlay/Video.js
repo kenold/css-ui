@@ -1,7 +1,9 @@
 import React from "react";
 import { FaPlayCircle } from 'react-icons/fa';
+import Section from '~components/Section'
+import VideoData from '~data/videos.json';
 
-const Video = (props) => (
+const OverlayVideo = (props) => (
     <article className={"card card--video" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__image">
             <a href="#video-detail">
@@ -16,4 +18,19 @@ const Video = (props) => (
         </div>
     </article>
 )
-export default Video
+export default OverlayVideo
+
+export const OverlayVideoList = (props) => (
+    <Section title="Video">
+        <div className="cards">
+        {VideoData.slice(0, 3).map((video) => (
+            <OverlayVideo
+                key={video.id}
+                cssClasses="show-1-3"
+                id={video.id}
+                title={video.title}
+            />
+        ))}
+        </div>
+    </Section>
+)

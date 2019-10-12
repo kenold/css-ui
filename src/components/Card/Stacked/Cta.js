@@ -1,6 +1,8 @@
 import React from "react"
+import CtaData from '~data/ctas.json';
+import Section from "~components/Section";
 
-const Cta = (props) => (
+const StackedCta = (props) => (
     <article className={"card card--cta" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__content">
             <header className="card__header">
@@ -24,4 +26,21 @@ const Cta = (props) => (
         </div>
     </article>
 )
-export default Cta
+export default StackedCta
+
+export const StackedCtaList = () => (
+    <Section title="Call-to-Action">
+        <div className="cards">
+            {CtaData.slice(0, 3).map((cta) => (
+                <StackedCta
+                    key={cta.id}
+                    cssClasses="show-1-3"
+                    title={cta.title}
+                    text={cta.text}
+                    btn1={cta.btn1}
+                    btn2={cta.btn2}
+                />
+            ))}
+        </div>
+   </Section>
+)

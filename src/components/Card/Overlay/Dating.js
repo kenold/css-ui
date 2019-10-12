@@ -1,7 +1,9 @@
 import React from "react";
 import { FaTimes, FaHeart } from 'react-icons/fa';
+import Section from '~components/Section'
+import DatingData from '~data/models.json';
 
-const Dating = (props) => (
+const OverlayDating = (props) => (
     <article className={"card card--overlay card--overlay--dating" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__image">
             <a href="#profile" title={props.title}>
@@ -28,4 +30,21 @@ const Dating = (props) => (
         </div>
     </article>
 )
-export default Dating
+export default OverlayDating
+
+export const OverlayDatingList = () => (
+    <Section title="Overlay + Dating">
+        <div className="cards">
+            {DatingData.map((model) => (
+                <OverlayDating
+                    key={model.id}
+                    cssClasses="show-1-3"
+                    id={model.id}
+                    name={model.name}
+                    age={model.age}
+                    text={model.text}
+                />
+            ))}
+        </div>
+    </Section>
+)

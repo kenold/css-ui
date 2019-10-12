@@ -1,7 +1,9 @@
 import React from "react";
 import { FaPlay } from 'react-icons/fa';
+import Section from '~components/Section'
+import VideoData from '~data/videos.json'
 
-const BadgeVideo = (props) => (
+const StackedBadgeVideo = (props) => (
     // TODO: Rename video-hover class
     <article className={"card card--video-hover" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__image">
@@ -20,4 +22,20 @@ const BadgeVideo = (props) => (
         </div>
     </article>
 )
-export default BadgeVideo
+export default StackedBadgeVideo
+
+export const StackedBadgeVideoList = () => (
+    <Section title="Video + Badge">
+        <div className="cards">
+        {VideoData.slice(3, 6).map((video) => (
+            <StackedBadgeVideo
+                key={video.id}
+                cssClasses="show-1-3"
+                id={video.id}
+                title={video.title}
+                duration={video.duration}
+            />
+        ))}
+        </div>
+    </Section>
+)
