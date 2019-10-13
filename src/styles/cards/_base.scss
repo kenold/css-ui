@@ -47,13 +47,17 @@
         letter-spacing: -.01rem;
         line-height: 26px;
         @include md {
-            line-height: 28px;
+            font-size: 1.5rem;
+            line-height: 30px;
             letter-spacing: -0.03rem;
         }
     }
     &__subtitle {
         color: #000;
         font-size: 90%;
+    }
+    &__text {
+        padding-top: .5rem;
     }
     &__footer {
         display: flex;
