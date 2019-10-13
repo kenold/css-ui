@@ -27,7 +27,7 @@ import { OverlayProductList } from '~Card/Overlay/Product';
 
 const Card = () => (
 	<Layout>
-		<SEO title="Cards" />
+		<SEO title="Card Examples" />
 		<StackedBasicList />
 		<StackedSocialList />
 		<StackedOverlapList />
