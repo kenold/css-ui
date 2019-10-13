@@ -9,7 +9,7 @@ const CardIndexPage = () => {
     return (
         <Layout>
 		    <SEO title="Card UI Instructions" />
-            <Section title="Cards UI" cssClasses="l-ui l-ui--stacked">
+            <Section title="Card UI: Stacked" cssClasses="l-ui l-ui--stacked">
                 <div className="ui">
                     <div className="ui__visual">
                         <StackedBasic
