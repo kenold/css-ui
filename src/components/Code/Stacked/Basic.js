@@ -23,13 +23,11 @@ class StackedBasicCode extends Component {
     }
     render() {
         return (
-            <>
             <pre>
                 <code className="language-html">
                     {code}
                 </code>
             </pre>
-            </>
         );
     }
 }
