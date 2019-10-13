@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-//import Prism from 'prismjs';
 import Prism from 'prismjs';
-import '../../../static/prism.css';
+import '../../../../static/prism.css';
 
 const code= `
     <div class="card">
@@ -11,7 +10,7 @@ const code= `
             </a>
         </div>
         <div class="card__content">
-            <div class="card__topic">Blog</div>
+            <div class="card__topic">Topic</div>
             <header class="card__header">
                 <h4 class="card__title">
                     <a href="...">Card Title</a>
@@ -19,12 +18,12 @@ const code= `
             </header>
         </div>
         <div class="card__footer">
-            <div class="card__author">Jane Doe</div>
-            <div class="card__date">5 hours ago</div>
+            <div class="card__author">by Jane Doe</div>
+            <div class="card__date">6 months ago</div>
         </div>
     </div>
 `
-class StackedCode extends Component {
+class StackedBasicCode extends Component {
     componentDidMount() {
         Prism.highlightAll();
     }
@@ -41,4 +40,4 @@ class StackedCode extends Component {
     }
 }
 
-export default StackedCode
+export default StackedBasicCode

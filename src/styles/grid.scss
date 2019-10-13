@@ -32,3 +32,18 @@
         flex: 0 1 calc(25% - .75rem);
     }
 }
+
+.ui {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    &__visual {
+        flex: 1;
+    }
+    &__code {
+        flex: 2;
+        @include md {
+            margin-left: .5rem;
+        }
+    }
+}
