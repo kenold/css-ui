@@ -95,6 +95,18 @@
     }
 }
 
+// TOUR
+.card--tour {
+    .card {
+        &__title {
+            font-size: 1.125rem;
+            line-height: 30px;
+        }
+        &__text {
+            padding-top: 0;
+        }
+    }
+}
 // EXPAND / MEDIA OBJECT
 .cards--stacked {
     flex-direction: column;
