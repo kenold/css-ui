@@ -7,8 +7,8 @@ const StackedMinimalThemed = (props) => (
                         + props.theme
                         + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__content">
-            <div className="card__topic">{props.topic}</div>
             <header className="card__header">
+                <div className="card__topic">{props.topic}</div>
                 <h4 className="card__title" title={props.title}>
                     <a href="#blog-detail">
                         {props.shortTitle}

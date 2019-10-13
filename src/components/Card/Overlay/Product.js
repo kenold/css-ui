@@ -16,10 +16,8 @@ const OverlayProduct = (props) => (
             </a>
         </div>
         <div className="card__content">
-            <div className="card__topic">
-                {props.topic}
-            </div>
             <header className="class__header">
+                <div className="card__topic">{props.topic}</div>
                 <h5 className="card__title">
                     <a href="#product-detail" title={props.title}>{props.title}</a>
                 </h5>

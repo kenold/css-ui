@@ -13,8 +13,8 @@ const HorizontalVideo = () => (
                     <Button url="#play" type="circle"><FaPlay /></Button>
                 </div>
                 <div className="card__content">
-                    <div className="card__topic">Watch the video</div>
                     <header className="card__header">
+                        <div className="card__topic">Watch the video</div>
                         <h2 className="card__title" title={post.title}>
                             <a href="#blog-detail">{post.title}.</a>
                         </h2>

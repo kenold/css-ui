@@ -11,10 +11,10 @@ const StackedTour = (props) => (
             </a>
         </div>
         <div className="card__content">
-            <div className="card__topic">
-                <FaMapMarkerAlt /> {props.topic}
-            </div>
             <header className="card__header">
+                <div className="card__topic">
+                    <FaMapMarkerAlt /> {props.topic}
+                </div>
                 <h4 className="card__title" title={props.title}>
                     <a href="#tour-detail">{props.title}</a>
                 </h4>

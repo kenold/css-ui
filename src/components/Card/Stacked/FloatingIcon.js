@@ -11,8 +11,8 @@ const StackedFloatingIcon = (props) => (
             <Button url="#play" type="circle"><FaPlay /></Button>
         </div>
         <div className="card__content">
-            <div className="card__topic">{props.topic}</div>
             <header className="card__header">
+                <div className="card__topic">{props.topic}</div>
                 <h4 className="card__title" title={props.title}>
                     <a href="#blog-detail">{props.title}</a>
                 </h4>

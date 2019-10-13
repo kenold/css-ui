@@ -12,10 +12,8 @@ const HorizontalReverse = () => (
                     </a>
                 </div>
                 <div className="card__content">
-                    <div className="card__topic">
-                        {post.topic}
-                    </div>
                     <header className="card__header">
+                        <div className="card__topic">{post.topic}</div>
                         <h2 className="card__title" title={post.title}>
                             <a href="#blog-detail">{post.title}.</a>
                         </h2>
