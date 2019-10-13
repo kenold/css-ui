@@ -25,7 +25,7 @@ const StackedBadgeVideo = (props) => (
 export default StackedBadgeVideo
 
 export const StackedBadgeVideoList = () => (
-    <Section title="Video + Badge">
+    <Section title="Video + Badge" cssClasses="l-cards--stacked-badge--video">
         <div className="cards">
         {VideoData.slice(3, 6).map((video) => (
             <StackedBadgeVideo

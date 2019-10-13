@@ -45,7 +45,7 @@ const OverlayMovie = (props) => (
 export default OverlayMovie
 
 export const OverlayMovieList = () => (
-    <Section title="Overlay + Movie">
+    <Section title="Overlay + Movie" cssClasses="l-cards--overlay-movie">
         <div className="cards">
             {MovieData.map((movie) => (
                 <OverlayMovie

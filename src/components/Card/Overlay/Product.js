@@ -45,7 +45,7 @@ const OverlayProduct = (props) => (
 export default OverlayProduct
 
 export const OverlayProductList = () => (
-    <Section title="Overlay Icon">
+    <Section title="Overlay Icon" cssClasses="l-cards--overlay-product">
         <div className="cards">
             {ProductData.map((product) => (
                 <OverlayProduct

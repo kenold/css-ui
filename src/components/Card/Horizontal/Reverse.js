@@ -3,9 +3,9 @@ import SectionHero from '~components/sectionHero'
 import BlogData from '~data/posts.json';
 
 const HorizontalReverse = () => (
-    <SectionHero cssClasses="l-cards--horizontal--reverse">
+    <SectionHero cssClasses="l-cards--horizontal-reverse">
         {BlogData.slice(1,2).map((post) => (
-            <article key={post.id} className="card card--horizontal card--horizontal--reverse show-1-1">
+            <article key={post.id} className="card card--horizontal-reverse show-1-1">
                 <div className="card__image">
                     <a href="#blog-detail">
                         <img src="/misc/shopping-cart-colour-400px.png" alt={post.title} />

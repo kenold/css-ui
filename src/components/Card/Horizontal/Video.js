@@ -5,9 +5,9 @@ import SectionHero from '~components/sectionHero'
 import BlogData from '~data/posts.json';
 
 const HorizontalVideo = () => (
-    <SectionHero cssClasses="l-cards--horizontal--video">
+    <SectionHero cssClasses="l-cards--horizontal-video">
         {BlogData.slice(2,3).map((post) => (
-            <article key={post.id} className="card card--horizontal card--horizontal--video show-1-1">
+            <article key={post.id} className="card card--horizontal-video show-1-1">
                 <div className="card__image">
                     <img src={"/800627/" + post.id + ".jpg"} alt={post.title} />
                     <Button url="#play" type="circle"><FaPlay /></Button>

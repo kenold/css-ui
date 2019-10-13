@@ -52,7 +52,7 @@ const StackedSocial = (props) => (
 export default StackedSocial
 
 export const StackedSocialList = () => (
-    <Section title="Social">
+    <Section title="Social" cssClasses="l-cards--stacked-social">
         <div className="cards">
             {SocialData.slice(0,3).map((post) => (
                 <StackedSocial

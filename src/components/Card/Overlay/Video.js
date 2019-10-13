@@ -21,7 +21,7 @@ const OverlayVideo = (props) => (
 export default OverlayVideo
 
 export const OverlayVideoList = (props) => (
-    <Section title="Video">
+    <Section title="Video" cssClasses="l-cards--overlay-video">
         <div className="cards">
         {VideoData.slice(0, 3).map((video) => (
             <OverlayVideo

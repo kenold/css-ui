@@ -20,7 +20,7 @@ const StackedTestimonial = (props) => (
 export default StackedTestimonial
 
 export const StackedTestimonialList = () => (
-    <Section title="Testimonial">
+    <Section title="Testimonial" cssClasses="l-cards--stacked-testimonial">
         <div className="cards">
             {TestimonialData.map((testimonial) => (
                 <StackedTestimonial

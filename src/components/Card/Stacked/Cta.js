@@ -29,7 +29,7 @@ const StackedCta = (props) => (
 export default StackedCta
 
 export const StackedCtaList = () => (
-    <Section title="Call-to-Action">
+    <Section title="Call-to-Action" cssClasses="l-cards--stacked-cta">
         <div className="cards">
             {CtaData.slice(0, 3).map((cta) => (
                 <StackedCta

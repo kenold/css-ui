@@ -30,7 +30,7 @@ const StackedBasic = (props) => (
 export default StackedBasic
 
 export const StackedBasicList = () => (
-    <Section title="Stacked">
+    <Section title="Stacked" cssClasses="l-cards--stacked-basic">
         <div className="cards">
             {BlogData.slice(0,3).map((post) => (
                 <StackedBasic

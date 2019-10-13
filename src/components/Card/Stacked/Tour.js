@@ -27,7 +27,7 @@ const StackedTour = (props) => (
 export default StackedTour
 
 export const StackedTourList = (props) => (
-    <Section title="Tour">
+    <Section title="Tour" cssClasses="l-cards--stacked-tour">
         <div className="cards">
             {TourData.slice(0,4).map((tour) => (
                 <StackedTour

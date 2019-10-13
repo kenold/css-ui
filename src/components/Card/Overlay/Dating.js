@@ -33,7 +33,7 @@ const OverlayDating = (props) => (
 export default OverlayDating
 
 export const OverlayDatingList = () => (
-    <Section title="Overlay + Dating">
+    <Section title="Overlay + Dating" cssClasses="l-cards--overlay-dating">
         <div className="cards">
             {DatingData.map((model) => (
                 <OverlayDating

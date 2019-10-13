@@ -25,7 +25,7 @@ const StackedFloatingIcon = (props) => (
 export default StackedFloatingIcon
 
 export const StackedFloatingIconList = () => (
-    <Section title="Floating Icon">
+    <Section title="Floating Icon" cssClasses="l-cards--stacked-floating-icon">
         <div className="cards">
             {MovieData.slice(0, 3).map((movie) => (
                 <StackedFloatingIcon

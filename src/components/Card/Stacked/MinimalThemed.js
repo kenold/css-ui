@@ -27,7 +27,7 @@ const StackedMinimalThemed = (props) => (
 export default StackedMinimalThemed
 
 export const StackedMinimalThemedList = () => (
-    <Section title="Minimal Themes">
+    <Section title="Minimal Themes" cssClasses="l-cards--stacked-minimal">
         <div className="cards">
             {BlogData.slice(0, 3).map((post) => (
                 <StackedMinimalThemed

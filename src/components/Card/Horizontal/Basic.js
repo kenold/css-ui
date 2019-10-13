@@ -4,7 +4,7 @@ import SectionHero from '~components/sectionHero'
 import BlogData from '~data/posts.json';
 
 const HorizontalBasic = () => (
-    <SectionHero title="Horizontal">
+    <SectionHero cssClasses="l-cards--horizontal">
         {BlogData.slice(0,1).map((post) => (
             <article key={post.id} className="card card--horizontal show-1-1">
                 <div className="card__image">

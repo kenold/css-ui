@@ -27,7 +27,7 @@ const StackedOverlap = (props) => (
 export default StackedOverlap
 
 export const StackedOverlapList = (props) => (
-    <Section title="Overlap">
+    <Section title="Overlap" cssClasses="l-cards--stacked-overlap">
         <div className="cards">
             {BlogData.slice(0,3).map((post) => (
                 <StackedOverlap

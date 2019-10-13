@@ -31,7 +31,7 @@ const StackedMediaObject = (props) => (
 export default StackedMediaObject
 
 export const StackedMediaObjectList = () => (
-    <Section title="Media Object">
+    <Section title="Media Object" cssClasses="l-cards--stacked-media-object">
         <div className="cards cards--stacked w-50">
             {BlogData.slice(0,3).map((post) => (
                 <StackedBasic
