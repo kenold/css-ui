@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from "~components/layout"
 import SEO from "~components/seo"
 
-const CardCodePage = () => {
+const CardIndexPage = () => {
     return (
         <Layout>
 		    <SEO title="Cards" />
@@ -13,4 +13,4 @@ const CardCodePage = () => {
     )
 }
 
-export default CardCodePage
+export default CardIndexPage

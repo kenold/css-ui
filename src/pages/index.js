@@ -1,5 +1,5 @@
 import React from "react"
-import CardPage from "./card/index"
+import CardIndexPage from "./card/index"
 //import Card from './card';
 // import { Link } from "gatsby"
 
@@ -20,7 +20,7 @@ const IndexPage = () => (
   //   </div>
   // </Layout>
 
-  <CardPage />
+  <CardIndexPage />
 
 )
 
