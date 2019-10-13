@@ -1,5 +1,6 @@
 import React from "react"
-import Card from './card';
+import CardPage from "./card/index"
+//import Card from './card';
 // import { Link } from "gatsby"
 
 // import Layout from "../components/layout"
@@ -19,7 +20,7 @@ const IndexPage = () => (
   //   </div>
   // </Layout>
 
-  <Card />
+  <CardPage />
 
 )
 
