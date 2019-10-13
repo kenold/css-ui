@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "~components/layout"
 import SEO from "~components/seo"
 
-// card components using ~Card alias from gatsby-node.js
+// importbcard components using ~Card alias from gatsby-node.js
 import { StackedBasicList } from '~Card/Stacked/Basic';
 import { StackedSocialList } from '~Card/Stacked/Social';
 import { StackedOverlapList } from '~Card/Stacked/Overlap';
@@ -15,9 +15,9 @@ import { StackedCtaList } from '~Card/Stacked/Cta';
 import { StackedTestimonialList } from '~Card/Stacked/Testimonial';
 import { StackedBadgeVideoList } from '~Card/Stacked/BadgeVideo';
 
-import Horizontal from '~Card/Horizontal';
-import HorizontalFlipped from "~Card/HorizontalFlipped";
-import HorizontalVideo from '~Card/HorizontalVideo';
+import HorizontalBasic from '~Card/Horizontal/Basic';
+import HorizontalReverse from "~Card/Horizontal/Reverse";
+import HorizontalVideo from '~Card/Horizontal/Video';
 import HorizontalMusicPlayer from '~Card/HorizontalMusicPlayer';
 
 import { OverlayMovieList } from '~Card/Overlay/Movie';
@@ -36,8 +36,8 @@ const Card = () => (
 		<StackedBadgeList />
 		<StackedFloatingIconList />
 		<StackedMinimalThemedList />
-		<Horizontal />
-		<HorizontalFlipped />
+		<HorizontalBasic />
+		<HorizontalReverse />
 		<HorizontalVideo />
 		<HorizontalMusicPlayer />
 		<StackedCtaList />
