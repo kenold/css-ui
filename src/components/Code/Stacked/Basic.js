@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Prism from 'prismjs';
-import '../../../../static/prism.css';
+//import '../../../../static/prism.css';
 
 const code= `
     <div class="card">
