@@ -32,7 +32,7 @@ export const StackedTourList = (props) => (
             {TourData.slice(0,4).map((tour) => (
                 <StackedTour
                     key={tour.id}
-                    cssClasses="card--hover-up show-2-4"
+                    cssClasses="card--tour card--hover-up show-2-4"
                     id={tour.id}
                     title={tour.title}
                     topic={tour.topic}
