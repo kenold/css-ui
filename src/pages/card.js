@@ -18,7 +18,7 @@ import { StackedBadgeVideoList } from '~Card/Stacked/BadgeVideo';
 import HorizontalBasic from '~Card/Horizontal/Basic';
 import HorizontalReverse from "~Card/Horizontal/Reverse";
 import HorizontalVideo from '~Card/Horizontal/Video';
-import HorizontalMusicPlayer from '~Card/HorizontalMusicPlayer';
+import HorizontalMusicPlayer from '~Card/Horizontal/MusicPlayer';
 
 import { OverlayMovieList } from '~Card/Overlay/Movie';
 import { OverlayDatingList } from '~Card/Overlay/Dating';
