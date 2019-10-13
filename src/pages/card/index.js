@@ -16,6 +16,7 @@ const CardIndexPage = () => {
                             id={8}
                             title="Card Title"
                             topic="Topic"
+                            text="Lorem usce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
                             author="Jane Doe"
                             date="4/21/2019"
                         />

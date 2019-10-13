@@ -39,6 +39,7 @@ export const StackedBasicList = () => (
                     id={(post.id) + 8}
                     title={post.title}
                     topic={post.topic}
+                    text={post.text}
                     author={post.author}
                     date={post.date}
                 />
