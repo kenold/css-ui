@@ -34,7 +34,9 @@ const OverlayProduct = (props) => (
                     }
                 </div>
                 <div className="rating">
-                    <Rater total={5} rating={2} />
+                    <Rater
+                        total={5}
+                        rating={Math.floor((Math.random() * 5) + 0)} />
                 </div>
             </footer>
         </div>
