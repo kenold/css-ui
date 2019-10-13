@@ -89,16 +89,15 @@
     }
 }
 // CARD REVERSE
-.l-cards--horizontal--reverse {
+.l-cards--horizontal-reverse {
     background-color: rgba($accent, .15);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
     @include md {
         margin-top: 0;
         padding-top: 0;
     }
 }
-.card--horizontal--reverse {
+.card--horizontal-reverse {
         flex-direction: column;
         @include md {
             flex-direction: row;
@@ -131,10 +130,10 @@
 }
 
 // HORIZONTAL VIDEO
-.l-cards--horizontal--video {
+.l-cards--horizontal-video {
     background-color: rgba($accent-warning, .15);
 }
-.card--horizontal--video {
+.card--horizontal-video {
     @include md {
         flex-direction: row;
     }
@@ -169,7 +168,7 @@
 }
 
 // MUSIC PLAYER
-.l-cards--music {
+.l-cards--horizontal-music {
     .container + .container {
         display: flex;
         justify-content: center;
