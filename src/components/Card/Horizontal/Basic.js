@@ -19,7 +19,7 @@ const HorizontalBasic = () => (
                             <a href="#blog-detail">{post.title}.</a>
                         </h2>
                     </header>
-                    <p className="card__text">{post.text}</p>
+                    <p className="card__text">Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien.</p>
                     <div className="card__footer">
                         <div className="card__meta-author">by {post.author}</div>
                         <div className="card__meta-comment">
