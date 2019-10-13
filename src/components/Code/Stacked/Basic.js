@@ -4,9 +4,7 @@ import '../../../../static/prism.css';
 
 const code= `
     <div class="card">
-        <div class="card__image">
-            <img src="..." />
-        </div>
+        <div class="card__image"><img src="..." /></div>
         <div class="card__content">
             <header class="card__header">
                 <div class="card__topic">Topic</div>
