@@ -36,17 +36,17 @@ const Card = () => (
 		<StackedBadgeList />
 		<StackedFloatingIconList />
 		<StackedMinimalThemedList />
+		<StackedBadgeVideoList />
+		<StackedTestimonialList />
+		<StackedCtaList />
 		<HorizontalBasic />
 		<HorizontalReverse />
 		<HorizontalVideo />
 		<HorizontalMusicPlayer />
-		<StackedCtaList />
 		<OverlayMovieList />
 		<OverlayDatingList />
 		<OverlayProductList />
 		<OverlayVideoList />
-		<StackedBadgeVideoList />
-		<StackedTestimonialList />
 	</Layout>
 )
 
