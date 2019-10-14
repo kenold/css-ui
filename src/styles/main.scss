@@ -12,12 +12,30 @@
     }
 }
 
+.main__header .container {
+    @include md {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__author {
+        font-size: 90%;
+        padding-top: .5rem;
+        @include md {
+            padding-top: 0;
+        }
+        a {
+            color: rgb(209, 235, 217);
+        }
+    }
+}
+
 .intro {
     background-color: $section-bg-color;
     padding: 1rem 0 0.125rem;
     line-height: 40px;
     @include md {
-        padding: 2rem 0;
+        padding: 2rem 0 .5rem;
         line-height: 40px;
     }
     .container {
