@@ -8,6 +8,10 @@ import { StackedTourCode } from '~components/Code/Stacked/Tour'
 import { StackedBadgeCode } from '~components/Code/Stacked/Badge'
 import { StackedFloatingIconCode } from '~components/Code/Stacked/FloatingIcon'
 
+import { OverlayBasicCode } from '~components/Code/Overlay/Basic'
+import { OverlayMovieCode } from '~components/Code/Overlay/Movie'
+import { OverlayDatingCode } from '~components/Code/Overlay/Dating'
+
 const CardIndexPage = () => {
     return (
         <Layout>
@@ -18,6 +22,10 @@ const CardIndexPage = () => {
             <StackedTourCode />
             <StackedBadgeCode />
             <StackedFloatingIconCode />
+
+            <OverlayBasicCode />
+            <OverlayMovieCode />
+            <OverlayDatingCode />
         </Layout>
     )
 }
