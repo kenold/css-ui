@@ -16,6 +16,13 @@ const CardIndexPage = () => {
     return (
         <Layout>
 		    <SEO title="Card UI Instructions" />
+            <section class="intro">
+                <div className="container">
+                    <h2>CSS Card UI Components</h2>
+                    <p className="intro__text">lorem</p>
+                    <h3>See Examplels</h3>
+                </div>
+            </section>
             <StackedBasicCode />
             <StackedSocialCode />
             <StackedOverlapCode />
