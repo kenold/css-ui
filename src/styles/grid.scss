@@ -34,8 +34,11 @@
 }
 
 .ui {
-    display: flex;
     display: block;
+    @include md {
+        display: flex;
+        flex-wrap: wrap;
+    }
     &__visual {
         @include md {
             flex: 1;
@@ -43,8 +46,6 @@
     }
     &__code {
         @include md {
-            display: flex;
-            flex-wrap: wrap;
             flex: 2;
             margin-left: .5rem;
         }
