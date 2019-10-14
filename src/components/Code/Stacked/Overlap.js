@@ -17,7 +17,7 @@ const code= `
 </div>
 `.trim()
 export const StackedOverlapCode = () => (
-    <Section title="Stacked Overlap" cssClasses="l-ui l-ui--stacked-overlap">
+    <Section title="Overlap" cssClasses="l-ui l-ui--stacked-overlap">
         <div className="ui">
             <div className="ui__visual">
                 <StackedOverlap

@@ -30,7 +30,7 @@ const code= `
 </div>
 `.trim()
 export const StackedSocialCode = () => (
-    <Section title="Stacked Social" cssClasses="l-ui l-ui--stacked-social">
+    <Section title="Social Post" cssClasses="l-ui l-ui--stacked-social">
         <div className="ui">
             <div className="ui__visual">
                 <StackedSocial

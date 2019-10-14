@@ -20,7 +20,7 @@ const code= `
 </div>
 `.trim()
 export const StackedBasicCode = () => (
-    <Section title="Stacked Basic" cssClasses="l-ui l-ui--stacked">
+    <Section title="Stacked Default" cssClasses="l-ui l-ui--stacked">
         <div className="ui">
             <div className="ui__visual">
                 <StackedBasic

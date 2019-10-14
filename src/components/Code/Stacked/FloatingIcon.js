@@ -23,7 +23,7 @@ const code= `
 </div>
 `.trim()
 export const StackedFloatingIconCode = () => (
-    <Section title="Stacked Floating Icon" cssClasses="l-ui l-ui--stacked-float">
+    <Section title="Floating Icon" cssClasses="l-ui l-ui--stacked-float">
         <div className="ui">
             <div className="ui__visual">
                 <StackedFloatingIcon

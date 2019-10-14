@@ -21,7 +21,7 @@ const code= `
 </div>
 `.trim()
 export const StackedTourCode = () => (
-    <Section title="Stacked Tour" cssClasses="l-ui l-ui--stacked-tour">
+    <Section title="Tour" cssClasses="l-ui l-ui--stacked-tour">
         <div className="ui">
             <div className="ui__visual">
                 <StackedTour
@@ -30,7 +30,7 @@ export const StackedTourCode = () => (
                     title="Eiffel Tower"
                     topic="Paris"
                     text="Lorem sapien arcu sed augue..."
-                    price="$299"
+                    price="299"
                 />
             </div>
             <div className="ui__code">

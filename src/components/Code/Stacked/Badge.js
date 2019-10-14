@@ -20,7 +20,7 @@ const code= `
 </div>
 `.trim()
 export const StackedBadgeCode = () => (
-    <Section title="Stacked Badge" cssClasses="l-ui l-ui--stacked-badge">
+    <Section title="Badge" cssClasses="l-ui l-ui--stacked-badge">
         <div className="ui">
             <div className="ui__visual">
                 <StackedBadge
