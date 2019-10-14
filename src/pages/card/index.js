@@ -13,7 +13,7 @@ const CardIndexPage = () => {
                 <div className="ui">
                     <div className="ui__visual">
                         <StackedBasic
-                            id={8}
+                            id={9}
                             title="Card Title"
                             topic="Topic"
                             text="Lorem usce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
