@@ -22,8 +22,10 @@ const CardIndexPage = () => {
                 <div className="container">
                     <h1 className="intro__heading">A Collection of HTML and <span className="accent">CSS card</span> UI components with examples.</h1>
                     <p className="intro__text">Now go build something great!</p>
-                    <div className="intro__link">
+                    <div className="intro__ctas">
                         <Link to="/card/examples" className="btn btn--primary">See Examples</Link>
+                        <a href="https://github.com/kenold/css-ui" className="btn btn--secondary">View Github Repo</a>
+
                     </div>
                 </div>
             </section>

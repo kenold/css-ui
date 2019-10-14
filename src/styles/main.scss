@@ -57,10 +57,17 @@
             word-spacing: -18px;
         }
     }
-    .intro__link {
-        margin-top: 1rem;
+    .intro__ctas {
+        display: flex;
+        flex-direction: column;
         @include md {
-            margin-top: 0.5;
+            display: inline-block;
+        }
+        a {
+            margin-right: .75rem;
+            margin-top: .5rem;
+        }
+        @include md {
         }
     }
     .accent {
