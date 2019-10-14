@@ -1,8 +1,9 @@
 {
+  "presets": ["babel-preset-gatsby"],
   "plugins": [
     ["prismjs", {
-      "languages": ["javascript", "css", "html"],
-      "plugins": ["line-numbers", "show-language"],
+      "languages": ["css", "markup"],
+      "plugins": ["copy-to-clipboard"],
       "theme": "okaidia",
       "css": true
     }]
