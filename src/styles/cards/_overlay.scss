@@ -7,7 +7,7 @@
     }
     .card {
         &__image img {
-            border-radius: 10px;
+            border-radius: 0;
         }
         &__content {
             position: absolute;
@@ -34,16 +34,20 @@
             color: #fff;
             font-family: $sans-font;
             font-weight: 500;
-            font-size: 95%;
+            font-size: 1.5rem;
+            line-height: 28px;
             letter-spacing: .02em;
             padding-bottom: 0;
-            text-transform: uppercase;
             margin-bottom: 0;
         }
         &__text {
             color: $light-color;
             font-size: 95%;
             line-height: 22px;
+            padding-top: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         &__actions {
             color: $light-color;
@@ -89,9 +93,33 @@
         bottom: 0px;
         border-radius: 10px;
     }
+    // OVERLAY MOVIE
+    &--movie {
+        .card {
+            &__image img {
+                border-radius: 10px;
+            }
+            &__title {
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
+            &__text {
+                white-space: normal;
+            }
+        }
+    }
     // OVERLAY DATING
     &--dating {
         text-align: center;
+        .card {
+            &__image img {
+                border-radius: 10px;
+            }
+            &__title {
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
+        }
         .model__name {
             text-transform: capitalize
         }
