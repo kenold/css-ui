@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Prism from 'prismjs';
-//import '../../../../static/prism.css';
+import {PrismCode} from "~components/prismCode"
 
 const code= `
     <div class="card">
@@ -19,16 +19,12 @@ const code= `
     </div>
 `
 class StackedBasicCode extends Component {
-    componentDidMount() {
-        setTimeout(() => Prism.highlightAll(), 0)
-    }
     render() {
         return (
-            <pre>
-                <code className="language-html">
-                    {code}
-                </code>
-            </pre>
+            <PrismCode
+                code={code}
+                language="html"
+            />
         );
     }
 }
