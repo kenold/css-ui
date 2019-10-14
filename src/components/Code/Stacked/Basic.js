@@ -4,21 +4,21 @@ import Section from '~components/section'
 import StackedBasic from '~components/Card/Stacked/Basic'
 
 const code= `
-    <div class="card">
-        <div class="card__image"><img src="..." /></div>
-        <div class="card__content">
-            <header class="card__header">
-                <div class="card__topic">Topic</div>
-                <h4 class="card__title">Card Title</h4>
-            </header>
-            <div className="card__text">Lorem...</div>
-            <div class="card__footer">
-                <div class="card__author">by Jane Doe</div>
-                <div class="card__date">6 months ago</div>
-            </div>
+<div class="card">
+    <div class="card__image"><img src="..." /></div>
+    <div class="card__content">
+        <header class="card__header">
+            <div class="card__topic">Topic</div>
+            <h4 class="card__title">Card Title</h4>
+        </header>
+        <div className="card__text">Lorem...</div>
+        <div class="card__footer">
+            <div class="card__author">by Jane Doe</div>
+            <div class="card__date">6 months ago</div>
         </div>
     </div>
-`
+</div>
+`.trim()
 export const StackedBasicCode = () => (
     <Section title="Stacked Basic" cssClasses="l-ui l-ui--stacked">
         <div className="ui">
@@ -39,6 +39,5 @@ export const StackedBasicCode = () => (
                 />
             </div>
         </div>
-</Section>
-
+    </Section>
 )
