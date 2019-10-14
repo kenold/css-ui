@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
+  <header className="main__header"
     style={{
       background: `#068466`,
       color: `#fff`,
@@ -25,6 +25,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <div className="header__author">
+          a project by <a href="https://twitter.com/kenoldb" target="_blank">Kenold Beauplan</a>.
+        </div>
     </div>
   </header>
 )
