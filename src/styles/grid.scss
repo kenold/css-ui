@@ -35,13 +35,17 @@
 
 .ui {
     display: flex;
-    flex-wrap: wrap;
+    display: block;
     &__visual {
-        flex: 1;
+        @include md {
+            flex: 1;
+        }
     }
     &__code {
-        flex: 2;
         @include md {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 2;
             margin-left: .5rem;
         }
     }
