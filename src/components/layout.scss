@@ -57,6 +57,14 @@ pre[class*="language-"] {
     padding: 0 1rem;
     max-width: 1140px;
 }
+.intro {
+    background-color: $section-bg-color;
+    padding: 2rem 0;
+    .container {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
 .l-cards__heading {
     display: flex;
     align-items: center;
