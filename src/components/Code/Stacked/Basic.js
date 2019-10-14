@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
-import Prism from 'prismjs';
+import React from 'react';
 import {PrismCode} from "~components/prismCode"
+import Section from '~components/section'
+import StackedBasic from '~components/Card/Stacked/Basic'
 
-const codeBasic= `
+const code= `
     <div class="card">
         <div class="card__image"><img src="..." /></div>
         <div class="card__content">
@@ -19,8 +20,25 @@ const codeBasic= `
     </div>
 `
 export const StackedBasicCode = () => (
-    <PrismCode
-        code={codeBasic}
-        language="html"
-    />
+    <Section title="Stacked Basic" cssClasses="l-ui l-ui--stacked">
+        <div className="ui">
+            <div className="ui__visual">
+                <StackedBasic
+                    id={9}
+                    title="Card Title"
+                    topic="Topic"
+                    text="Lorem usce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+                    author="Jane Doe"
+                    date="4/21/2019"
+                />
+            </div>
+            <div className="ui__code">
+                <PrismCode
+                    code={code}
+                    language="html"
+                />
+            </div>
+        </div>
+</Section>
+
 )
