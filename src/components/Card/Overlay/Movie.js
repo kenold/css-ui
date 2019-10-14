@@ -4,7 +4,7 @@ import Section from '~components/section'
 import MovieData from '~data/movies.json';
 
 const OverlayMovie = (props) => (
-    <article className={"card card--overlay" + (props.cssClasses ? " " + props.cssClasses:"")}>
+    <article className={"card card--overlay card--overlay--movie" + (props.cssClasses ? " " + props.cssClasses:"")}>
         <div className="card__image">
             <a href="#movie-detail" title={props.title}>
                 <img src={"/movies/" + props.id + ".jpg"} alt={props.title} />
