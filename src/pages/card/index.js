@@ -18,12 +18,12 @@ const CardIndexPage = () => {
     return (
         <Layout>
 		    <SEO title="Card UI Instructions" />
-            <section class="intro">
+            <section className="intro">
                 <div className="container">
-                    <h2>CSS Card UI Components</h2>
-                    <p className="intro__text">a Collection of free HTML and CSS card UI components with examples. Now go build something great!</p>
+                    <h1 className="intro__heading">A Collection of free HTML and <span className="accent">CSS card</span> UI components with examples.</h1>
+                    <p className="intro__text">Now go build something great!</p>
                     <div className="intro__link">
-                        <Link to="card/examples" className="btn btn--primary">See Examples</Link>
+                        <Link to="/card/examples" className="btn btn--primary">See Examples</Link>
                     </div>
                 </div>
             </section>
