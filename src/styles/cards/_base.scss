@@ -46,6 +46,7 @@
         word-spacing: normal;
         letter-spacing: -.01rem;
         line-height: 26px;
+        text-transform: capitalize;
         @include md {
             font-size: 1.5rem;
             line-height: 30px;
