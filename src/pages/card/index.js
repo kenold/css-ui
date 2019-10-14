@@ -3,6 +3,8 @@ import Layout from "~components/layout"
 import SEO from "~components/seo"
 import { StackedBasicCode } from '~components/Code/Stacked/Basic'
 import { StackedSocialCode } from '~components/Code/Stacked/Social'
+import { StackedOverlapCode } from '~components/Code/Stacked/Overlap'
+import { StackedTourCode } from '~components/Code/Stacked/Tour'
 
 const CardIndexPage = () => {
     return (
@@ -10,6 +12,8 @@ const CardIndexPage = () => {
 		    <SEO title="Card UI Instructions" />
             <StackedBasicCode />
             <StackedSocialCode />
+            <StackedOverlapCode />
+            <StackedTourCode />
         </Layout>
     )
 }
