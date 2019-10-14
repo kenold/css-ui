@@ -14,16 +14,38 @@
 
 .intro {
     background-color: $section-bg-color;
-    padding: 2rem 0;
-    line-height: 30px;
+    padding: 1rem 0 0.125rem;
+    line-height: 40px;
     @include md {
+        padding: 2rem 0;
         line-height: 40px;
     }
     .container {
-        text-align: center;
+        text-align: left;
         margin-bottom: 2rem;
+        padding-right: 20px;
+        @include md {
+            padding-right: 320px;
+        }
+    }
+    &__heading {
+            font-family: $sans-font-bold;
+            font-size: 1.75rem;
+            line-height: 35px;
+            word-spacing: -10px;
+        @include md {
+            font-size: 2.5rem;
+            line-height: 44px;
+            word-spacing: -18px;
+        }
     }
     .intro__link {
         margin-top: 1rem;
+        @include md {
+            margin-top: 0.5;
+        }
+    }
+    .accent {
+        color: $accent;
     }
 }
