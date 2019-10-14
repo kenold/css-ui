@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Prism from 'prismjs';
 import {PrismCode} from "~components/prismCode"
 
-const code= `
+const codeBasic= `
     <div class="card">
         <div class="card__image"><img src="..." /></div>
         <div class="card__content">
@@ -18,15 +18,9 @@ const code= `
         </div>
     </div>
 `
-class StackedBasicCode extends Component {
-    render() {
-        return (
-            <PrismCode
-                code={code}
-                language="html"
-            />
-        );
-    }
-}
-
-export default StackedBasicCode
+export const StackedBasicCode = () => (
+    <PrismCode
+        code={codeBasic}
+        language="html"
+    />
+)

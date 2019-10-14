@@ -1,6 +1,6 @@
 import React from 'react'
 import StackedBasic from '~components/Card/Stacked/Basic'
-import StackedBasicCode from '~components/Code/Stacked/Basic'
+import { StackedBasicCode } from '~components/Code/Stacked/Basic'
 import Layout from "~components/layout"
 import SEO from "~components/seo"
 import Section from '~components/section'
