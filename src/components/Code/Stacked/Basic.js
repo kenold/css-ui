@@ -20,7 +20,7 @@ const code= `
 `
 class StackedBasicCode extends Component {
     componentDidMount() {
-        Prism.highlightAll();
+        setTimeout(() => Prism.highlightAll(), 0)
     }
     render() {
         return (
