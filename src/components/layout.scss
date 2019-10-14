@@ -101,7 +101,7 @@ pre[class*="language-"] {
     }
 }
 .l-ui .container + .container {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgba($accent, .2);
     padding-bottom: 15px;
 }
 .main__footer {
@@ -121,4 +121,7 @@ pre[class*="language-"] {
 
 div.code-toolbar > .toolbar {
     opacity: 1!important;
+    button {
+        cursor: pointer;
+    }
 }
