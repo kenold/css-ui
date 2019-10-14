@@ -20,6 +20,7 @@ import HorizontalReverse from "~Card/Horizontal/Reverse";
 import HorizontalVideo from '~Card/Horizontal/Video';
 import HorizontalMusicPlayer from '~Card/Horizontal/MusicPlayer';
 
+import { OverlayBasicList } from '~Card/Overlay/Basic';
 import { OverlayMovieList } from '~Card/Overlay/Movie';
 import { OverlayDatingList } from '~Card/Overlay/Dating';
 import { OverlayVideoList } from '~Card/Overlay/Video';
@@ -43,6 +44,7 @@ const Card = () => (
 		<HorizontalReverse />
 		<HorizontalVideo />
 		<HorizontalMusicPlayer />
+		<OverlayBasicList />
 		<OverlayMovieList />
 		<OverlayDatingList />
 		<OverlayProductList />
