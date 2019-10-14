@@ -5,6 +5,8 @@ import { StackedBasicCode } from '~components/Code/Stacked/Basic'
 import { StackedSocialCode } from '~components/Code/Stacked/Social'
 import { StackedOverlapCode } from '~components/Code/Stacked/Overlap'
 import { StackedTourCode } from '~components/Code/Stacked/Tour'
+import { StackedBadgeCode } from '~components/Code/Stacked/Badge'
+import { StackedFloatingIconCode } from '~components/Code/Stacked/FloatingIcon'
 
 const CardIndexPage = () => {
     return (
@@ -14,6 +16,8 @@ const CardIndexPage = () => {
             <StackedSocialCode />
             <StackedOverlapCode />
             <StackedTourCode />
+            <StackedBadgeCode />
+            <StackedFloatingIconCode />
         </Layout>
     )
 }
