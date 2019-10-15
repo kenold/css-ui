@@ -21,7 +21,7 @@ const CardIndexPage = () => {
 		    <SEO title="Card UI Instructions" />
             <section className="intro">
                 <div className="container">
-                    <h1 className="intro__heading">A aollection of HTML and <Link to="/card/examples" className="accent">CSS card</Link> UI components with examples.</h1>
+                    <h1 className="intro__heading">A collection of HTML and <Link to="/card/examples" className="accent">CSS card</Link> UI components with examples.</h1>
                     <p className="intro__text">
                         a project by <a href="https://twitter.com/kenoldb" target="_blank" rel="noopener noreferrer">Kenold Beauplan</a>.
                     </p>
