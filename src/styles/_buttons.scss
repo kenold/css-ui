@@ -10,6 +10,18 @@
         background-color: rgba($accent, 1);
     }
 }
+.btn--dark {
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 0.1875rem;
+    border: 1px solid rgba($accent, .8);
+    padding: 8px 15px;
+    color: $light-color;
+    font-weight: 400;
+    transition: background-color 200ms linear;
+    &:hover {
+        background-color: rgba($accent, 1);
+    }
+}
 .btn--secondary {
     background-color: transparent;
     border-radius: 0.1875rem;
