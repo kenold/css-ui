@@ -12,24 +12,6 @@
     }
 }
 
-.main__header .container {
-    @include md {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .header__author {
-        font-size: 90%;
-        padding-top: .5rem;
-        @include md {
-            padding-top: 0;
-        }
-        a {
-            color: rgb(209, 235, 217);
-        }
-    }
-}
-
 .intro {
     background-color: $section-bg-color;
     padding: 1rem 0 0.125rem;
@@ -56,7 +38,15 @@
             line-height: 44px;
         }
     }
-    .intro__ctas {
+    &__text {
+        a {
+            color: $accent;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__ctas {
         display: flex;
         flex-direction: column;
         @include md {
