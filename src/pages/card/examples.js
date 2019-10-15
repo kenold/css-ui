@@ -6,6 +6,7 @@ import SEO from "~components/seo"
 import { StackedBasicList } from '~Card/Stacked/Basic';
 import { StackedSocialList } from '~Card/Stacked/Social';
 import { StackedOverlapList } from '~Card/Stacked/Overlap';
+import { StackedOverlapFullList } from '~Card/Stacked/Overlap';
 import { StackedTourList } from '~Card/Stacked/Tour';
 import { StackedMediaObjectList } from '~Card/Stacked/MediaObject';
 import { StackedMinimalThemedList } from '~Card/Stacked/MinimalThemed';
@@ -32,6 +33,7 @@ const Card = () => (
 		<StackedBasicList />
 		<StackedSocialList />
 		<StackedOverlapList />
+		<StackedOverlapFullList />
 		<StackedTourList />
 		<StackedMediaObjectList />
 		<StackedBadgeList />
