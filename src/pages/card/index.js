@@ -21,8 +21,10 @@ const CardIndexPage = () => {
 		    <SEO title="Card UI Instructions" />
             <section className="intro">
                 <div className="container">
-                    <h1 className="intro__heading">A Collection of HTML and <Link to="/card/examples" className="accent">CSS card</Link> UI components with examples.</h1>
-                    <p className="intro__text">Now go build something great!</p>
+                    <h1 className="intro__heading">A aollection of HTML and <Link to="/card/examples" className="accent">CSS card</Link> UI components with examples.</h1>
+                    <p className="intro__text">
+                        a project by <a href="https://twitter.com/kenoldb" target="_blank" rel="noopener noreferrer">Kenold Beauplan</a>.
+                    </p>
                     <div className="intro__ctas">
                         <Link to="/card/examples" className="btn btn--dark">See Examples</Link>
                         <a href="https://github.com/kenold/css-ui" className="btn btn--secondary" rel="noopener noreferrer"><FaGithub /> Github Repo</a>
