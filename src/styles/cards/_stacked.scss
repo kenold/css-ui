@@ -95,6 +95,27 @@
     }
 }
 
+// CARD OVERLAP FULL
+.l-cards--stacked-overlap-full .container + .container {
+    max-width: 800px;
+}
+.card--overlap-full {
+    position: relative;
+    .card {
+        &__content {
+            background-color: $accent;
+            color: $light-color;
+            position: absolute;
+            bottom: 0;
+		    left: 0;
+            width: 60%;
+        }
+        &__footer {
+            color: $light-color;
+        }
+    }
+}
+
 // TOUR
 .card--tour {
     .card {
