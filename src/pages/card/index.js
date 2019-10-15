@@ -24,7 +24,7 @@ const CardIndexPage = () => {
                     <p className="intro__text">Now go build something great!</p>
                     <div className="intro__ctas">
                         <Link to="/card/examples" className="btn btn--primary">See Examples</Link>
-                        <a href="https://github.com/kenold/css-ui" className="btn btn--secondary" rel="noopener noreferrer">View Github Repo</a>
+                        <a href="https://github.com/kenold/css-ui" className="btn btn--secondary" rel="noopener noreferrer">Github Repo</a>
 
                     </div>
                 </div>
