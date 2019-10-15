@@ -47,14 +47,13 @@
         }
     }
     &__heading {
-            font-family: $sans-font-bold;
+            font-family: $sans-font;
             font-size: 1.75rem;
+            font-weight: 700;
             line-height: 35px;
-            word-spacing: -10px;
         @include md {
             font-size: 2.5rem;
             line-height: 44px;
-            word-spacing: -18px;
         }
     }
     .intro__ctas {
