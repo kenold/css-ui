@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from "~components/layout"
 import SEO from "~components/seo"
 import { Link } from "gatsby"
+import { FaGithub } from 'react-icons/fa';
 
 import { StackedBasicCode } from '~components/Code/Stacked/Basic'
 import { StackedSocialCode } from '~components/Code/Stacked/Social'
@@ -23,9 +24,8 @@ const CardIndexPage = () => {
                     <h1 className="intro__heading">A Collection of HTML and <span className="accent">CSS card</span> UI components with examples.</h1>
                     <p className="intro__text">Now go build something great!</p>
                     <div className="intro__ctas">
-                        <Link to="/card/examples" className="btn btn--primary">See Examples</Link>
-                        <a href="https://github.com/kenold/css-ui" className="btn btn--secondary" rel="noopener noreferrer">Github Repo</a>
-
+                        <Link to="/card/examples" className="btn btn--dark">See Examples</Link>
+                        <a href="https://github.com/kenold/css-ui" className="btn btn--secondary" rel="noopener noreferrer"><FaGithub /> Github Repo</a>
                     </div>
                 </div>
             </section>
