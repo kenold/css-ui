@@ -105,10 +105,17 @@
         &__content {
             background-color: $accent;
             color: $light-color;
-            position: absolute;
-            bottom: 0;
-		    left: 0;
-            width: 60%;
+            @include md {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 50%;
+                padding-top: 2rem;
+            }
+        }
+        &__title {
+            font-size: 2rem;
+            line-height: 34px;
         }
         &__footer {
             color: $light-color;
