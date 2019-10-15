@@ -12,7 +12,7 @@ const code= `
 	<div class="card__content">
 		<div class="card__title model">
 			<span class="model__name">Melia Yang, </span>
-			<span class="model__age">{27</span>
+			<span class="model__age">27</span>
 		</div>
 		<div class="card__text">Lorem...</div>
 		<div class="card__actions swipe">
