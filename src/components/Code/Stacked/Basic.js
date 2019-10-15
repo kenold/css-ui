@@ -11,7 +11,7 @@ const code= `
             <div class="card__topic">Topic</div>
             <h4 class="card__title">Card Title</h4>
         </header>
-        <div className="card__text">Lorem...</div>
+        <div class="card__text">Lorem...</div>
         <div class="card__footer">
             <div class="card__author">by Jane Doe</div>
             <div class="card__date">6 months ago</div>
