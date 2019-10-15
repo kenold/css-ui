@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <div className="header__author">
-          a project by <a href="https://twitter.com/kenoldb" target="_blank">Kenold Beauplan</a>.
+          a project by <a href="https://twitter.com/kenoldb" target="_blank" rel="noopener noreferrer">Kenold Beauplan</a>.
         </div>
     </div>
   </header>
