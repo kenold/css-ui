@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Cards.UI`,
+    title: `Card.ui`,
     description: `CSS UI components created by Kenold Beauplan.`,
     author: `@kenoldb`,
     pathPrefix: "/css-ui"
