@@ -56,6 +56,7 @@ export const StackedOverlapFull = (props) => (
                     <a href="#blog-detail">{props.title}</a>
                 </h4>
             </header>
+            <div className="card__text">{props.text}</div>
             <footer className="card__footer">
                 <div className="card__date">
                     <Moment fromNow>{props.date}</Moment>
@@ -66,12 +67,13 @@ export const StackedOverlapFull = (props) => (
 )
 
 export const StackedOverlapFullList = (props) => (
-    <Section title="Overlap" cssClasses="l-cards--stacked-overlap-full">
+    <Section title="Overlap Full" cssClasses="l-cards--stacked-overlap-full">
         {BlogData.slice(0,1).map((post) => (
             <StackedOverlapFull
                 key={post.id}
                 id={post.id}
                 title={post.title}
+                text={post.text}
                 date={post.date}
             />
         ))}
