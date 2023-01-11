@@ -16,7 +16,7 @@
     "gatsby-remark-embed-snippet": "^4.1.10",
     "gatsby-remark-prismjs": "^3.3.16",
     "gatsby-source-filesystem": "^2.1.28",
-    "gatsby-transformer-remark": "^2.6.26",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.2.19",
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
